@@ -180,7 +180,6 @@ class App extends Component {
           handleBookMarks={this.handleBookMarks}
           user={this.state.userData}
         />
-<<<<<<< HEAD
 {
   this.state.isLoggedIn ? (
     <>
@@ -227,54 +226,6 @@ class App extends Component {
   )
 }
 
-=======
-        {this.state.isLoggedIn ? (
-          <>
-            {this.state.isProfileView ? (
-              <UserProfile
-                handleProfileView={this.handleProfileView}
-                user={this.state.userData}
-              />
-            ) : (
-              <Tabs variant="soft-rounded" colorScheme="purple">
-                <TabList ml={10}>
-                  <Tab>Search Recipe</Tab>
-                  <Tab>Add Recipe</Tab>
-                  <Tab>Search Recipe By Name</Tab>
-                </TabList>
-                <TabPanels>
-                  <TabPanel>
-                    <Box display="flex">
-                      <Form sendFormData={this.handleSubmit} />
-                      {this.state.isLoading ? (
-                        <RecipeLoading />
-                      ) : (
-                        <RecipeList recipes={this.state.recipeList} />
-                      )}
-                    </Box>
-                  </TabPanel>
-                  <TabPanel>
-                    <AddRecipe />
-                  </TabPanel>
-                  <TabPanel>
-                    <SearchByRecipe sendRecipeData={this.handleRecipesByName} />
-                    {this.state.isLoading ? (
-                      <RecipeLoading />
-                    ) : (
-                      <RecipeList recipes={this.state.recipeByNameList} />
-                    )}
-                  </TabPanel>
-                </TabPanels>
-              </Tabs>
-            )}
-          </>
-        ) : (
-          <Login
-            handleSignup={this.handleSignup}
-            handleLogin={this.handleLogin}
-          />
-        )}
->>>>>>> 3d256362bd2b7269fce212495cf4cb500502b49b
         {/* handleSubmit function is being sent as a prop to the form component*/}
 
         {/* RecipeList is the component where results are displayed.
