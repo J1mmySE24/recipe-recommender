@@ -6,7 +6,7 @@ const GMAIL = process.env.GMAIL;
 
 const ObjectId = mongodb.ObjectId;
 let recipes;
-let ingredients; 
+let ingredients;
 let users;
 //Function to connect to DB
 export default class RecipesDAO {
@@ -22,7 +22,7 @@ export default class RecipesDAO {
       users = await conn.db(process.env.RECIPES_NS).collection("user");
     } catch (e) {
       console.error(
-        `Unable to establish a collection handle in recipesDAO: ${e}`
+        `Unable to establish a collection handle in recipesDAO: ${e}`,
       );
     }
   }
@@ -202,7 +202,7 @@ export default class RecipesDAO {
       return { recipesList, totalNumRecipes };
     } catch (e) {
       console.error(
-        `Unable to convert cursor to array or problem counting documents, ${e}`
+        `Unable to convert cursor to array or problem counting documents, ${e}`,
       );
       return { recipesList: [], totalNumRecipes: 0 };
     }
@@ -265,7 +265,7 @@ export default class RecipesDAO {
     try {
       response = await users.updateOne(
         { userName: userName },
-        { $push: { bookmarks: recipe } }
+        { $push: { bookmarks: recipe } },
       );
       console.log(response);
       return response;
