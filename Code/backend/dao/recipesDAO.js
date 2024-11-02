@@ -8,7 +8,8 @@ const ObjectId = mongodb.ObjectId;
 let recipes;
 let ingredients;
 let users;
-//Function to connect to DB
+
+// Function to connect to DB
 export default class RecipesDAO {
   static async injectDB(conn) {
     if (recipes) {
@@ -63,7 +64,7 @@ export default class RecipesDAO {
       }
     }
   }
-
+  
   //function to get bookmarks
   static async getBookmarks(userName) {
     let query;
@@ -83,7 +84,7 @@ export default class RecipesDAO {
     }
   }
 
-  //Function to get recipe by name
+  // Function to get recipe by name
   static async getRecipeByName({ filters = null } = {}) {
     let query;
     if (filters) {
@@ -93,7 +94,7 @@ export default class RecipesDAO {
           .map((word) => `(?=.*\\b${word}\\b)`)
           .join("");
         const regex = new RegExp(regexPattern, "i");
-        query = { TranslatedRecipeName: { $regex: regex } };
+        query = { "TranslatedRecipeName": { $regex: regex } };
         // query["Cuisine"] = "Indian";
       }
       let recipesList;
@@ -110,13 +111,13 @@ export default class RecipesDAO {
     }
   }
 
-  //Function to get the Recipe List
+  // Function to get the Recipe List
   static async getRecipes({
     filters = null,
     page = 0,
     recipesPerPage = 10,
   } = {}) {
-    let query;
+    let query = {};
     if (filters) {
       if ("CleanedIngredients" in filters) {
         var str = "(?i)";
@@ -126,24 +127,16 @@ export default class RecipesDAO {
           str += "(?=.*" + str1 + ")";
         }
         console.log(str);
-        query = { "Cleaned-Ingredients": { $regex: str } };
-        query["Cuisine"] = filters["Cuisine"];
-        console.log(query);
-        var email = filters["Email"];
-        var flagger = filters["Flag"];
-        console.log(email);
-        console.log(flagger);
+        query["Cleaned-Ingredients"] = { $regex: str };
       }
 
       if ("Cuisine" in filters) {
         query["Cuisine"] = filters["Cuisine"];
       }
 
-      if ("TotalTimeInMins" in filters) {
-        query["TotalTimeInMins"] = {
-          $lte: parseInt(filters["TotalTimeInMins"]),
-        }; // Less than or equal to
-      }
+    if ("TotalTimeInMins" in filters) {
+      query["TotalTimeInMins"] = { $lte: parseInt(filters["TotalTimeInMins"]) }; // Less than or equal to
+    }
     }
 
     let cursor;
@@ -172,7 +165,7 @@ export default class RecipesDAO {
           "\n\n";
       }
 
-      if (flagger == "true") {
+      if (filters["Flag"] === "true") {
         var transporter = nodemailer.createTransport({
           host: "smtp.gmail.com",
           port: 465,
@@ -185,7 +178,7 @@ export default class RecipesDAO {
 
         var mailOptions = {
           from: GMAIL,
-          to: email,
+          to: filters["Email"],
           subject: "Recommended Recipes! Enjoy your meal!!",
           text: str_mail,
         };
@@ -208,7 +201,7 @@ export default class RecipesDAO {
     }
   }
 
-  //Function to get the list of Cuisines
+  // Function to get the list of Cuisines
   static async getCuisines() {
     let cuisines = [];
     try {
@@ -258,23 +251,23 @@ export default class RecipesDAO {
     }
   }
 
-  //function to add recipe to user profile
-  static async addRecipeToProfile(userName, recipe) {
-    let response;
-    console.log(userName);
-    try {
-      response = await users.updateOne(
-        { userName: userName },
-        { $push: { bookmarks: recipe } },
-      );
-      console.log(response);
-      return response;
-    } catch (e) {
-      console.log(`Unable to add recipe, ${e}`);
+    //function to add recipe to user profile
+    static async addRecipeToProfile(userName, recipe) {
+      let response;
+      console.log(userName)
+      try {
+        response = await users.updateOne(
+          { userName: userName },
+          { $push: { bookmarks: recipe } }
+        )
+        console.log(response)
+        return response;
+      } catch (e) {
+        console.log(`Unable to add recipe, ${e}`)
+      }
     }
-  }
-
-  static async getIngredients() {
+    
+  static async getIngredients(){
     let response = {};
     try {
       response = await ingredients.distinct("item_name");

@@ -1,4 +1,4 @@
-//
+//  
 import Form from "./components/Form.js";
 import Header from "./components/Header";
 import recipeDB from "./apis/recipeDB";
@@ -20,7 +20,6 @@ class App extends Component {
 
     this.state = {
       cuisine: "",
-      //NoIngredients : 0,
       ingredients: new Set(),
       recipeList: [],
       recipeByNameList: [],
@@ -30,7 +29,7 @@ class App extends Component {
       isLoading: false,
       isLoggedIn: false,
       isProfileView: false,
-      userData: {},
+      userData: {}
     };
   }
 
@@ -101,13 +100,12 @@ class App extends Component {
     });
     console.log(formDict);
     this.setState({
-      // cuisine: cuisineInput,
-      //NoIngredients: noIngredientsInput,
       ingredients: formDict["ingredient"],
       cuisine: formDict["cuisine"],
       email: formDict["email_id"],
       cookingTime: formDict["cooking_time"],
       flag: formDict["flag"],
+      dietType: formDict["diet_type"], // Update for diet type
     });
 
     const mail = formDict["email_id"];
@@ -115,8 +113,8 @@ class App extends Component {
     const items = Array.from(formDict["ingredient"]);
     const cuis = formDict["cuisine"];
     const cookingTime = formDict["cooking_time"];
-    this.getRecipeDetails(items, cuis, mail, flag, cookingTime);
-    //  alert(typeof(ingredientsInput["cuisine"]));
+    const dietType = formDict["diet_type"]; // Update for diet type
+    this.getRecipeDetails(items, cuis, mail, flag, cookingTime, dietType); // Update to include diet type
   };
 
   handleRecipesByName = (recipeName, cookingTime) => {
@@ -139,7 +137,7 @@ class App extends Component {
       });
   };
 
-  getRecipeDetails = async (ingredient, cuis, mail, flag, cookingTime) => {
+  getRecipeDetails = async (ingredient, cuis, mail, flag, cookingTime, dietType) => { // Update to include diet type
     try {
       const response = await recipeDB.get("/recipes", {
         params: {
@@ -147,7 +145,7 @@ class App extends Component {
           Cuisine: cuis,
           Email: mail,
           Flag: flag,
-          TotalTimeInMins: cookingTime,
+          TotalTimeInMins: cookingTime
         },
       });
       this.setState({
@@ -214,17 +212,15 @@ class App extends Component {
               </Tabs>
             )}
           </>
-        ) : (
-          <Login
-            handleSignup={this.handleSignup}
-            handleLogin={this.handleLogin}
-          />
-        )}
+          : <Login handleSignup={this.handleSignup} handleLogin={this.handleLogin} />
+        }
         {/* handleSubmit function is being sent as a prop to the form component*/}
+
 
         {/* RecipeList is the component where results are displayed.
         App's recipeList state item is being sent as a prop
         */}
+
       </div>
     );
   }

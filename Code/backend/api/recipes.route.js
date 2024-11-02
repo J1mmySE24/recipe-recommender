@@ -3,7 +3,7 @@ import RecipesCtrl from "./recipes.controller.js";
 import RecipesDAO from "../dao/recipesDAO.js";
 
 const router = express.Router();
-//URl to get the recipes
+//URL to get the recipes
 router.route("/").get(RecipesCtrl.apiGetRecipes);
 
 router.route("/cuisines").get(RecipesCtrl.apiGetRecipeCuisines);
