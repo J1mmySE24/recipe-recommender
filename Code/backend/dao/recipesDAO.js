@@ -16,11 +16,13 @@ export default class RecipesDAO {
     }
     try {
       recipes = await conn.db(process.env.RECIPES_NS).collection("recipe");
-      ingredients = await conn.db(process.env.RECIPES_NS).collection("ingredient_list");
+      ingredients = await conn
+        .db(process.env.RECIPES_NS)
+        .collection("ingredient_list");
       users = await conn.db(process.env.RECIPES_NS).collection("user");
     } catch (e) {
       console.error(
-        `Unable to establish a collection handle in recipesDAO: ${e}`
+        `Unable to establish a collection handle in recipesDAO: ${e}`,
       );
     }
   }
@@ -29,17 +31,17 @@ export default class RecipesDAO {
     let query;
     let cursor;
     let user;
-    query = { "userName": filters.userName }
+    query = { userName: filters.userName };
     if (filters) {
       cursor = await users.findOne(query);
       if (cursor.userName) {
         if (cursor.password == filters.password) {
-          return { success: true, user: cursor }
+          return { success: true, user: cursor };
         } else {
-          return { success: false }
+          return { success: false };
         }
       } else {
-        return { success: false }
+        return { success: false };
       }
     }
   }
@@ -48,36 +50,36 @@ export default class RecipesDAO {
     let query;
     let cursor;
     let user;
-    query = { "userName": data.userName }
-    console.log(query)
+    query = { userName: data.userName };
+    console.log(query);
     if (data) {
       cursor = await users.findOne(query);
-      console.log(cursor)
-      if (cursor!==null) {
-        return {success: false}
+      console.log(cursor);
+      if (cursor !== null) {
+        return { success: false };
       } else {
-        const res = await users.insertOne(data)
-        return { success: true }
+        const res = await users.insertOne(data);
+        return { success: true };
       }
     }
   }
-  
+
   //function to get bookmarks
   static async getBookmarks(userName) {
     let query;
     let cursor;
     let user;
-    query = { "userName": userName }
-    console.log(query)
+    query = { userName: userName };
+    console.log(query);
     try {
       cursor = await users.findOne(query);
       if (cursor.userName) {
         return cursor.bookmarks;
       } else {
-        return { bookmarks: [] }
+        return { bookmarks: [] };
       }
     } catch (e) {
-      console.log(`error: ${e}`)
+      console.log(`error: ${e}`);
     }
   }
 
@@ -87,23 +89,25 @@ export default class RecipesDAO {
     if (filters) {
       if ("recipeName" in filters) {
         const words = filters["recipeName"].split(" ");
-        const regexPattern = words.map(word => `(?=.*\\b${word}\\b)`).join('');
+        const regexPattern = words
+          .map((word) => `(?=.*\\b${word}\\b)`)
+          .join("");
         const regex = new RegExp(regexPattern, "i");
-        query = { "TranslatedRecipeName": { $regex: regex } };
+        query = { TranslatedRecipeName: { $regex: regex } };
         // query["Cuisine"] = "Indian";
       }
       let recipesList;
       try {
         recipesList = await recipes
           .find(query)
-          .collation({ locale: "en", strength: 2 }).toArray();
-        return { recipesList }
+          .collation({ locale: "en", strength: 2 })
+          .toArray();
+        return { recipesList };
       } catch (e) {
         console.error(`Unable to issue find command, ${e}`);
         return { recipesList: [], totalNumRecipess: 0 };
       }
     }
-
   }
 
   //Function to get the Recipe List
@@ -130,14 +134,16 @@ export default class RecipesDAO {
         console.log(email);
         console.log(flagger);
       }
-        
-    if ("Cuisine" in filters) {
-      query["Cuisine"] = filters["Cuisine"];
-    }
 
-    if ("TotalTimeInMins" in filters) {
-      query["TotalTimeInMins"] = { $lte: parseInt(filters["TotalTimeInMins"]) }; // Less than or equal to
-    }
+      if ("Cuisine" in filters) {
+        query["Cuisine"] = filters["Cuisine"];
+      }
+
+      if ("TotalTimeInMins" in filters) {
+        query["TotalTimeInMins"] = {
+          $lte: parseInt(filters["TotalTimeInMins"]),
+        }; // Less than or equal to
+      }
     }
 
     let cursor;
@@ -196,7 +202,7 @@ export default class RecipesDAO {
       return { recipesList, totalNumRecipes };
     } catch (e) {
       console.error(
-        `Unable to convert cursor to array or problem counting documents, ${e}`
+        `Unable to convert cursor to array or problem counting documents, ${e}`,
       );
       return { recipesList: [], totalNumRecipes: 0 };
     }
@@ -243,39 +249,39 @@ export default class RecipesDAO {
     console.log("Input Recipe");
     console.log(inputRecipe);
     let response = {};
-    try{
+    try {
       response = await recipes.insertOne(inputRecipe);
       return response;
-    } catch(e){
+    } catch (e) {
       console.error(`Unable to add recipe, ${e}`);
       return response;
     }
   }
 
-    //function to add recipe to user profile
-    static async addRecipeToProfile(userName, recipe) {
-      let response;
-      console.log(userName)
-      try {
-        response = await users.updateOne(
-          { userName: userName },
-          { $push: { bookmarks: recipe } }
-        )
-        console.log(response)
-        return response;
-      } catch (e) {
-        console.log(`Unable to add recipe, ${e}`)
-      }
-    }
-    
-  static async getIngredients(){
-    let response = {};
-    try{
-      response = await ingredients.distinct('item_name');
+  //function to add recipe to user profile
+  static async addRecipeToProfile(userName, recipe) {
+    let response;
+    console.log(userName);
+    try {
+      response = await users.updateOne(
+        { userName: userName },
+        { $push: { bookmarks: recipe } },
+      );
+      console.log(response);
       return response;
-    }catch(e){
+    } catch (e) {
+      console.log(`Unable to add recipe, ${e}`);
+    }
+  }
+
+  static async getIngredients() {
+    let response = {};
+    try {
+      response = await ingredients.distinct("item_name");
+      return response;
+    } catch (e) {
       console.error(`Unable to get ingredients, ${e}`);
       return response;
     }
-  } 
+  }
 }

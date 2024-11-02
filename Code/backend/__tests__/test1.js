@@ -40,7 +40,7 @@ describe("GET /recipes", function () {
 
   it("is the API is functional test 7", async function () {
     const response = await request.get(
-      "/recipes?CleanedIngredients={mango, salt}"
+      "/recipes?CleanedIngredients={mango, salt}",
     );
 
     expect(response.status).to.eql(200);
@@ -48,7 +48,7 @@ describe("GET /recipes", function () {
 
   it("is the API is functional test 8", async function () {
     const response = await request.get(
-      "/recipes?CleanedIngredients={salt, mango}"
+      "/recipes?CleanedIngredients={salt, mango}",
     );
 
     expect(response.status).to.eql(200);

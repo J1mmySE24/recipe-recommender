@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
-import theme from './theme';
+import theme from "./theme";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,7 +13,7 @@ root.render(
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </ChakraProvider>
+  </ChakraProvider>,
 );
 
 // If you want to start measuring performance in your app, pass a function

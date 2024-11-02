@@ -1,5 +1,17 @@
 import React, { Component } from "react";
-import { HStack, Button, Input, InputGroup, Switch, Box, VStack, Text, InputRightElement, FormLabel, Badge } from "@chakra-ui/react";
+import {
+  HStack,
+  Button,
+  Input,
+  InputGroup,
+  Switch,
+  Box,
+  VStack,
+  Text,
+  InputRightElement,
+  FormLabel,
+  Badge,
+} from "@chakra-ui/react";
 import recipeDB from "../apis/recipeDB";
 import TypeAheadDropDown from "./TypeAheadDropDown";
 
@@ -20,16 +32,68 @@ class Form extends Component {
     };
   }
 
-  async componentDidMount(){
+  async componentDidMount() {
     try {
       const response = await recipeDB.get("/recipes/callIngredients/");
       this.setState({
         ingredient_list: response.data,
-        cuisine_list: ['Mexican','South Indian','Chinese','Thai','Japanese','Gujarati','North Indian','Lebanese','Mediterranean',
-        'Middle East','Italian','Korean','Continental','Greek','Latin','American', "Other", "Swedish", "Latvian", "Italian",
-        "Spanish", "American","Scottish","British","Thai","Japanese","Indian","Canadian","Russian","Jewish","Polish","German","French","Hawaiian",
-        "Brazilian", "Peruvian","Cuban","Tibetian","Salvadorian","Egyptian","Greek","Belgian","Irish","Welsh","Mormon","Cajun","Portugese","Turkish","Haitian",
-        "Tahitian","Kenyan","Korean","Algerian","Nigerian","Libyan"]
+        cuisine_list: [
+          "Mexican",
+          "South Indian",
+          "Chinese",
+          "Thai",
+          "Japanese",
+          "Gujarati",
+          "North Indian",
+          "Lebanese",
+          "Mediterranean",
+          "Middle East",
+          "Italian",
+          "Korean",
+          "Continental",
+          "Greek",
+          "Latin",
+          "American",
+          "Other",
+          "Swedish",
+          "Latvian",
+          "Italian",
+          "Spanish",
+          "American",
+          "Scottish",
+          "British",
+          "Thai",
+          "Japanese",
+          "Indian",
+          "Canadian",
+          "Russian",
+          "Jewish",
+          "Polish",
+          "German",
+          "French",
+          "Hawaiian",
+          "Brazilian",
+          "Peruvian",
+          "Cuban",
+          "Tibetian",
+          "Salvadorian",
+          "Egyptian",
+          "Greek",
+          "Belgian",
+          "Irish",
+          "Welsh",
+          "Mormon",
+          "Cajun",
+          "Portugese",
+          "Turkish",
+          "Haitian",
+          "Tahitian",
+          "Kenyan",
+          "Korean",
+          "Algerian",
+          "Nigerian",
+          "Libyan",
+        ],
       });
     } catch (err) {
       console.log(err);
@@ -76,7 +140,13 @@ class Form extends Component {
 
     // mapping each item to be displayed as a list item
     const list_items = items.map((item) => (
-      <Badge id={item} m={1} _hover={{cursor: "pointer"}} onClick={this.removeHandler} colorScheme="purple">
+      <Badge
+        id={item}
+        m={1}
+        _hover={{ cursor: "pointer" }}
+        onClick={this.removeHandler}
+        colorScheme="purple"
+      >
         {item}
       </Badge>
     ));
@@ -95,7 +165,7 @@ class Form extends Component {
         //numberIngredients : this.state.numberIngredients,
         ingredients: new Set(this.state.ingredients).add(ingredient),
       },
-      () => console.log(this.state)
+      () => console.log(this.state),
     );
 
     document.getElementById("ingredient").value = "";
@@ -104,7 +174,7 @@ class Form extends Component {
   // fucntion to add ingredients to the inredients (set datastructure) in App's state
   // triggered by clicking item that is displayed ysing printHandler function
   removeHandler = (event) => {
-    console.log("clicked tag")
+    console.log("clicked tag");
     var discardIngredient = event.target.id;
     var ingredientList = this.state.ingredients;
 
@@ -116,13 +186,13 @@ class Form extends Component {
         //numberIngredients : this.state.numberIngredients,
         ingredients: ingredientList,
       },
-      () => console.log(this.state)
+      () => console.log(this.state),
     );
   };
 
   handleSendEmail = (event) => {
     console.log(event.target.checked);
-  }
+  };
 
   // function to send the data to the parent App component
   // uses the function that is sent through props from the App Component
@@ -146,7 +216,7 @@ class Form extends Component {
 
         cuisine: document.getElementById("cuisine").value,
       },
-      () => console.log(this.state)
+      () => console.log(this.state),
     );
 
     event.preventDefault();
@@ -161,11 +231,8 @@ class Form extends Component {
     console.log(dict);
     document.getElementById("cuisine").value = "";
     document.getElementById("email_id").value = "";
-    this.setState({ cookingTime: "" }); 
+    this.setState({ cookingTime: "" });
   };
-
-  
-
 
   // render function dispays the UI content i.e the form content
   render() {
@@ -176,33 +243,52 @@ class Form extends Component {
         "Brazilian", "Peruvian","Cuban","Tibetian","Salvadorian","Egyptian","Greek",
         "Belgian","Irish","Welsh","Mormon","Cajun","Portugese","Turkish","Haitian",
     "Tahitian","Kenyan","Korean","Algerian","Nigerian","Libyan" ]*/
-  
     }
 
     // returns jsx element
     return (
       <>
-        <Box borderRadius={"lg"} border="2px" boxShadow={"lg"} borderColor={"gray.100"} fontFamily="regular" m={10} width={"23%"} height="fit-content" p={5}>
-          <VStack spacing={'5'} alignItems={"flex-start"}>
-            <Text fontSize={"larger"} fontWeight={"semibold"}>Get A Recipe</Text>
+        <Box
+          borderRadius={"lg"}
+          border="2px"
+          boxShadow={"lg"}
+          borderColor={"gray.100"}
+          fontFamily="regular"
+          m={10}
+          width={"23%"}
+          height="fit-content"
+          p={5}
+        >
+          <VStack spacing={"5"} alignItems={"flex-start"}>
+            <Text fontSize={"larger"} fontWeight={"semibold"}>
+              Get A Recipe
+            </Text>
             <InputGroup variant={"filled"} zIndex={+2}>
               {/* <InputLeftElement pointerEvents='none'>
                             <FontAwesomeIcon size="lg" icon={faLocationDot} />
                         </InputLeftElement> */}
-              <TypeAheadDropDown  iteams={this.state.ingredient_list} placeholder_inp = {'  Ingredients'} id_inp={'ingredient'} />
+              <TypeAheadDropDown
+                iteams={this.state.ingredient_list}
+                placeholder_inp={"  Ingredients"}
+                id_inp={"ingredient"}
+              />
               {/* <Input size={"lg"} type='text' id="ingredient" placeholder='Ingredients'/> */}
               <InputRightElement>
-                <Button mt={2} mr={2} onClick={this.addHandler}>Add</Button>
+                <Button mt={2} mr={2} onClick={this.addHandler}>
+                  Add
+                </Button>
               </InputRightElement>
             </InputGroup>
-            <HStack direction="row"> 
-               {this.printHander()}
-            </HStack>
+            <HStack direction="row">{this.printHander()}</HStack>
             <InputGroup variant={"filled"} zIndex={+1}>
               {/* <InputLeftElement pointerEvents='none'>
                             <FontAwesomeIcon size="lg" icon={faCalendarDays} />
                             </InputLeftElement> */}
-              <TypeAheadDropDown  iteams={this.state.cuisine_list} placeholder_inp = {'  Cuisine'} id_inp={'cuisine'} />
+              <TypeAheadDropDown
+                iteams={this.state.cuisine_list}
+                placeholder_inp={"  Cuisine"}
+                id_inp={"cuisine"}
+              />
 
               {/* <Input type="text" id="cuisine" color={"gray.500"} size={"lg"} placeholder='Cuisine' /> */}
             </InputGroup>
@@ -226,17 +312,33 @@ class Form extends Component {
                             <option value='option2'>Option 2</option>
                             <option value='option3'>Option 3</option>
                         </Select> */}
-              <Input data-testid="email_id" type="text" id="email_id" color={"gray.500"} size={"lg"} placeholder='Email' />
-              </InputGroup>
-              <InputGroup variant={"filled"}>
-                <FormLabel htmlFor='email-alerts' mb='0'>
-                  Enable email alert?
-                  <Switch ml={2} id="Send_email" name="email" size='md' />
-                </FormLabel>
-              </InputGroup>
+              <Input
+                data-testid="email_id"
+                type="text"
+                id="email_id"
+                color={"gray.500"}
+                size={"lg"}
+                placeholder="Email"
+              />
+            </InputGroup>
+            <InputGroup variant={"filled"}>
+              <FormLabel htmlFor="email-alerts" mb="0">
+                Enable email alert?
+                <Switch ml={2} id="Send_email" name="email" size="md" />
+              </FormLabel>
+            </InputGroup>
 
-            <Button data-testid="submit" id="submit" onClick={this.handleSubmit} width={"100%"} _hover={{ bg: 'purple.700', color: "white" }} color={"white"} bg={"purple.700"}>Search Recipes</Button>
-
+            <Button
+              data-testid="submit"
+              id="submit"
+              onClick={this.handleSubmit}
+              width={"100%"}
+              _hover={{ bg: "purple.700", color: "white" }}
+              color={"white"}
+              bg={"purple.700"}
+            >
+              Search Recipes
+            </Button>
           </VStack>
         </Box>
         {/* <div class="formOutercontainer">
