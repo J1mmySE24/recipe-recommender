@@ -6,7 +6,7 @@ const GMAIL = process.env.GMAIL;
 
 const ObjectId = mongodb.ObjectId;
 let recipes;
-let ingredients; 
+let ingredients;
 let users;
 //Function to connect to DB
 export default class RecipesDAO {
