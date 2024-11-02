@@ -147,9 +147,8 @@ Check out our comprehensive YouTube video demonstrating each step for easy guida
 
 
 ## Release Made in this cycle <br>
-1. Major release 3.1 - Major release to add search by recipe, user registration, user login and bookmarks.
-2. Hotfix Release 3.1.2 - Minor version release to add test case for login
-3. Major Release 3.2 - Major release- Included test cases addition, user registration, minor bug fixes and documentation updates<br>
+1. Major release 4.0.1 - Major release to add search by recipe cooking time, theme changes, Dark mode and bookmarks.
+<br>
 [Read our detailed release notes](https://github.com/pnprathima/Recipe_Recommender/releases) <br>
 <br>
 
