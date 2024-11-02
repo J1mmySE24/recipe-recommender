@@ -2,12 +2,11 @@
 
 ![](Reciperec.gif)
 <br><br>
-
-## Watch how our application works:
-
+## Watch how our application works: 
 ### Click here to watch - [Youtube Video](https://youtu.be/133EWUQWe5Q) <br>
-
 <br><br>
+
+
 
 [![Made With](https://img.shields.io/badge/made%20with-javascript-gree)](https://www.javascript.com/)
 [![DOI](https://zenodo.org/badge/706798373.svg)](https://zenodo.org/doi/10.5281/zenodo.10023534)
@@ -27,27 +26,27 @@
 ![CI/CD](https://img.shields.io/badge/CI/CD-Passing-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+   
+   
 <h2> What is Recipe Recommender? </h2>
 
-Meet Recipe Recommender, your ultimate kitchen companion! Say goodbye to the dilemma of deciding what to cook with the ingredients on hand. We've revolutionized the cooking experience with an application that effortlessly suggests delicious recipes based on your kitchen inventory. <br>
+Meet Recipe Recommender, your ultimate kitchen companion! Say goodbye to the dilemma of deciding what to cook with the ingredients on hand. We've revolutionized the cooking experience with an application that effortlessly suggests delicious recipes based on your kitchen inventory.  <br>
 
-Unlock the full potential of your pantry and fridge as our innovative software guides you in selecting perfect dishes tailored to your current ingredients. Cooking is now an exciting adventure rather than a daunting task. Immerse yourself in a realm of limitless culinary possibilities with Recipe Recommender. <br>
+Unlock the full potential of your pantry and fridge as our innovative software guides you in selecting perfect dishes tailored to your current ingredients. Cooking is now an exciting adventure rather than a daunting task. Immerse yourself in a realm of limitless culinary possibilities with Recipe Recommender.  <br>
 
 We've added <b> numerous entertaining new features and fixes to enhance user-friendliness.</b> <br>
-
 1. Craving enchiladas but unsure how to cook Mexican food? Now, you can search for recipes by names! Just type in "enchiladas," choose a recipe based on its features, and enjoy. <br>
 
-2. Imagine finding interesting recipes during your commute. With another new feature, you can save them on the go. We've also introduced dedicated user profiles. Sign up, log in, and save your favorite recipes under your profile in the "bookmarks" section. When you're ready to cook, everything will be waiting for you. <br>
+2. Imagine finding interesting recipes during your commute. With another new feature, you can save them on the go. We've also introduced dedicated user profiles. Sign up, log in, and save your favorite recipes under your profile in the "bookmarks" section. When you're ready to cook, everything will be waiting for you.  <br>
 
-3. That's not all! We've removed non-functional buttons, technically known as "refactoring the system." <br>
+3. That's not all! We've removed non-functional buttons, technically known as "refactoring the system."  <br>
 4. Your profile, information, and favorite recipes now have a dedicated space. Secure logins and logouts ensure no duplicate entries or exposed credentials, making the system more secure.
+
 
 <br> <b> More about our new additions in our next section!</b>
 
 ## Feature additions: Enhancements, Upgrades and BugFixes:
-
 Presenting our latest additions: Here's a comprehensive list of all our new features, enhancements, and upgrades! <br>
-
 1. User Profile: In our application, users can now establish a profile with a unique username and password, allowing seamless login and logout. This facilitates personalized experiences and customized access to preferences and activities. Further details will be discussed in the following points. Your profile, information, and preferred recipes now inhabit a designated area, simplifying the management of all your belongings in one organized space.
 2. Bookmarks: Picture this scenario: You're commuting, scrolling through intriguing recipes in our app. Thanks to a cutting-edge feature, you can now save them instantly. The introduction of dedicated user profiles elevates your experience. Simply sign up, log in, and curate your favorite recipes in the "bookmarks" section under your profile. When the time comes to cook, everything awaits you – seamlessly organized and easily accessible.
 3. Search for recipes by name: Previously limited to ingredient-based searches only, our system now boasts an exciting upgrade. You can now search for recipes by name! Ever craved enchiladas without knowing the recipe? Simply input "enchiladas," peruse based on features, and relish the culinary journey.
@@ -56,9 +55,7 @@ Presenting our latest additions: Here's a comprehensive list of all our new feat
 6. The requirements.txt file has been updated to ensure forward compatibility by specifying package versions greater than or equal to the ones explicitly mentioned. This modification allows for the installation of packages with versions that meet or exceed the specified ones, thus accommodating future updates and maintaining compatibility with evolving dependencies.
 
 ## Documentation and Project Flow:
-
 ![](flow-rr.gif) <br><br>
-
 1. User Registration: Establish a unique username and password; no duplicate usernames allowed, ensuring password confidentiality.
 2. User Authentication: Log in using the correct username and password for secure access.
 3. Search Recipes by Ingredients: Input your available ingredients to discover relevant recipes based on ingredient names.
@@ -68,10 +65,12 @@ Presenting our latest additions: Here's a comprehensive list of all our new feat
 7. View Bookmarked Recipes in User Profile: Access and review all saved recipes conveniently stored under your user profile.
 8. Logout: Securely log out to protect your profile information and activities. <br><br>
 
+
+
 Source documentation can be found at: [Recipe Recommender Docs](https://github.com/pnprathima/Recipe_Recommender/blob/master/Recipe%20Recommender%20Source%20Documentation.pdf)
 
-## API Documentation
 
+## API Documentation
 **Get Recipes:**
 Retrieve a list of recipes based on specified filters like ingredients, cuisine, and page parameters. Success returns a code of 200 with the recipe list; error returns code 500 with an error message.
 
@@ -119,9 +118,7 @@ Adds a recipe to a user's profile bookmarks via the /addRecipeToProfile endpoint
 ## Project Setup Steps:
 
 ### Installation:
-
 Check out our comprehensive YouTube video demonstrating each step for easy guidance. [Project Setup](https://youtu.be/uKh-afpUdh0)
-
 - clone repository using `git clone https://github.com/pnprathima/Recipe_Recommender.git`
 - setup for frontend
   open terminal and navigate to the **frontend** folder and execute the following:
@@ -148,18 +145,21 @@ Check out our comprehensive YouTube video demonstrating each step for easy guida
 3.  Automatically a browser window is opened which shows frontend.
 4.  run `npm test` for running the tests [Dependencies: Jest, Chai, Supertest]
 
-## Release Made in this cycle <br>
 
+## Release Made in this cycle <br>
 1. Major release 3.1 - Major release to add search by recipe, user registration, user login and bookmarks.
 2. Hotfix Release 3.1.2 - Minor version release to add test case for login
 3. Major Release 3.2 - Major release- Included test cases addition, user registration, minor bug fixes and documentation updates<br>
-   [Read our detailed release notes](https://github.com/pnprathima/Recipe_Recommender/releases) <br>
-   <br>
+[Read our detailed release notes](https://github.com/pnprathima/Recipe_Recommender/releases) <br>
+<br>
+
 
 ### IDE and Code Formatter
 
 - [Visual Studio Code](https://code.visualstudio.com/) IDE
 - [Prettier Formatter for Visual Studio Code](https://github.com/prettier/prettier-vscode/blob/main/README.md)
+
+
 
 ## :page_facing_up: License <a name="License"></a>
 
@@ -171,27 +171,20 @@ Please see our [CONTRIBUTING.md](https://github.com/pnprathima/Recipe_Recommende
 
 ## FUTURE SCOPE
 
-Implement personalized diertary requirements based filtering.
-
 Meal planning- saving data for all meals of the day.
 
-Voice to text integration.
+Voice to text integration. 
 
 Chatbot integration- to answer quick queries about the recipe.
 
 ## Team Members
 
-Annadurai,Harshitha <br>
-Bhoja Ramamanohara,Pannaga Rao <br>
-Masineni Prasanna Kumar,Karthik <br>
-Niranjana,Prathima Putreddy <br>
+Tejas Desai <br>
+Kaustubh Sonnawane <br>
+Nikita Chuadhari <br>
 
-## Troubleshooting and Support
+## New Features
 
-Common issues observed and solutions:<br>
-
-1. requirements.txt failing: this issue should no longer be seen, as we have used ~= to ensure your systems pick up versions compatible with the other packages. However, if you happen to see the issue, modify the requirements.txt file to use a more recent version.
-2. python was not found: we recommend using python3 as some of the modules are available only on Python3. You may either install Python3 or setup a virtual environment(we suggest the latter if you are currently running other applications on python2)
-   Facing other issues with the application? Mail us - [teamsoftwareeng7@gmail.com](teamsoftwareeng7@gmail.com)
+Implemented personalized diertary requirements based filtering.
 
 <p align="center">Made with ❤️ on GitHub.</p>
