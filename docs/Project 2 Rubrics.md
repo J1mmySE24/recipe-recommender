@@ -639,7 +639,7 @@ statement?</td>
 licence of your software?</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/LICENSE"><u>https://github.com/Yash-Chandrani/slash/blob/main/LICENSE</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE</u></a></td>
 </tr>
 <tr class="odd">
 <td>Is your software released under an open source licence?</td>
@@ -659,16 +659,16 @@ open-source licence?</td>
 </tr>
 <tr class="even">
 <td>Do you have a recommended citation for your software?</td>
-<td>0</td>
-<td></td>
+<td>3</td>
+<td><a
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/CITATION.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/CITATION.md</u></a></td>
 </tr>
 <tr class="odd">
 <td>Does your website or documentation include a project<br />
 roadmap (a list of project and development milestones<br />
 for the next 3, 6 and 12 months)?</td>
-<td>3</td>
-<td><a
-href="https://github.com/Yash-Chandrani/slash/tree/main#muscle-whats-next-for-future-development"><u>https://github.com/Yash-Chandrani/slash/tree/main#muscle-whats-next-for-future-development</u></a></td>
+<td>0</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>Does your website or documentation describe how your<br />
@@ -685,12 +685,5 @@ components, APIs, etc.?</td>
 </tr>
 </tbody>
 </table>
-
-
-
-**<u>Part 2</u>**
-
-Demo video of new features added in [Slash](https://github.com/Yash-Chandrani/slash) project
-: <https://youtu.be/66GaChfVFrY>
 
 
