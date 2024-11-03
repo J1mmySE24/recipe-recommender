@@ -358,7 +358,7 @@ href="https://github.com/ForkBombers/Recipe_Recommender/issues"><u>https://githu
 </tr>
 <tr class="odd">
 <td>Is your software’s architecture and design modular?</td>
-<td>Y</td>
+<td>3</td>
 <td>The project, Saveurs Sélection - Recipe Recommender, demonstrates a modular <br />
 architecture through its organized and component-based structure. Each functionality <br />
 is encapsulated within distinct modules or components. This modular approach allows <br />
