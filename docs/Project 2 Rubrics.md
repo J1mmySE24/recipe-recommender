@@ -4,7 +4,7 @@ GROUP 90
 2. Kaustubh Sonawane (ksonawa@ncsu.edu)
 3. Tejas Desai (tdesai@ncsu.edu)
 
-**Grading of** [Slash](https://github.com/ForkBombers/Recipe_Recommender)
+**Grading of** [Saveurs Sélection](https://github.com/ForkBombers/Recipe_Recommender)
 
 <table>
 <colgroup>
