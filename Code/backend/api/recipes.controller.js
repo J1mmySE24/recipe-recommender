@@ -10,7 +10,7 @@ export default class RecipesController {
     });
     res.json({ success, user });
   }
-  
+
   static async apiAuthSignup(req, res) {
     if (req.body) {
       let data = {};
@@ -37,8 +37,8 @@ export default class RecipesController {
     if (req.body) {
       const { userName, recipe } = req.body;
       try {
-        const response = RecipesDAO.addRecipeToProfile(userName, recipe)
-        res.json(response)
+        const response = RecipesDAO.addRecipeToProfile(userName, recipe);
+        res.json(response);
       } catch (e) {
         console.log(`error: ${e}`);
       }
@@ -83,8 +83,8 @@ export default class RecipesController {
 
     // New filter for TotalTimeInMins
     if (req.query.TotalTimeInMins) {
-      filters.TotalTimeInMins = parseInt(req.query.TotalTimeInMins, 10); 
-  }
+      filters.TotalTimeInMins = parseInt(req.query.TotalTimeInMins, 10);
+    }
 
     const { recipesList, totalNumRecipes } = await RecipesDAO.getRecipes({
       filters,

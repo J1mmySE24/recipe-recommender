@@ -1,10 +1,8 @@
 GROUP 90
-1) Nikita Chaudhari (nchaudh5@ncsu.edu)
-2) Kaustubh Sonawane (ksonawa@ncsu.edu)
-3) Tejas Desai (tdesai@ncsu.edu)
 
-
-
+1. Nikita Chaudhari (nchaudh5@ncsu.edu)
+2. Kaustubh Sonawane (ksonawa@ncsu.edu)
+3. Tejas Desai (tdesai@ncsu.edu)
 
 **Grading of** [Slash](https://github.com/ForkBombers/Recipe_Recommender)
 
@@ -685,5 +683,3 @@ components, APIs, etc.?</td>
 </tr>
 </tbody>
 </table>
-
-

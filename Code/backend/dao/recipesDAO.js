@@ -64,7 +64,7 @@ export default class RecipesDAO {
       }
     }
   }
-  
+
   //function to get bookmarks
   static async getBookmarks(userName) {
     let query;
@@ -94,7 +94,7 @@ export default class RecipesDAO {
           .map((word) => `(?=.*\\b${word}\\b)`)
           .join("");
         const regex = new RegExp(regexPattern, "i");
-        query = { "TranslatedRecipeName": { $regex: regex } };
+        query = { TranslatedRecipeName: { $regex: regex } };
         // query["Cuisine"] = "Indian";
       }
       let recipesList;
@@ -134,9 +134,11 @@ export default class RecipesDAO {
         query["Cuisine"] = filters["Cuisine"];
       }
 
-    if ("TotalTimeInMins" in filters) {
-      query["TotalTimeInMins"] = { $lte: parseInt(filters["TotalTimeInMins"]) }; // Less than or equal to
-    }
+      if ("TotalTimeInMins" in filters) {
+        query["TotalTimeInMins"] = {
+          $lte: parseInt(filters["TotalTimeInMins"]),
+        }; // Less than or equal to
+      }
     }
 
     let cursor;
@@ -251,23 +253,23 @@ export default class RecipesDAO {
     }
   }
 
-    //function to add recipe to user profile
-    static async addRecipeToProfile(userName, recipe) {
-      let response;
-      console.log(userName)
-      try {
-        response = await users.updateOne(
-          { userName: userName },
-          { $push: { bookmarks: recipe } }
-        )
-        console.log(response)
-        return response;
-      } catch (e) {
-        console.log(`Unable to add recipe, ${e}`)
-      }
+  //function to add recipe to user profile
+  static async addRecipeToProfile(userName, recipe) {
+    let response;
+    console.log(userName);
+    try {
+      response = await users.updateOne(
+        { userName: userName },
+        { $push: { bookmarks: recipe } },
+      );
+      console.log(response);
+      return response;
+    } catch (e) {
+      console.log(`Unable to add recipe, ${e}`);
     }
-    
-  static async getIngredients(){
+  }
+
+  static async getIngredients() {
     let response = {};
     try {
       response = await ingredients.distinct("item_name");

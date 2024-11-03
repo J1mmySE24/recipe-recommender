@@ -1,4 +1,4 @@
-//  
+//
 import Form from "./components/Form.js";
 import Header from "./components/Header";
 import recipeDB from "./apis/recipeDB";
@@ -29,7 +29,7 @@ class App extends Component {
       isLoading: false,
       isLoggedIn: false,
       isProfileView: false,
-      userData: {}
+      userData: {},
     };
   }
 
@@ -137,7 +137,15 @@ class App extends Component {
       });
   };
 
-  getRecipeDetails = async (ingredient, cuis, mail, flag, cookingTime, dietType) => { // Update to include diet type
+  getRecipeDetails = async (
+    ingredient,
+    cuis,
+    mail,
+    flag,
+    cookingTime,
+    dietType,
+  ) => {
+    // Update to include diet type
     try {
       const response = await recipeDB.get("/recipes", {
         params: {
@@ -145,7 +153,7 @@ class App extends Component {
           Cuisine: cuis,
           Email: mail,
           Flag: flag,
-          TotalTimeInMins: cookingTime
+          TotalTimeInMins: cookingTime,
         },
       });
       this.setState({
@@ -172,7 +180,7 @@ class App extends Component {
           handleBookMarks={this.handleBookMarks}
           user={this.state.userData}
         />
-        {this.state.isLoggedIn ?
+        {this.state.isLoggedIn ? (
           <>
             {this.state.isProfileView ? (
               <UserProfile
@@ -212,15 +220,17 @@ class App extends Component {
               </Tabs>
             )}
           </>
-          : <Login handleSignup={this.handleSignup} handleLogin={this.handleLogin} />
-        }
+        ) : (
+          <Login
+            handleSignup={this.handleSignup}
+            handleLogin={this.handleLogin}
+          />
+        )}
         {/* handleSubmit function is being sent as a prop to the form component*/}
-
 
         {/* RecipeList is the component where results are displayed.
         App's recipeList state item is being sent as a prop
         */}
-
       </div>
     );
   }
