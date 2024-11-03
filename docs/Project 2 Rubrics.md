@@ -1,13 +1,12 @@
-GROUP 11
-1) SMIT PATEL (spatel68@ncsu.edu)
-2) MARMIK PATEL (mpatel68@ncsu.edu)
-3) YASH CHANDRANI (ychandr@ncsu.edu)
-4) ASHAKA MEHTA (atmehta@ncsu.edu)
+GROUP 90
+1) Nikita Chaudhari (nchaudh5@ncsu.edu)
+2) Kaustubh Sonawane (ksonawa@ncsu.edu)
+3) Tejas Desai (tdesai@ncsu.edu)
 
 
 
 
-**Grading of** [Slash](https://github.com/Yash-Chandrani/slash)
+**Grading of** [Slash](https://github.com/ForkBombers/Recipe_Recommender)
 
 <table>
 <colgroup>
@@ -31,40 +30,40 @@ GROUP 11
 <td>Video</td>
 <td>2</td>
 <td><a
-href="https://www.youtube.com/watch?v=66GaChfVFrY&ab_channel=SmitSanjaybhaiPatel"><u>https://www.youtube.com/watch?v=66GaChfVFrY&ab_channel=SmitSanjaybhaiPatel</u></a></td>
+href=""><u></u></a></td>
 </tr>
 <tr class="odd">
 <td>Workload is spread over the whole team</td>
 <td>2</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/graphs/contributors"><u>https://github.com/Yash-Chandrani/slash/graphs/contributors</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/graphs/contributors?from=9%2F28%2F2024"><u></u></a></td>
 </tr>
 <tr class="even">
 <td>Number of commits</td>
-<td>3</td>
+<td>2</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/commits/main"><u>https://github.com/Yash-Chandrani/slash/commits/main</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/tree/master"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/master</u></a></td>
 </tr>
 <tr class="odd">
 <td>Number of commits: by different people</td>
 <td>2</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/graphs/contributors"><u>https://github.com/Yash-Chandrani/slash/graphs/contributors</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/pulse"><u>https://github.com/ForkBombers/Recipe_Recommender/pulse</u></a></td>
 </tr>
 <tr class="even">
 <td>Issues reports: there are many</td>
 <td>2</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/issues"><u>https://github.com/Yash-Chandrani/slash/issues</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed"><u>https://github.com/ForkBombers/Recipe_Recommender/issues</u></a></td>
 </tr>
 <tr class="odd">
 <td>Issues are being closed</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/issues?q=is%3Aclosed"><u>https://github.com/Yash-Chandrani/slash/issues?q=is%3Aclosed</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed"><u>https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed</u></a></td>
 </tr>
 <tr class="even">
-<td>DOI badge: exists</td>
+<td>*DOI badge: exists</td>
 <td>3</td>
 <td><a
 href="https://doi.org/10.5281/zenodo.10023318"><u>https://doi.org/10.5281/zenodo.10023318</u></a></td>
@@ -73,34 +72,35 @@ href="https://doi.org/10.5281/zenodo.10023318"><u>https://doi.org/10.5281/zenodo
 <td>Docs: doco generated, format not ugly</td>
 <td>2</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash#readme"><u>https://github.com/Yash-Chandrani/slash#readme</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md</u></a></td>
 </tr>
 <tr class="even">
 <td>Docs: what: point descriptions of each class/function (in
 isolation)</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash#readme"><u>https://github.com/Yash-Chandrani/slash#readme</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md</u></a></td>
 </tr>
 <tr class="odd">
 <td>Docs: how: for common use cases X,Y,Z mini-tutorials showing worked
 examples on how to do X,Y,Z</td>
 <td>3</td>
 <td><a
-href="https://www.youtube.com/watch?v=66GaChfVFrY&ab_channel=SmitSanjaybhaiPatel"><u>https://www.youtube.com/watch?v=66GaChfVFrY&ab_channel=SmitSanjaybhaiPatel</u></a></td>
+href=><u></u></a></td>
 </tr>
 <tr class="even">
 <td>Docs: why: docs tell a story, motivate the whole thing, deliver a
 punchline that makes you want to rush out and use the thing</td>
 <td>2</td>
-<td></td>
+<td><a
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md</u></a></td>
 </tr>
 <tr class="odd">
 <td>Docs: short video, animated, hosted on your repo. That convinces
 people why they want to work on your code.</td>
 <td>1</td>
 <td><a
-href="https://www.youtube.com/watch?v=66GaChfVFrY&ab_channel=SmitSanjaybhaiPatel"><u>https://www.youtube.com/watch?v=66GaChfVFrY&ab_channel=SmitSanjaybhaiPatel</u></a></td>
+href=""><u></u></a></td>
 </tr>
 <tr class="even">
 <td>Use of version control tools</td>
@@ -111,67 +111,67 @@ href="https://www.youtube.com/watch?v=66GaChfVFrY&ab_channel=SmitSanjaybhaiPatel
 <td>Use of style checkers</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/.github/workflows/style_checker.yml"><u>https://github.com/Yash-Chandrani/slash/blob/main/.github/workflows/style_checker.yml</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/Style_Checker_and_Prettify_Code.yml"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/Style_Checker_and_Prettify_Code.yml</u></a></td>
 </tr>
 <tr class="even">
 <td>Use of code formatters.</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/.github/workflows/pylint.yml"><u>https://github.com/Yash-Chandrani/slash/blob/main/.github/workflows/pylint.yml</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/Code_Formatter_and_Syntax_Check.yml"><u>hhttps://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/Code_Formatter_and_Syntax_Check.yml</u></a></td>
 </tr>
 <tr class="odd">
 <td>Use of syntax checkers.</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/.github/workflows/pylint.yml"><u>https://github.com/Yash-Chandrani/slash/blob/main/.github/workflows/pylint.yml</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/Code_Formatter_and_Syntax_Check.yml"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/Code_Formatter_and_Syntax_Check.yml</u></a></td>
 </tr>
 <tr class="even">
 <td>Use of code coverage</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/.github/workflows/code_cov.yml"><u>https://github.com/Yash-Chandrani/slash/blob/main/.github/workflows/code_cov.yml</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/coverage.yml"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/coverage.yml</u></a></td>
 </tr>
 <tr class="odd">
 <td>Other automated analysis tools</td>
 <td>1</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/actions"><u>https://github.com/Yash-Chandrani/slash/actions</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/actions"><u>https://github.com/ForkBombers/Recipe_Recommender/actions</u></a></td>
 </tr>
 <tr class="even">
 <td>Test cases exist</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/tree/main/tests"><u>https://github.com/Yash-Chandrani/slash/tree/main/tests</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/tree/master/test"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/master/test</u></a></td>
 </tr>
 <tr class="odd">
 <td>Test cases are routinely executed</td>
 <td>2</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/actions/workflows/code_cov.yml"><u>https://github.com/Yash-Chandrani/slash/actions/workflows/code_cov.yml</u></a></td>
+href=""><u></u></a></td>
 </tr>
 <tr class="even">
 <td>The files CONTRIBUTING.md lists coding standards and lots of tips on
 how to extend the system without screwing things up</td>
 <td>3</td>
 <td><a
-href="https://github.com/TommasU/slash/blob/main/CONTRIBUTING.md"><u>https://github.com/Yash-Chandrani/slash/blob/main/CONTRIBUTING.md</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/CONTRIBUTING.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/CONTRIBUTING.md</u></a></td>
 </tr>
 <tr class="odd">
 <td>Issues are discussed before they are closed</td>
-<td>1</td>
+<td>2</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/issues?q=is%3Aissue+is%3Aclosed"><u>https://github.com/Yash-Chandrani/slash/issues?q=is%3Aissue+is%3Aclosed</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed"><u>https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed Since we were meeting physically issues were disscussed, but not over repository</u></a></td>
 </tr>
 <tr class="even">
-<td>Chat channel: exists</td>
-<td>3</td>
+<td>*Chat channel: exists</td>
+<td>1</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash#email-support"><u>https://github.com/Yash-Chandrani/slash#email-support</u></a></td>
+href=""><u></u></a></td>
 </tr>
 <tr class="odd">
 <td>Test cases: a large proportion of the issues related to handling
 failing cases.</td>
-<td>0</td>
+<td>1</td>
 
 </tr>
 <tr class="even">
@@ -179,14 +179,14 @@ failing cases.</td>
 get to all tools and files</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/requirements.txt"><u>https://github.com/Yash-Chandrani/slash/blob/main/requirements.txt</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md</u></a></td>
 </tr>
 <tr class="odd">
 <td>Evidence that the whole team is using the same tools (e.g. config
 files in the repo, updated by lots of different people)</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/requirements.txt"><u>https://github.com/Yash-Chandrani/slash/blob/main/requirements.txt</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/tree/master"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/master</u></a></td>
 </tr>
 <tr class="even">
 <td>Evidence that the whole team is using the same tools (e.g. tutor can
@@ -194,27 +194,27 @@ ask anyone to share screen, they demonstrate the system running on their
 computer)</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/graphs/contributors"><u>https://github.com/Yash-Chandrani/slash/graphs/contributors</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/tree/master"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/master each contributer had access to repository, tools and files</u></a></td>
 </tr>
 <tr class="odd">
 <td>Evidence that the members of the team are working across multiple
 places in the code base</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/graphs/contributors"><u>https://github.com/Yash-Chandrani/slash/graphs/contributors</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/tree/master"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/master</u></a></td>
 </tr>
 <tr class="even">
-<td>Short release cycles</td>
+<td>*Short release cycles</td>
 <td>1</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/releases"><u>https://github.com/Yash-Chandrani/slash/releases</u></a></td>
+href=""><u></u></a></td>
 </tr>
 <tr class="odd">
 <td>Does the website and documentation provide a clear, high-level
 overview of your software?</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/README.md"><u>https://github.com/Yash-Chandrani/slash/blob/main/README.md</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md</u></a></td>
 </tr>
 <tr class="even">
 <td>Does the website and documentation clearly describe the type of user
@@ -237,7 +237,7 @@ developers and others?</td>
 <td>Is the project/software name free from trademark violations?</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/LICENSE"><u>https://github.com/Yash-Chandrani/slash/blob/main/LICENSE</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE</u></a></td>
 </tr>
 <tr class="even">
 <td>Is the software available as a package that can be deployed without
@@ -249,7 +249,7 @@ building it?</td>
 <td>Is your software available for free?</td>
 <td>3</td>
 <td><a
-href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE"><u>hhttps://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE</u></a></td>
+href="hhttps://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE</u></a></td>
 </tr>
 <tr class="even">
 <td>Is the source code publicly available to download, either as a
@@ -504,13 +504,12 @@ management tool or package manager?</td>
 <td>We can install requirements through pip, the package installer for
 Python</td>
 </tr>
-<tr class="even">
 <td>Do you have tests that can be run after your software has<br />
 been built or deployed to show whether the build or<br />
 deployment has been successful?</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/tree/main/tests"><u>https://github.com/Yash-Chandrani/slash/tree/main/tests</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/tree/v2/test"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/v2/test</u></a></td>
 </tr>
 <tr class="odd">
 <td>Do you have an automated test suite for your software?</td>
@@ -520,9 +519,9 @@ href="https://github.com/Yash-Chandrani/slash/tree/main/tests"><u>https://github
 <tr class="even">
 <td>Do you have a framework to periodically (e.g. nightly) run<br />
 your tests on the latest version of the source code?</td>
-<td>3</td>
+<td>2</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/actions/workflows/code_cov.yml"><u>https://github.com/Yash-Chandrani/slash/actions/workflows/code_cov.yml</u></a></td>
+href=""><u></u></a></td>
 </tr>
 <tr class="odd">
 <td>Do you use continuous integration, automatically running<br />
@@ -532,8 +531,9 @@ tests whenever changes are made to your source code?</td>
 </tr>
 <tr class="even">
 <td>Are your test results publicly visible?</td>
-<td>0</td>
-<td></td>
+<td>2</td>
+<td><a
+href="https://github.com/ForkBombers/Recipe_Recommender/tree/v2/test"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/v2/test</u></a></td>
 </tr>
 <tr class="odd">
 <td>Are all manually-run tests documented?</td>
@@ -548,7 +548,7 @@ software?e.g. release announcements, publications,<br />
 workshops, conference presentations</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash#readme"><u>https://github.com/Yash-Chandrani/slash#readme</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md</u></a></td>
 </tr>
 <tr class="odd">
 <td>Does your website state how many projects and users are<br />
@@ -566,7 +566,7 @@ associated with your project?</td>
 website?</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/tree/main#sparkles-contributors"><u>https://github.com/Yash-Chandrani/slash/tree/main#sparkles-contributors</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md</u></a></td>
 </tr>
 <tr class="even">
 <td>Do you list your project's publications on your website or<br />
@@ -601,32 +601,32 @@ documentation updates, tutorials) from people who are not<br />
 part of your project?</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/CONTRIBUTING.md"><u>https://github.com/Yash-Chandrani/slash/blob/main/CONTRIBUTING.md</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/CONTRIBUTING.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/CONTRIBUTING.md</u></a></td>
 </tr>
 <tr class="odd">
 <td>Do you have a contributions policy?</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/CONTRIBUTING.md"><u>https://github.com/Yash-Chandrani/slash/blob/main/CONTRIBUTING.md</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/CONTRIBUTING.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/CONTRIBUTING.md</u></a></td>
 </tr>
 <tr class="even">
 <td>Is your contributions' policy publicly available?</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/CONTRIBUTING.md"><u>https://github.com/Yash-Chandrani/slash/blob/main/CONTRIBUTING.md</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/CONTRIBUTING.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/CONTRIBUTING.md</u></a></td>
 </tr>
 <tr class="odd">
 <td>Do contributors keep the copyright/IP of their contributions?</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/blob/main/LICENSE"><u>https://github.com/Yash-Chandrani/slash/blob/main/LICENSE</u></a>E</td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE</u></a>E</td>
 </tr>
 <tr class="even">
 <td>Does your website and documentation clearly state the<br />
 copyright owners of your software and documentation?</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash/tree/main#sparkles-contributors"><u>https://github.com/Yash-Chandrani/slash/tree/main#sparkles-contributors</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/CONTRIBUTING.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/CONTRIBUTING.md</u></a></td>
 </tr>
 <tr class="odd">
 <td>Does each of your source code files include a copyright<br />
@@ -690,7 +690,7 @@ components, APIs, etc.?</td>
 
 **<u>Part 2</u>**
 
-Demo video of new features added in [Recipe Recommender](https://github.com/Yash-Chandrani/slash) project
+Demo video of new features added in [Slash](https://github.com/Yash-Chandrani/slash) project
 : <https://youtu.be/66GaChfVFrY>
 
 
