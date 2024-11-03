@@ -172,7 +172,7 @@ class App extends Component {
           handleBookMarks={this.handleBookMarks}
           user={this.state.userData}
         />
-        {this.state.isLoggedIn ? (
+        {this.state.isLoggedIn ?
           <>
             {this.state.isProfileView ? (
               <UserProfile
