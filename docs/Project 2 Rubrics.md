@@ -1,4 +1,4 @@
-GROUP 90
+CSC 510 SE GROUP 90
 
 1. Nikita Chaudhari (nchaudh5@ncsu.edu)
 2. Kaustubh Sonawane (ksonawa@ncsu.edu)
@@ -15,7 +15,7 @@ GROUP 90
 <thead>
 <tr class="header">
 <th>Total</th>
-<th colspan="2">210</th>
+<th colspan="2">212</th>
 </tr>
 </thead>
 <tbody>
@@ -25,26 +25,26 @@ GROUP 90
 <td>Evidence</td>
 </tr>
 <tr class="even">
-<td>Video</td>
-<td>2</td>
+<td>*Video</td>
+<td>1</td>
 <td><a
 href=""><u></u></a></td>
 </tr>
 <tr class="odd">
 <td>Workload is spread over the whole team</td>
-<td>2</td>
+<td>3</td>
 <td><a
 href="https://github.com/ForkBombers/Recipe_Recommender/graphs/contributors?from=9%2F28%2F2024"><u></u></a></td>
 </tr>
 <tr class="even">
 <td>Number of commits</td>
-<td>2</td>
+<td>3</td>
 <td><a
 href="https://github.com/ForkBombers/Recipe_Recommender/tree/master"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/master</u></a></td>
 </tr>
 <tr class="odd">
 <td>Number of commits: by different people</td>
-<td>2</td>
+<td>3</td>
 <td><a
 href="https://github.com/ForkBombers/Recipe_Recommender/pulse"><u>https://github.com/ForkBombers/Recipe_Recommender/pulse</u></a></td>
 </tr>
@@ -52,7 +52,7 @@ href="https://github.com/ForkBombers/Recipe_Recommender/pulse"><u>https://github
 <td>Issues reports: there are many</td>
 <td>2</td>
 <td><a
-href="https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed"><u>https://github.com/ForkBombers/Recipe_Recommender/issues</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/issues"><u>https://github.com/ForkBombers/Recipe_Recommender/issues</u></a></td>
 </tr>
 <tr class="odd">
 <td>Issues are being closed</td>
@@ -68,7 +68,7 @@ href="https://doi.org/10.5281/zenodo.10023318"><u>https://doi.org/10.5281/zenodo
 </tr>
 <tr class="odd">
 <td>Docs: doco generated, format not ugly</td>
-<td>2</td>
+<td>3</td>
 <td><a
 href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md</u></a></td>
 </tr>
@@ -80,21 +80,21 @@ isolation)</td>
 href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md</u></a></td>
 </tr>
 <tr class="odd">
-<td>Docs: how: for common use cases X,Y,Z mini-tutorials showing worked
+<td>*Docs: how: for common use cases X,Y,Z mini-tutorials showing worked
 examples on how to do X,Y,Z</td>
-<td>3</td>
+<td>2</td>
 <td><a
-href=><u></u></a></td>
+href=""><u></u></a></td>
 </tr>
 <tr class="even">
-<td>Docs: why: docs tell a story, motivate the whole thing, deliver a
+<td>*Docs: why: docs tell a story, motivate the whole thing, deliver a
 punchline that makes you want to rush out and use the thing</td>
 <td>2</td>
 <td><a
 href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md</u></a></td>
 </tr>
 <tr class="odd">
-<td>Docs: short video, animated, hosted on your repo. That convinces
+<td>*Docs: short video, animated, hosted on your repo. That convinces
 people why they want to work on your code.</td>
 <td>1</td>
 <td><a
@@ -103,7 +103,7 @@ href=""><u></u></a></td>
 <tr class="even">
 <td>Use of version control tools</td>
 <td>3</td>
-<td></td>
+<td>Version control tools like Git are used for managing and tracking changes in our project, enabling efficient collaboration by allowing multiple developers to work on different features or fixes simultaneously through branching.</td>
 </tr>
 <tr class="odd">
 <td>Use of style checkers</td>
@@ -124,7 +124,7 @@ href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/work
 href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/Code_Formatter_and_Syntax_Check.yml"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/Code_Formatter_and_Syntax_Check.yml</u></a></td>
 </tr>
 <tr class="even">
-<td>Use of code coverage</td>
+<td>*Use of code coverage</td>
 <td>3</td>
 <td><a
 href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/coverage.yml"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/workflows/coverage.yml</u></a></td>
@@ -136,13 +136,13 @@ href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/.github/work
 href="https://github.com/ForkBombers/Recipe_Recommender/actions"><u>https://github.com/ForkBombers/Recipe_Recommender/actions</u></a></td>
 </tr>
 <tr class="even">
-<td>Test cases exist</td>
-<td>3</td>
+<td>*Test cases exist</td>
+<td>2</td>
 <td><a
 href="https://github.com/ForkBombers/Recipe_Recommender/tree/master/test"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/master/test</u></a></td>
 </tr>
 <tr class="odd">
-<td>Test cases are routinely executed</td>
+<td>*Test cases are routinely executed</td>
 <td>2</td>
 <td><a
 href=""><u></u></a></td>
@@ -156,21 +156,21 @@ href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/CONTRIBUTING
 </tr>
 <tr class="odd">
 <td>Issues are discussed before they are closed</td>
-<td>2</td>
+<td>3</td>
 <td><a
-href="https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed"><u>https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed Since we were meeting physically issues were disscussed, but not over repository</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed"><u>https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed Since our team was meeting physically, issues were disscussed in person and not through repository</u></a></td>
 </tr>
 <tr class="even">
 <td>*Chat channel: exists</td>
-<td>1</td>
+<td>2</td>
 <td><a
-href=""><u></u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender#email-support"><u>https://github.com/ForkBombers/Recipe_Recommender#email-support</u></a></td>
 </tr>
 <tr class="odd">
-<td>Test cases: a large proportion of the issues related to handling
+<td>*Test cases: a large proportion of the issues related to handling
 failing cases.</td>
 <td>1</td>
-
+<td></td>
 </tr>
 <tr class="even">
 <td>Evidence that the whole team is using the same tools: everyone can
@@ -202,10 +202,10 @@ places in the code base</td>
 href="https://github.com/ForkBombers/Recipe_Recommender/tree/master"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/master</u></a></td>
 </tr>
 <tr class="even">
-<td>*Short release cycles</td>
-<td>1</td>
+<td>Short release cycles</td>
+<td>2</td>
 <td><a
-href=""><u></u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/releases"><u>https://github.com/ForkBombers/Recipe_Recommender/releases</u></a></td>
 </tr>
 <tr class="odd">
 <td>Does the website and documentation provide a clear, high-level
@@ -218,7 +218,8 @@ href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><
 <td>Does the website and documentation clearly describe the type of user
 who should use your software?</td>
 <td>3</td>
-<td></td>
+<td><a
+href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/README.md</u></a></td>
 </tr>
 <tr class="odd">
 <td>Are there any case studies to show how the software has been used by
@@ -229,7 +230,7 @@ developers and others?</td>
 <tr class="even">
 <td>Is the name of the project/software unique?</td>
 <td>3</td>
-<td>We searched on Google and GitHub and did not find any projects with similar names</td>
+<td>Yes. We browsed on Google and GitHub and did not find any other projects with similar names.</td>
 </tr>
 <tr class="odd">
 <td>Is the project/software name free from trademark violations?</td>
@@ -253,7 +254,7 @@ href="hhttps://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE"><u
 <td>Is the source code publicly available to download, either as a
 downloadable bundle or via access to a source code repository?</td>
 <td>3</td>
-<td>The project can be cloned to local via Github</td>
+<td>Yes. The project can be cloned to local via Github.</td>
 </tr>
 <tr class="odd">
 <td>Is the software hosted in an established, third-party repository
@@ -291,7 +292,7 @@ software?</td>
 functions and options?</td>
 <td>3</td>
 <td><a
-href="https://github.com/Yash-Chandrani/slash#full-version-main-menu"><u>https://github.com/Yash-Chandrani/slash#full-version-main-menu</u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender#full-version-main-menu"><u>https://github.com/ForkBombers/Recipe_Recommender#full-version-main-menu</u></a></td>
 </tr>
 <tr class="even">
 <td>Is there a troubleshooting information that describes the symptoms
@@ -370,7 +371,7 @@ further enhances modularity by containerizing each service, supporting efficient
 <td>Does your software use an accepted coding standard<br />
 or convention?</td>
 <td>3</td>
-<td>Our software likely adheres to accepted coding standards, particularly for JavaScript, <br />
+<td>Our software adheres to accepted coding standards, particularly for JavaScript, <br />
 Python, CSS, HTML, and Docker. Following conventions like camelCase for JavaScript variables, <br />
 PEP 8 for Python style, and consistent naming in CSS (e.g., BEM) ensures a structured and <br />
 readable codebase. Docker best practices, such as minimizing image layers and using efficient <br />
@@ -380,7 +381,7 @@ commands, further improve maintainability.</td>
 <td>Does your software allow data to be imported and exported<br />
 using open data formats?<br />
 e.g. GIF, SVG, HTML, XML, tar, zip, CSV, JSON, NetCDF,<br />
-or domain specific ones</td>
+or domain specific ones.</td>
 <td>3</td>
 <td>Since it is a web based project it takes and sends data through HTTP
 protocol.</td>
@@ -445,7 +446,7 @@ href="https://github.com/ForkBombers/Recipe_Recommender/releases"><u>https://git
 href="https://github.com/ForkBombers/Recipe_Recommender/branches"><u>https://github.com/ForkBombers/Recipe_Recommender/branches</u></a></td>
 </tr>
 <tr class="even">
-<td>Do you back-up your repository?</td>
+<td>*Do you back-up your repository?</td>
 <td>3</td>
 <td><a
 href="https://zenodo.org/record/10023318"><u>https://zenodo.org/record/10023318</u></a></td>
@@ -474,15 +475,15 @@ your software?</td>
 href="https://github.com/ForkBombers/Recipe_Recommender?tab=readme-ov-file#project-setup-steps"><u>https://github.com/ForkBombers/Recipe_Recommender?tab=readme-ov-file#project-setup-steps</u></a></td>
 </tr>
 <tr class="even">
-<td>Does your documentation list all third-party dependencies?</td>
-<td>3</td>
+<td>*Does your documentation list all third-party dependencies?</td>
+<td>1</td>
 <td><a
 href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/requirements.txt"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/requirements.txt</u></a></td>
 </tr>
 <tr class="odd">
-<td>Does your documentation list the version number for all<br />
+<td>*Does your documentation list the version number for all<br />
 third-party dependencies?</td>
-<td>3</td>
+<td>1</td>
 <td><a
 href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/requirements.txt"><u>https://github.com/ForkBombers/Recipe_Recommender/blob/master/requirements.txt</u></a></td>
 </tr>
@@ -502,10 +503,10 @@ management tool or package manager?</td>
 <td>We can install requirements through pip, the package installer for
 Python</td>
 </tr>
-<td>Do you have tests that can be run after your software has<br />
+<td>*Do you have tests that can be run after your software has<br />
 been built or deployed to show whether the build or<br />
 deployment has been successful?</td>
-<td>3</td>
+<td>2</td>
 <td><a
 href="https://github.com/ForkBombers/Recipe_Recommender/tree/v2/test"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/v2/test</u></a></td>
 </tr>
@@ -515,11 +516,11 @@ href="https://github.com/ForkBombers/Recipe_Recommender/tree/v2/test"><u>https:/
 <td></td>
 </tr>
 <tr class="even">
-<td>Do you have a framework to periodically (e.g. nightly) run<br />
+<td>*Do you have a framework to periodically (e.g. nightly) run<br />
 your tests on the latest version of the source code?</td>
-<td>2</td>
+<td>1</td>
 <td><a
-href=""><u></u></a></td>
+href="https://github.com/ForkBombers/Recipe_Recommender/actions/workflows/code_cov.yml"><u>https://github.com/ForkBombers/Recipe_Recommender/actions/workflows/code_cov.yml</u></a></td>
 </tr>
 <tr class="odd">
 <td>Do you use continuous integration, automatically running<br />
@@ -528,8 +529,8 @@ tests whenever changes are made to your source code?</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Are your test results publicly visible?</td>
-<td>2</td>
+<td>*Are your test results publicly visible?</td>
+<td>1</td>
 <td><a
 href="https://github.com/ForkBombers/Recipe_Recommender/tree/v2/test"><u>https://github.com/ForkBombers/Recipe_Recommender/tree/v2/test</u></a></td>
 </tr>
@@ -584,7 +585,7 @@ available?</td>
 <td>Can users subscribe to notifications to changes to your<br />
 source code repository?</td>
 <td>3</td>
-<td>You can keep a watch on Github</td>
+<td>Yes. You can keep a watch on Github.</td>
 </tr>
 <tr class="odd">
 <td>If your software is developed as an open source project<br />
@@ -642,13 +643,13 @@ href="https://github.com/ForkBombers/Recipe_Recommender/blob/master/LICENSE"><u>
 <tr class="odd">
 <td>Is your software released under an open source licence?</td>
 <td>3</td>
-<td>Yes, MIT License is an open source license</td>
+<td>Yes, MIT License is an open source license.</td>
 </tr>
 <tr class="even">
 <td>Is your software released under an OSI-approved<br />
 open-source licence?</td>
 <td>3</td>
-<td>Yes, MIT License is an OSI approved open source license</td>
+<td>Yes, MIT License is an OSI-approved open source license.</td>
 </tr>
 <tr class="odd">
 <td>Does each of your source code files include a licence header?</td>
