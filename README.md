@@ -7,7 +7,7 @@
 
 ## Watch how our application works:
 
-### Click here to watch - [Youtube Video](https://youtu.be/133EWUQWe5Q) <br>
+### *Click here to watch - [Youtube Video](https://youtu.be/133EWUQWe5Q) <br>
 
 <br><br>
 
