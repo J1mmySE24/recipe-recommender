@@ -53,6 +53,7 @@ Our latest version is packed with user-friendly enhancements and features design
 We’re thrilled to introduce our latest updates, designed to make your cooking experience even more enjoyable and seamless. Here’s a comprehensive list of new features, enhancements, and bug fixes added to Recipe Recommender: <br>
 
 🚀 New Features
+
 1. Recipe Name Search: You asked, we delivered! Now, you can search for recipes by name. Craving specific dishes like enchiladas or brownies? Just type the name, and Recipe Recommender will find matching recipes with ease. <br>
 
 2. Preparation Time Filters: Life is busy, but great meals don’t have to be time-consuming! Use our new filters to find recipes by prep time, allowing you to select recipes that fit your schedule, from quick bites to gourmet meals. <br>
@@ -60,6 +61,7 @@ We’re thrilled to introduce our latest updates, designed to make your cooking 
 3. Dark Mode: Introducing a sleek dark mode option for a comfortable and visually appealing experience in low-light settings. Easily switch between light and dark themes as per your preference. <br>
 
 🌟 Enhancements
+
 1. User Reviews and Ratings: Our new rating and review system allows users to view ratings and reviews on the recipes they love. Discover crowd-favorites and make informed choices, while contributing your own reviews to help other users. <br>
 
 2. Enhanced Recipe Suggestions: Improved recommendation algorithms for better personalization based on ingredients, dietary preferences, and past interactions, making each suggestion more tailored to your tastes. <br>
@@ -69,10 +71,10 @@ We’re thrilled to introduce our latest updates, designed to make your cooking 
 4. The requirements.txt file has been updated to ensure forward compatibility by specifying package versions greater than or equal to the ones explicitly mentioned. This modification allows for the installation of packages with versions that meet or exceed the specified ones, thus accommodating future updates and maintaining compatibility with evolving dependencies. <br>
 
 🛠️ Upgrades and Bug Fixes
+
 1. Improved Search Accuracy: Fine-tuned our search functionality to provide more accurate results and ensure all relevant recipes appear in your search. <br>
 
 2. Minor UI Fixes: Addressed various minor UI inconsistencies to improve readability and navigation across devices. <br>
-   
 3. Recipe Card Layouts: Updated recipe card layouts for better organization, readability, and a cleaner overall look.
 
 ## Documentation and Project Flow:
@@ -100,9 +102,9 @@ We’re thrilled to introduce our latest updates, designed to make your cooking 
 10. Toggle Between Light and Dark Mode: Customize your viewing experience by switching between light and dark themes based on your preference or lighting conditions.
 
 11. Logout: Securely log out of your account to protect your profile and activity data.
-<br><br>
+    <br><br>
 
-*Source documentation can be found at: [Recipe Recommender Docs](https://github.com/pnprathima/Recipe_Recommender/blob/master/Recipe%20Recommender%20Source%20Documentation.pdf)
+\*Source documentation can be found at: [Recipe Recommender Docs](https://github.com/pnprathima/Recipe_Recommender/blob/master/Recipe%20Recommender%20Source%20Documentation.pdf)
 
 ## API Documentation
 
@@ -157,7 +159,7 @@ Detailed documentation can be found at: [API Docs](https://github.com/pnprathima
 
 ### Installation:
 
-*Check out our comprehensive YouTube video demonstrating each step for easy guidance. [Project Setup](https://youtu.be/uKh-afpUdh0)
+\*Check out our comprehensive YouTube video demonstrating each step for easy guidance. [Project Setup](https://youtu.be/uKh-afpUdh0)
 
 - clone repository using `git clone https://github.com/pnprathima/Recipe_Recommender.git`
 - setup for frontend
@@ -222,13 +224,13 @@ Tejas Desai (tdesai) <br>
 
 ## New Features
 
-Filter Recipes by Preparation Time: 
+Filter Recipes by Preparation Time:
 With busy schedules in mind, we’ve introduced a filter that allows users to search for recipes based on preparation time. Whether you’re looking for a quick 15-minute meal or are ready to try a more elaborate recipe, you can now filter recipes to match your available cooking time. This feature is perfect for users who want efficient meal planning and time management in the kitchen. <br>
 
-Dark Mode Theme Switch: 
+Dark Mode Theme Switch:
 The app now includes a dark mode theme to enhance user comfort and accessibility. With a single toggle, users can switch between light and dark themes, choosing the one that suits their preference or ambient lighting conditions. Dark mode reduces eye strain in low-light settings, providing a user-friendly and modern interface experience. <br>
 
-Recipe Reviews and Ratings: 
+Recipe Reviews and Ratings:
 We’ve added a reviews and ratings feature to allow users to share their feedback on recipes they’ve tried. This feature not only helps other users make informed choices but also encourages community engagement. Users can read reviews, see average ratings, and contribute their own reviews, creating a collaborative environment for food lovers. <br>
 
 These new features collectively make Saveurs Sélection a more comprehensive, user-centric, and interactive app, transforming it into a community-driven platform where users can discover, share, and personalize their cooking experiences. Whether you’re cooking on a time limit, exploring a new cuisine, or looking for innovative recipes, Saveurs Sélection is designed to make every meal a delightful adventure. <br>
@@ -239,6 +241,6 @@ Nikita Chaudhari (nchaudh5) <br>
 Kaustubh Sonawane (ksonawa)<br>
 Tejas Desai (tdesai) <br>
 
-*Email
+\*Email
 
 <p align="center">Made with ❤️ on GitHub.</p>
