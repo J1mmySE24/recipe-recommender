@@ -1,11 +1,14 @@
+# Saveurs Sélection - 'Your Ingredients, Our Recipes – What’s Cooking?'
+
 # Enhanced Recipe Recommender: Introducing additional features and addressing issues for an improved user experience.
 
 ![](Reciperec.gif)
+![]https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ffa9c6122946691.60e466ccb5810.gif")
 <br><br>
 
 ## Watch how our application works:
 
-### Click here to watch - [Youtube Video](https://youtu.be/133EWUQWe5Q) <br>
+comment: <> ### Click here to watch - [Youtube Video](https://youtu.be/133EWUQWe5Q) <br>
 
 <br><br>
 
@@ -29,74 +32,108 @@
 
 <h2> What is Recipe Recommender? </h2>
 
-Meet Recipe Recommender, your ultimate kitchen companion! Say goodbye to the dilemma of deciding what to cook with the ingredients on hand. We've revolutionized the cooking experience with an application that effortlessly suggests delicious recipes based on your kitchen inventory. <br>
+Meet Recipe Recommender—your ultimate ally in the kitchen! Gone are the days of wondering what you can cook with what you have on hand. This smart, intuitive app transforms the cooking experience by suggesting delightful recipes based on your pantry and fridge ingredients, turning your daily meal prep into a source of inspiration. <br>
 
-Unlock the full potential of your pantry and fridge as our innovative software guides you in selecting perfect dishes tailored to your current ingredients. Cooking is now an exciting adventure rather than a daunting task. Immerse yourself in a realm of limitless culinary possibilities with Recipe Recommender. <br>
+Unlock endless culinary possibilities as our innovative software guides you in crafting dishes that suit your current ingredients. Recipe Recommender takes the stress out of cooking and turns it into a fun and creative journey. Whether you’re cooking for one or for a crowd, you’ll find recipes tailored to your needs, making the kitchen a place of excitement, not guesswork. <br>
 
-We've added <b> numerous entertaining new features and fixes to enhance user-friendliness.</b> <br>
+Craving tater tots or tiramisu? Now, you can search recipes by name! Simply type in the dish you’re craving, explore a variety of recipes with detailed descriptions, and start cooking with confidence. <br>
 
-1. Craving enchiladas but unsure how to cook Mexican food? Now, you can search for recipes by names! Just type in "enchiladas," choose a recipe based on its features, and enjoy. <br>
+Our latest version is packed with user-friendly enhancements and features designed to enrich your cooking experience: </b> <br>
 
-2. Imagine finding interesting recipes during your commute. With another new feature, you can save them on the go. We've also introduced dedicated user profiles. Sign up, log in, and save your favorite recipes under your profile in the "bookmarks" section. When you're ready to cook, everything will be waiting for you. <br>
+1. Prep Time Filters: Short on time? Filter recipes by preparation time to find dishes that fit into your schedule, whether you have 15 minutes or an hour to spare. <br>
 
-3. That's not all! We've removed non-functional buttons, technically known as "refactoring the system." <br>
-4. Your profile, information, and favorite recipes now have a dedicated space. Secure logins and logouts ensure no duplicate entries or exposed credentials, making the system more secure.
+2. Dark Mode: Cooking late at night or in low light? Our new dark mode theme provides a comfortable viewing experience for your eyes and adds a sleek, modern look to the app. <br>
 
-<br> <b> More about our new additions in our next section!</b>
+3. Reviews and Ratings: Make informed choices with our new reviews and ratings feature. See what other users think of each recipe to help fellow cooks discover their next favorite meal. <br>
+
+<br> <b> Discover more about these enhancements and the countless possibilities they unlock in our next section! </b>
 
 ## Feature additions: Enhancements, Upgrades and BugFixes:
 
-Presenting our latest additions: Here's a comprehensive list of all our new features, enhancements, and upgrades! <br>
+We’re thrilled to introduce our latest updates, designed to make your cooking experience even more enjoyable and seamless. Here’s a comprehensive list of new features, enhancements, and bug fixes added to Recipe Recommender: <br>
 
-1. User Profile: In our application, users can now establish a profile with a unique username and password, allowing seamless login and logout. This facilitates personalized experiences and customized access to preferences and activities. Further details will be discussed in the following points. Your profile, information, and preferred recipes now inhabit a designated area, simplifying the management of all your belongings in one organized space.
-2. Bookmarks: Picture this scenario: You're commuting, scrolling through intriguing recipes in our app. Thanks to a cutting-edge feature, you can now save them instantly. The introduction of dedicated user profiles elevates your experience. Simply sign up, log in, and curate your favorite recipes in the "bookmarks" section under your profile. When the time comes to cook, everything awaits you – seamlessly organized and easily accessible.
-3. Search for recipes by name: Previously limited to ingredient-based searches only, our system now boasts an exciting upgrade. You can now search for recipes by name! Ever craved enchiladas without knowing the recipe? Simply input "enchiladas," peruse based on features, and relish the culinary journey.
-4. Refactoring the UI: We've eliminated inactive buttons and links, employing a technical process termed "system refactoring" to enhance functionality and optimize the user interface.
-5. System security upgrade: We observed some passwords present in the codebase, which is a major security threat. We have ensured to removed this and move it to the DB. Additionally, we have implemented secure logins and logouts ensuring the prevention of duplicate entries and safeguards credentials, fortifying the overall security of the system.
-6. The requirements.txt file has been updated to ensure forward compatibility by specifying package versions greater than or equal to the ones explicitly mentioned. This modification allows for the installation of packages with versions that meet or exceed the specified ones, thus accommodating future updates and maintaining compatibility with evolving dependencies.
+🚀 New Features
+1. Recipe Name Search: You asked, we delivered! Now, you can search for recipes by name. Craving specific dishes like enchiladas or brownies? Just type the name, and Recipe Recommender will find matching recipes with ease. <br>
+
+2. Preparation Time Filters: Life is busy, but great meals don’t have to be time-consuming! Use our new filters to find recipes by prep time, allowing you to select recipes that fit your schedule, from quick bites to gourmet meals. <br>
+
+3. Dark Mode: Introducing a sleek dark mode option for a comfortable and visually appealing experience in low-light settings. Easily switch between light and dark themes as per your preference. <br>
+
+🌟 Enhancements
+1. User Reviews and Ratings: Our new rating and review system allows users to view ratings and reviews on the recipes they love. Discover crowd-favorites and make informed choices, while contributing your own reviews to help other users. <br>
+
+2. Enhanced Recipe Suggestions: Improved recommendation algorithms for better personalization based on ingredients, dietary preferences, and past interactions, making each suggestion more tailored to your tastes. <br>
+
+3. Ingredient Availability Check: Get suggestions for similar recipes if you’re missing one or two ingredients, so you can make substitutions or pick alternatives easily. <br>
+
+4. The requirements.txt file has been updated to ensure forward compatibility by specifying package versions greater than or equal to the ones explicitly mentioned. This modification allows for the installation of packages with versions that meet or exceed the specified ones, thus accommodating future updates and maintaining compatibility with evolving dependencies. <br>
+
+🛠️ Upgrades and Bug Fixes
+1. Improved Search Accuracy: Fine-tuned our search functionality to provide more accurate results and ensure all relevant recipes appear in your search. <br>
+
+2. Minor UI Fixes: Addressed various minor UI inconsistencies to improve readability and navigation across devices. <br>
+   
+3. Recipe Card Layouts: Updated recipe card layouts for better organization, readability, and a cleaner overall look.
 
 ## Documentation and Project Flow:
 
 ![](flow-rr.gif) <br><br>
 
-1. User Registration: Establish a unique username and password; no duplicate usernames allowed, ensuring password confidentiality.
-2. User Authentication: Log in using the correct username and password for secure access.
-3. Search Recipes by Ingredients: Input your available ingredients to discover relevant recipes based on ingredient names.
-4. Search Recipes by Dish Name: Locate recipes by specifying the dish name in the search.
-5. Add a Recipe: Share details such as ingredients, dish name, time, cuisine, instructions, and optional images to contribute your recipe.
-6. Bookmark Favorite Recipes: Save preferred recipes for easy access.
-7. View Bookmarked Recipes in User Profile: Access and review all saved recipes conveniently stored under your user profile.
-8. Logout: Securely log out to protect your profile information and activities. <br><br>
+1. User Registration: Create a unique username and password to securely register on the platform. Duplicate usernames are not allowed, and all passwords are securely encrypted to maintain confidentiality.
 
-Source documentation can be found at: [Recipe Recommender Docs](https://github.com/pnprathima/Recipe_Recommender/blob/master/Recipe%20Recommender%20Source%20Documentation.pdf)
+2. User Authentication: Log in with your username and password to gain secure access to all features. Incorrect login attempts are limited to enhance account security.
+
+3. Search Recipes by Ingredients: Enter the ingredients you have on hand, and discover a variety of recipes tailored to your pantry. The recommendation algorithm now suggests recipes even when a few ingredients are missing, offering alternative options.
+
+4. Search Recipes by Dish Name: Looking for a specific dish? Simply type in the dish name (e.g., "tater tots") to locate matching recipes. This feature provides detailed descriptions to help you choose the perfect recipe.
+
+5. Add a Recipe: Contribute to the recipe collection by adding your own recipes! Fill in details such as ingredients, dish name, preparation time, cuisine type, instructions, and upload optional images to enhance the recipe’s appeal.
+
+6. Bookmark Favorite Recipes: Save recipes you love with the bookmark feature. These recipes are stored under your profile for quick and convenient access.
+
+7. View Bookmarked Recipes in User Profile: Access all your saved recipes in your profile. Easily browse through your favorites and pick one to cook anytime.
+
+8. Filter Recipes by Preparation Time: Find recipes based on your available time. Filter options allow you to select recipes based on preparation time, from quick 15-minute snacks to more elaborate meals.
+
+9. Read Recipe Reviews and Ratings: Check reviews and ratings left by other users to get insights on a recipe before trying it. Share your experience and rate the recipes you try to help others make informed choices.
+
+10. Toggle Between Light and Dark Mode: Customize your viewing experience by switching between light and dark themes based on your preference or lighting conditions.
+
+11. Logout: Securely log out of your account to protect your profile and activity data.
+<br><br>
+
+*Source documentation can be found at: [Recipe Recommender Docs](https://github.com/pnprathima/Recipe_Recommender/blob/master/Recipe%20Recommender%20Source%20Documentation.pdf)
 
 ## API Documentation
 
-**Get Recipes:**
-Retrieve a list of recipes based on specified filters like ingredients, cuisine, and page parameters. Success returns a code of 200 with the recipe list; error returns code 500 with an error message.
+1. Get Recipes: Retrieve a list of recipes based on specified filters such as ingredients, cuisine, preparation time, and page parameters. A successful request returns a status code of 200 with the recipe list; in case of an error, it returns a status code of 500 with an error message. <br>
 
-**Get Recipe Cuisines:**
-Fetches available cuisines, responding with a code of 200 and an array of cuisine strings on success. In case of an error, it returns a code of 500 with an error message.
+2. Get Recipe Cuisines: Fetch all available cuisines with a response code of 200 and an array of cuisine strings on success. If an error occurs, it returns a status code of 500 with an error message. <br>
 
-**Add Recipe:**
-Allows users to add a new recipe via the /addRecipe endpoint, responding with a code of 200 and the inserted recipe's ID on success. In case of an error, it returns a code of 500 with an error message.
+3. Add Recipe: Allows users to add a new recipe via the /addRecipe endpoint by providing details like ingredients, dish name, cuisine, preparation time, and optional images. On success, it responds with a status code of 200 and the inserted recipe's ID; in case of an error, it returns a status code of 500 with an error message. <br>
 
-**Get Ingredients:**
-Retrieves a list of distinct ingredients through the /callIngredients endpoint. Success returns a code of 200 with an array of ingredient strings; error returns code 500 with an error message.
+4. Get Ingredients: Retrieve a list of distinct ingredients through the /callIngredients endpoint. A successful response returns a status code of 200 with an array of ingredient strings, and a failed request returns a status code of 500 with an error message. <br>
 
-**User Signup:**
-Enables user registration at the /signup endpoint. Success returns a code of 200 with a success indicator; error returns code 500 with an error message.
+5. User Signup: Register a new user at the /signup endpoint. Success returns a status code of 200 with a success indicator; on failure, it returns a status code of 500 with an error message. <br>
 
-**User Login:**
-Authenticates a user via the /login endpoint, returning a code of 200 with a success indicator and user object on success. In case of an error, it returns a code of 500 with an error message.
+6. User Login: Authenticate a user through the /login endpoint, returning a status code of 200 with a success indicator and user object on success. If authentication fails, it returns a status code of 500 with an error message. <br>
 
-**Get Bookmarks:**
-Retrieves bookmarked recipes for a user through the /getBookmarks endpoint. Success returns a code of 200 with an array of bookmarked recipes; error returns code 500 with an error message.
+7. Get Bookmarks: Retrieve bookmarked recipes for a user via the /getBookmarks endpoint. On success, it responds with a status code of 200 and an array of bookmarked recipes; on failure, it returns a status code of 500 with an error message. <br>
 
-**Add Recipe to User Profile:**
-Adds a recipe to a user's profile bookmarks via the /addRecipeToProfile endpoint. Success returns a code of 200 with the count of modified items; error returns code 500 with an error message.
+8. Add Recipe to User Profile: Bookmark a recipe for a user profile through the /addRecipeToProfile endpoint. A successful request returns a status code of 200 with the count of modified items, while an error returns a status code of 500 with an error message. <br>
 
-<br>Detailed documentation can be found at: [API Docs](https://github.com/pnprathima/Recipe_Recommender/blob/master/API_Documentation.pdf)
+9. Search Recipes by Dish Name: Use the /searchByDishName endpoint to find recipes by specifying the dish name (e.g., "enchiladas" or "tiramisu"). On success, it returns a status code of 200 with matching recipes; an error returns a status code of 500 with an error message. <br>
+
+10. Filter Recipes by Preparation Time: Apply preparation time filters via the /filterByPrepTime endpoint to find recipes based on available time. Successful requests return a code of 200 with filtered recipes, and errors return code 500 with an error message. <br>
+
+11. View Recipe Reviews: View reviews and ratings of recipes through this new feature and get to know about the food you would like to cook. <br>
+
+12. Toggle Dark Mode: Enable or disable dark mode via the Switch to Dark/Light Mode button, providing a user-friendly interaction. <br>
+
+This documentation provides a comprehensive guide for accessing all current functionalities and endpoints in the Recipe Recommender project.
+<br><br>
+
+Detailed documentation can be found at: [API Docs](https://github.com/pnprathima/Recipe_Recommender/blob/master/API_Documentation.pdf)
 
 ## Technology Stack
 
@@ -120,7 +157,7 @@ Adds a recipe to a user's profile bookmarks via the /addRecipeToProfile endpoint
 
 ### Installation:
 
-Check out our comprehensive YouTube video demonstrating each step for easy guidance. [Project Setup](https://youtu.be/uKh-afpUdh0)
+*Check out our comprehensive YouTube video demonstrating each step for easy guidance. [Project Setup](https://youtu.be/uKh-afpUdh0)
 
 - clone repository using `git clone https://github.com/pnprathima/Recipe_Recommender.git`
 - setup for frontend
@@ -170,20 +207,38 @@ Please see our [CONTRIBUTING.md](https://github.com/pnprathima/Recipe_Recommende
 
 ## FUTURE SCOPE
 
-Meal planning- saving data for all meals of the day.
-
-Voice to text integration.
-
-Chatbot integration- to answer quick queries about the recipe.
+Grocery List Generator <br>
+Weekly Meal Planning Tool - saving data for all meals of the day <br>
+Voice to Text Tntegration <br>
+Chatbot Integration- to answer quick queries about the recipe <br>
+Allergic Ingredient Tracker <br>
+Nutrition Tracker <br>
 
 ## Team Members
 
-Tejas Desai <br>
-Kaustubh Sonnawane <br>
-Nikita Chuadhari <br>
+Nikita Chaudhari (nchaudh5) <br>
+Kaustubh Sonawane (ksonawa)<br>
+Tejas Desai (tdesai) <br>
 
 ## New Features
 
-Implemented personalized diertary requirements based filtering.
+Filter Recipes by Preparation Time: 
+With busy schedules in mind, we’ve introduced a filter that allows users to search for recipes based on preparation time. Whether you’re looking for a quick 15-minute meal or are ready to try a more elaborate recipe, you can now filter recipes to match your available cooking time. This feature is perfect for users who want efficient meal planning and time management in the kitchen. <br>
+
+Dark Mode Theme Switch: 
+The app now includes a dark mode theme to enhance user comfort and accessibility. With a single toggle, users can switch between light and dark themes, choosing the one that suits their preference or ambient lighting conditions. Dark mode reduces eye strain in low-light settings, providing a user-friendly and modern interface experience. <br>
+
+Recipe Reviews and Ratings: 
+We’ve added a reviews and ratings feature to allow users to share their feedback on recipes they’ve tried. This feature not only helps other users make informed choices but also encourages community engagement. Users can read reviews, see average ratings, and contribute their own reviews, creating a collaborative environment for food lovers. <br>
+
+These new features collectively make Saveurs Sélection a more comprehensive, user-centric, and interactive app, transforming it into a community-driven platform where users can discover, share, and personalize their cooking experiences. Whether you’re cooking on a time limit, exploring a new cuisine, or looking for innovative recipes, Saveurs Sélection is designed to make every meal a delightful adventure. <br>
+
+## Support and Contact
+
+Nikita Chaudhari (nchaudh5) <br>
+Kaustubh Sonawane (ksonawa)<br>
+Tejas Desai (tdesai) <br>
+
+*Email
 
 <p align="center">Made with ❤️ on GitHub.</p>
