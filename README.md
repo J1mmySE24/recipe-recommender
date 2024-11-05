@@ -3,12 +3,11 @@
 # Enhanced Recipe Recommender: Introducing additional features and addressing issues for an improved user experience.
 
 ![](Reciperec.gif)
-![]https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ffa9c6122946691.60e466ccb5810.gif")
 <br><br>
 
 ## Watch how our application works:
 
-comment: <> ### Click here to watch - [Youtube Video](https://youtu.be/133EWUQWe5Q) <br>
+### Click here to watch - [Youtube Video](https://youtu.be/133EWUQWe5Q) <br>
 
 <br><br>
 
@@ -242,5 +241,7 @@ Kaustubh Sonawane (ksonawa)<br>
 Tejas Desai (tdesai) <br>
 
 \*Email
+
+Thank you!
 
 <p align="center">Made with ❤️ on GitHub.</p>
