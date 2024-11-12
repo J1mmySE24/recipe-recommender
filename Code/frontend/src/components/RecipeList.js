@@ -54,7 +54,10 @@ const RecipeList = ({ recipes }) => {
 
   const filterRecipesByCookingTime = (recipes) => {
     if (!cookingTimeFilter) return recipes;
-    return recipes.filter(recipe => parseInt(recipe.TotalTimeInMins) <= parseInt(cookingTimeFilter));
+    return recipes.filter(
+      (recipe) =>
+        parseInt(recipe.TotalTimeInMins) <= parseInt(cookingTimeFilter),
+    );
   };
 
   // Function to filter recipes by diet type
@@ -102,10 +105,17 @@ const RecipeList = ({ recipes }) => {
           />
         </Box>
 
-        <SimpleGrid spacing={5} templateColumns="repeat(auto-fill, minmax(250px, 1fr))">
+        <SimpleGrid
+          spacing={5}
+          templateColumns="repeat(auto-fill, minmax(250px, 1fr))"
+        >
           {finalFilteredRecipes.length !== 0 ? (
             finalFilteredRecipes.map((recipe) => (
-              <RecipeCard key={recipe._id} handler={handleViewRecipe} recipe={recipe} />
+              <RecipeCard
+                key={recipe._id}
+                handler={handleViewRecipe}
+                recipe={recipe}
+              />
             ))
           ) : (
             <Text data-testid="noResponseText" fontSize={"lg"} color={"gray"}>
@@ -113,9 +123,6 @@ const RecipeList = ({ recipes }) => {
             </Text>
           )}
         </SimpleGrid>
-
-
-        
       </Box>
       <Modal size={"6xl"} isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
