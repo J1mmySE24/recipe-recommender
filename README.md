@@ -15,7 +15,7 @@
 [![DOI](https://zenodo.org/badge/706798373.svg)](https://zenodo.org/doi/10.5281/zenodo.10023534)
 [![GitHub issues open](https://img.shields.io/github/issues/ForkBombers/Recipe_Recommender)](https://github.com/ForkBombers/Recipe_Recommender/issues)
 [![GitHub stars](https://badgen.net/github/stars/ForkBombers/Recipe_Recommender)](https://badgen.net/github/stars/ForkBombers/Recipe_Recommender)
-![Github closes issues](https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed)
+[![Github closes issues](https://img.shields.io/github/issues/ForkBombers/Recipe_Recommender)](https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed)
 [![Build Status](https://app.travis-ci.com/ForkBombers/Recipe_Recommender.svg?branch=master)](https://app.travis-ci.com/ForkBombers/Recipe_Recommender)
 [![codecov](https://codecov.io/gh/usmanwardag/dollar_bot/branch/main/graph/badge.svg?token=PYAWX95R67)](https://codecov.io/gh/usmanwardag/dollar_bot)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
