@@ -236,12 +236,15 @@ These new features collectively make Saveurs Sélection a more comprehensive, us
 
 ## Support and Contact
 
-Nikita Chaudhari (nchaudh5) <br>
-Kaustubh Sonawane (ksonawa)<br>
-Tejas Desai (tdesai) <br>
+ <center>
+  <table>
+    <tr>
+        <td align="center"><a href="https://github.com/XingJinming-real"><img src="https://avatars.githubusercontent.com/u/64783524?v=4" width="100px;" alt=""/><br /><sub><b>Jinming Xing</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/krishapatel10"><img src="https://avatars.githubusercontent.com/u/99911043?v=4" width="100px;" alt=""/><br /><sub><b>Krisha Patel</b></sub></a></td>
+    <td align="center"><a href="https://github.com/shreyasdvrj"><img src="https://avatars.githubusercontent.com/u/57234787?v=4" width="100px;" alt=""/><br /><sub><b>Shreyas Devaraj</b></sub></a><br /></td>
+    </tr>
+  </table>
+</center>
 
-\*Email
-
-Thank you!
-
-<p align="center">Made with ❤️ on GitHub.</p>
+#### Email 
+[team96.se@gmail.com](mailto:team96.se@gmail.com) : Yes this is an actual email id, contact us! :) 
