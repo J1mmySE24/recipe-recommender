@@ -1,8 +1,8 @@
-Team96
----
-* Jinming Xing
-* Krisha Patel
-* Shreyas Devaraj
+## Team96
+
+- Jinming Xing
+- Krisha Patel
+- Shreyas Devaraj
 
 ## NAVIGATION LINKS:
 
