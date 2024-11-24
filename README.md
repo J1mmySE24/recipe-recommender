@@ -15,7 +15,7 @@
 [![DOI](https://zenodo.org/badge/884950979.svg)](https://doi.org/10.5281/zenodo.14210981)
 <img src="https://img.shields.io/github/stars/J1mmySE24/recipe-recommender?style=flat-square" alt="recipe-recommender stars"/>
 <a href="https://github.com/J1mmySE24/recipe-recommender/discussions" alt="discussion">
-<img src="https://img.shields.io/github/discussions/J1mmySE24/recipe-recommender" /></a> 
+<img src="https://img.shields.io/github/discussions/J1mmySE24/recipe-recommender" /></a>
 ![GitHub last commit](https://img.shields.io/github/last-commit/J1mmySE24/recipe-recommender)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
@@ -32,9 +32,10 @@
 ![CI/CD](https://img.shields.io/badge/CI/CD-Passing-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <a href="https://github.com/J1mmySE24/recipe-recommender/graphs/commit-activity" alt="commit activity">
-<img src="https://img.shields.io/github/commit-activity/w/J1mmySE24/recipe-recommender" /></a> 
+<img src="https://img.shields.io/github/commit-activity/w/J1mmySE24/recipe-recommender" /></a>
 
 ## Team
+
 **Team 96** <br>
 Jinming Xing <br>
 Krisha Patel <br>
