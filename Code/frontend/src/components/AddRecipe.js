@@ -244,9 +244,9 @@ const AddRecipe = () => {
             />
           </HStack>
           <HStack spacing={"5"} alignItems={"flex-start"}>
-          <Select 
-              id="dietType" 
-              onChange={handleChange} 
+            <Select
+              id="dietType"
+              onChange={handleChange}
               placeholder="Select Diet Type"
             >
               <option value="Vegan">Vegan</option>

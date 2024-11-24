@@ -163,7 +163,7 @@ Detailed documentation can be found at: [API Docs](https://github.com/pnprathima
 - clone repository using `git clone https://github.com/pnprathima/Recipe_Recommender.git`
 - database setup
   update all the env variables pertaining to mongo atlas uri in the backend directory.
-  in ```Code/backend/db``` run ```node insertRecipes.js``` to have an initial dataset of recipes (else user can create their own as well). This reads from the cleaned csv file in the same direcotry.
+  in `Code/backend/db` run `node insertRecipes.js` to have an initial dataset of recipes (else user can create their own as well). This reads from the cleaned csv file in the same direcotry.
 - setup for frontend
   open terminal and navigate to the **frontend** folder and execute the following:
   ```
