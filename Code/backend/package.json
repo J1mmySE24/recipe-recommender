@@ -9,7 +9,7 @@
     "lint": "eslint 'dao/**.js'",
     "format": "prettier --check ./dao",
     "format:fix": "prettier --write ./dao",
-    "start": "nodemon server.js",  
+    "start": "nodemon index.js",  
     "start-chatbot": "node ./api/chatbotController.js", 
     "start-ollama": "ollama start",
     "dev": "npm run start-ollama & npm run start & npm run start-chatbot"  
