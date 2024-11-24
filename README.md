@@ -1,6 +1,6 @@
 # Saveurs Sélection - 'Your Ingredients, Our Recipes – What’s Cooking?'
 
-# Enhanced Recipe Recommender: Introducing additional features and addressing issues for an improved user experience.
+<!-- # Enhanced Recipe Recommender: Introducing additional features and addressing issues for an improved user experience.
 
 ![](Reciperec.gif)
 <br><br>
@@ -9,11 +9,10 @@
 
 ### \*Click here to watch - [Youtube Video](https://youtu.be/133EWUQWe5Q) <br>
 
-<br><br>
+<br><br> -->
 
 [![Made With](https://img.shields.io/badge/made%20with-javascript-gree)](https://www.javascript.com/)
 [![DOI](https://zenodo.org/badge/884950979.svg)](https://doi.org/10.5281/zenodo.14210981)
-[![GitHub issues open](https://img.shields.io/github/issues/J1mmySE24/recipe-recommender)](https://github.com/J1mmySE24/recipe-recommender/issues)
 <img src="https://img.shields.io/github/stars/J1mmySE24/recipe-recommender?style=flat-square" alt="recipe-recommender stars"/>
 <a href="https://github.com/J1mmySE24/recipe-recommender/discussions" alt="discussion">
 <img src="https://img.shields.io/github/discussions/J1mmySE24/recipe-recommender" /></a> 
@@ -34,6 +33,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <a href="https://github.com/J1mmySE24/recipe-recommender/graphs/commit-activity" alt="commit activity">
 <img src="https://img.shields.io/github/commit-activity/w/J1mmySE24/recipe-recommender" /></a> 
+
+## Team
+**Team 96** <br>
+Jinming Xing <br>
+Krisha Patel <br>
+Shreyas Devaraj <br>
 
 <h2> What is Recipe Recommender? </h2>
 
@@ -220,12 +225,6 @@ Voice to Text Tntegration <br>
 Chatbot Integration- to answer quick queries about the recipe <br>
 Allergic Ingredient Tracker <br>
 Nutrition Tracker <br>
-
-## Team Members
-
-Nikita Chaudhari (nchaudh5) <br>
-Kaustubh Sonawane (ksonawa)<br>
-Tejas Desai (tdesai) <br>
 
 ## New Features
 
