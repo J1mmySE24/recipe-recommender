@@ -1,6 +1,6 @@
 # Saveurs Sélection - 'Your Ingredients, Our Recipes – What’s Cooking?'
 
-# Enhanced Recipe Recommender: Introducing additional features and addressing issues for an improved user experience.
+<!-- # Enhanced Recipe Recommender: Introducing additional features and addressing issues for an improved user experience.
 
 ![](Reciperec.gif)
 <br><br>
@@ -9,25 +9,37 @@
 
 ### \*Click here to watch - [Youtube Video](https://youtu.be/133EWUQWe5Q) <br>
 
-<br><br>
+<br><br> -->
 
 [![Made With](https://img.shields.io/badge/made%20with-javascript-gree)](https://www.javascript.com/)
-[![DOI](https://zenodo.org/badge/706798373.svg)](https://zenodo.org/doi/10.5281/zenodo.10023534)
-[![GitHub issues open](https://img.shields.io/github/issues/ForkBombers/Recipe_Recommender)](https://github.com/ForkBombers/Recipe_Recommender/issues)
-[![GitHub stars](https://badgen.net/github/stars/ForkBombers/Recipe_Recommender)](https://badgen.net/github/stars/ForkBombers/Recipe_Recommender)
-[![Github closes issues](https://img.shields.io/github/issues-closed-raw/ForkBombers/Recipe_Recommender)](https://github.com/ForkBombers/Recipe_Recommender/issues?q=is%3Aissue+is%3Aclosed)
-[![Build Status](https://app.travis-ci.com/ForkBombers/Recipe_Recommender.svg?branch=master)](https://app.travis-ci.com/ForkBombers/Recipe_Recommender)
-[![codecov](https://codecov.io/gh/usmanwardag/dollar_bot/branch/main/graph/badge.svg?token=PYAWX95R67)](https://codecov.io/gh/usmanwardag/dollar_bot)
+[![DOI](https://zenodo.org/badge/884950979.svg)](https://doi.org/10.5281/zenodo.14210981)
+<img src="https://img.shields.io/github/stars/J1mmySE24/recipe-recommender?style=flat-square" alt="recipe-recommender stars"/>
+<a href="https://github.com/J1mmySE24/recipe-recommender/discussions" alt="discussion">
+<img src="https://img.shields.io/github/discussions/J1mmySE24/recipe-recommender" /></a>
+![GitHub last commit](https://img.shields.io/github/last-commit/J1mmySE24/recipe-recommender)
+[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Github closes issues](https://img.shields.io/github/issues-closed-raw/J1mmySE24/recipe-recommender)](https://github.com/J1mmySE24/recipe-recommender/issues?q=is%3Aissue+is%3Aclosed)
+[![codecov](https://codecov.io/github/J1mmySE24/recipe-recommender/graph/badge.svg?token=leSqogmx9Q)](https://codecov.io/github/J1mmySE24/recipe-recommender)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Respost - Write comment to new Issue event](https://github.com/ForkBombers/Recipe_Recommender/actions/workflows/Respost.yml/badge.svg)](https://github.com/ForkBombers/Recipe_Recommender/actions/workflows/Respost.yml)
-![GitHub contributors](https://img.shields.io/github/contributors/ForkBombers/Recipe_Recommender)
-[![Code Formatter and Syntax Check](https://github.com/ForkBombers/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml/badge.svg)](https://github.com/ForkBombers/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml)
-[![Running Code Coverage](https://github.com/ForkBombers/Recipe_Recommender/actions/workflows/coverage.yml/badge.svg)](https://github.com/ForkBombers/Recipe_Recommender/actions/workflows/coverage.yml)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ForkBombers/Recipe_Recommender)
-![Open Issues](https://img.shields.io/github/issues-raw/ForkBombers/Recipe_Recommender)
-![Closed Issues](https://img.shields.io/github/issues-closed-raw/ForkBombers/Recipe_Recommender)
+[![Respost - Write comment to new Issue event](https://github.com/J1mmySE24/recipe-recommender/actions/workflows/Respost.yml/badge.svg)](https://github.com/J1mmySE24/recipe-recommender/actions/workflows/Respost.yml)
+![GitHub contributors](https://img.shields.io/github/contributors/J1mmySE24/recipe-recommender)
+[![Code Formatter and Syntax Check](https://github.com/J1mmySE24/recipe-recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml/badge.svg)](https://github.com/J1mmySE24/recipe-recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml)
+[![Running Code Coverage](https://github.com/J1mmySE24/recipe-recommender/actions/workflows/coverage.yml/badge.svg)](https://github.com/J1mmySE24/recipe-recommender/actions/workflows/coverage.yml)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/J1mmySE24/recipe-recommender)
+![Open Issues](https://img.shields.io/github/issues-raw/J1mmySE24/recipe-recommender)
+![Closed Issues](https://img.shields.io/github/issues-closed-raw/J1mmySE24/recipe-recommender)
 ![CI/CD](https://img.shields.io/badge/CI/CD-Passing-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<a href="https://github.com/J1mmySE24/recipe-recommender/graphs/commit-activity" alt="commit activity">
+<img src="https://img.shields.io/github/commit-activity/w/J1mmySE24/recipe-recommender" /></a>
+
+## Team
+
+**Team 96** <br>
+Jinming Xing <br>
+Krisha Patel <br>
+Shreyas Devaraj <br>
 
 <h2> What is Recipe Recommender? </h2>
 
@@ -161,6 +173,9 @@ Detailed documentation can be found at: [API Docs](https://github.com/pnprathima
 \*Check out our comprehensive YouTube video demonstrating each step for easy guidance. [Project Setup](https://youtu.be/uKh-afpUdh0)
 
 - clone repository using `git clone https://github.com/pnprathima/Recipe_Recommender.git`
+- database setup
+  update all the env variables pertaining to mongo atlas uri in the backend directory.
+  in `Code/backend/db` run `node insertRecipes.js` to have an initial dataset of recipes (else user can create their own as well). This reads from the cleaned csv file in the same direcotry.
 - setup for frontend
   open terminal and navigate to the **frontend** folder and execute the following:
   ```
@@ -177,7 +192,7 @@ Detailed documentation can be found at: [API Docs](https://github.com/pnprathima
 
 1.  start backend server using:
     ```
-    npx nodemon
+    npm run dev
     ```
 2.  start frontend server using:
     ```
@@ -214,12 +229,6 @@ Voice to Text Tntegration <br>
 Chatbot Integration- to answer quick queries about the recipe <br>
 Allergic Ingredient Tracker <br>
 Nutrition Tracker <br>
-
-## Team Members
-
-Nikita Chaudhari (nchaudh5) <br>
-Kaustubh Sonawane (ksonawa)<br>
-Tejas Desai (tdesai) <br>
 
 ## New Features
 

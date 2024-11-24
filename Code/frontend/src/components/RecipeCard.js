@@ -61,11 +61,12 @@ const RecipeCard = (props) => {
           <Text data-testid="diet">Diet Type: {props.recipe["Diet-type"]}</Text>
           <Tag
             onClick={handleSave}
-            _hover={{ bg: "purple.700" }}
+            _hover={{ bg: "#553c9ad1" }}
             ml={"160px"}
-            bg={"purple.400"}
+            bg={"#553c9a"}
+            color={"white"}
           >
-            save recipe
+            Save Recipe
           </Tag>
         </CardBody>
         <Image
