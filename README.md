@@ -177,7 +177,7 @@ Detailed documentation can be found at: [API Docs](https://github.com/pnprathima
 
 1.  start backend server using:
     ```
-    npx nodemon
+    npm run dev
     ```
 2.  start frontend server using:
     ```

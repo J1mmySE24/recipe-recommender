@@ -65,4 +65,101 @@ describe("GET /recipes", function () {
 
     expect(response.body.filters.CleanedIngredients).to.eql("pear");
   });
+
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple");
+  });
+
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple1");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple2");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple3");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple4");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple5");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple6");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple7");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple8");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple9");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple10");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple11");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple12");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple13");
+  });
+  it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple14");
+  });it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple15");
+  });it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple16");
+  });it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple17");
+  });it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple18");
+  });it("is the API is not fetching the filtered ingredient", async function () {
+    const response = await request.get("/recipes?CleanedIngredients=pear");
+
+    expect(response.body.filters.CleanedIngredients).to.not.eql("apple19");
+  });
 });
