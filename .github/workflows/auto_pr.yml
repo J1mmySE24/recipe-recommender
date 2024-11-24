@@ -5,7 +5,8 @@ on:
     branches-ignore:
       - main
       - master
-
+permissions:
+  pull-requests: write 
 jobs:
   create-pull-request:
     runs-on: ubuntu-latest
