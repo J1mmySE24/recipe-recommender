@@ -5,6 +5,7 @@ import {
   Text,
   Input,
   InputGroup,
+  Select,
   InputRightElement,
   Button,
   VStack,
@@ -243,12 +244,15 @@ const AddRecipe = () => {
             />
           </HStack>
           <HStack spacing={"5"} alignItems={"flex-start"}>
-            <Input
-              type={"text"}
-              id="dietType"
-              onChange={handleChange}
-              placeholder={"Diet Type"}
-            />
+          <Select 
+              id="dietType" 
+              onChange={handleChange} 
+              placeholder="Select Diet Type"
+            >
+              <option value="Vegan">Vegan</option>
+              <option value="Vegetarian">Vegetarian</option>
+              <option value="Non-Vegetarian">Non-Vegetarian</option>
+            </Select>
             <Input
               type={"number"}
               id="recipeRating"
