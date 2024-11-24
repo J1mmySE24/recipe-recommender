@@ -36,7 +36,7 @@ export default class RecipesDAO {
     if (filters) {
       cursor = await users.findOne(query);
       if (cursor.userName) {
-        if (cursor.password == filters.password) {
+                if (cursor.password == filters.password) {
           return { success: true, user: cursor };
         } else {
           return { success: false };

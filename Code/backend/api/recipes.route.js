@@ -2,6 +2,8 @@ import express from "express";
 import RecipesCtrl from "./recipes.controller.js";
 import RecipesDAO from "../dao/recipesDAO.js";
 
+
+
 const router = express.Router();
 //URL to get the recipes
 router.route("/").get(RecipesCtrl.apiGetRecipes);
@@ -21,5 +23,6 @@ router.route("/getBookmarks").get(RecipesCtrl.apiGetBookmarks);
 router.route("/addRecipeToProfile").post(RecipesCtrl.apiPostRecipeToProfile);
 
 router.route("/getRecipeByName").get(RecipesCtrl.apiGetRecipeByName);
+
 
 export default router;
