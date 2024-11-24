@@ -11,7 +11,7 @@ import Nav from "./components/Navbar.js";
 import SearchByRecipe from "./components/SearchByRecipe.js";
 import Login from "./components/Login.js";
 import UserProfile from "./components/UserProfile.js";
-import ChatbotComponent from './components/chatbot.js';
+import ChatbotComponent from "./components/chatbot.js";
 
 // Main component of the project
 class App extends Component {
@@ -220,7 +220,7 @@ class App extends Component {
                 </TabPanels>
               </Tabs>
             )}
-            <ChatbotComponent/>
+            <ChatbotComponent />
           </>
         ) : (
           <Login
@@ -233,7 +233,6 @@ class App extends Component {
         {/* RecipeList is the component where results are displayed.
         App's recipeList state item is being sent as a prop
         */}
-         
       </div>
     );
   }

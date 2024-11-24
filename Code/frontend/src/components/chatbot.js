@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import Chatbot from 'react-chatbot-kit';
-import config from './configChatbot.js';
-import MessageParser from './MessageParser.js';
-import ActionProvider from './ActionProvider.js';
-import 'react-chatbot-kit/build/main.css';
-import { Box, Button, Icon, VStack } from '@chakra-ui/react';
-import { ChatIcon } from '@chakra-ui/icons';
-import './ChatbotComponent.css';
+import React, { useState } from "react";
+import Chatbot from "react-chatbot-kit";
+import config from "./configChatbot.js";
+import MessageParser from "./MessageParser.js";
+import ActionProvider from "./ActionProvider.js";
+import "react-chatbot-kit/build/main.css";
+import { Box, Button, Icon, VStack } from "@chakra-ui/react";
+import { ChatIcon } from "@chakra-ui/icons";
+import "./ChatbotComponent.css";
 
 const ChatbotComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,8 +29,8 @@ const ChatbotComponent = () => {
         display="flex"
         justifyContent="center"
         alignItems="center"
-        _hover={{ bg: 'purple.500' }}
-        _active={{ bg: 'pruple.600' }}
+        _hover={{ bg: "purple.500" }}
+        _active={{ bg: "pruple.600" }}
       >
         <Icon as={ChatIcon} boxSize="6" />
       </Button>

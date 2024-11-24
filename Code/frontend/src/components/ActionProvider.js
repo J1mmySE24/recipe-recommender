@@ -11,22 +11,23 @@ class ActionProvider {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ userMessage: message }),  // Send message as "question"
+        body: JSON.stringify({ userMessage: message }), // Send message as "question"
       });
 
       if (!res.ok) {
         const errorData = await res.json();
-        throw new Error(`Error: ${errorData.error || 'Unknown error'}`);
+        throw new Error(`Error: ${errorData.error || "Unknown error"}`);
       }
-    
 
       const data = await res.json();
 
       // Ensure the response key is consistent
-      return data.answer || data.botMessage || "Sorry, I couldn't get a response."; 
+      return (
+        data.answer || data.botMessage || "Sorry, I couldn't get a response."
+      );
     } catch (error) {
       console.error("Error fetching chatbot response:", error);
-      return "An error occurred while fetching the response."; 
+      return "An error occurred while fetching the response.";
     }
   }
 

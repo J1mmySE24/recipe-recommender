@@ -246,5 +246,6 @@ These new features collectively make Saveurs Sélection a more comprehensive, us
   </table>
 </center>
 
-#### Email 
-[team96.se@gmail.com](mailto:team96.se@gmail.com) : Yes this is an actual email id, contact us! :) 
+#### Email
+
+[team96.se@gmail.com](mailto:team96.se@gmail.com) : Yes this is an actual email id, contact us! :)
