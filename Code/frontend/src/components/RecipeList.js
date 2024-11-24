@@ -34,7 +34,7 @@ const RecipeList = ({ recipes }) => {
 
   var youtube_videos =
     "https://www.youtube.com/results?search_query=" +
-    currentRecipe["TranslatedRecipeName"];
+    currentRecipe["TranslatedRecipeName"]+" recipe";
 
   const handleViewRecipe = (data) => {
     setIsOpen(true);
@@ -157,7 +157,7 @@ const RecipeList = ({ recipes }) => {
             </Text>
             <Text color={"blue"}>
               <Text color={"black"} as={"b"}>
-                Video Url:{" "}
+                Video URL:{" "}
               </Text>
               <a href={youtube_videos}>Youtube</a>
             </Text>
