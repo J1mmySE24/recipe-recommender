@@ -1,10 +1,8 @@
-## Team 7
-
-Team members: <br>
-Annadurai,Harshitha <br>
-Bhoja Ramamanohara,Pannaga Rao <br>
-Masineni Prasanna Kumar,Karthik <br>
-Niranjana,Prathima Putreddy <br>
+Team96
+---
+* Jinming Xing
+* Krisha Patel
+* Shreyas Devaraj
 
 ## NAVIGATION LINKS:
 
@@ -14,7 +12,7 @@ Niranjana,Prathima Putreddy <br>
 
 ### SCORE CARD
 
-[Go to project3 score card file](https://github.com/pnprathima/Recipe_Recommender/blob/master/proj3/score_card.csv)
+[Go to project3 score card file](https://github.com/J1mmySE24/recipe-recommender/blob/master/proj3/Project3Scores.md)
 
-Main README [Go to README](https://github.com/pnprathima/Recipe_Recommender#readme) <br>
-Main project [Go to Recipe_Recommender](https://github.com/pnprathima/Recipe_Recommender) <br>
+Main README [Go to README](https://github.com/J1mmySE24/recipe-recommender#readme) <br>
+Main project [Go to Recipe_Recommender](https://github.com/J1mmySE24/recipe-recommender) <br>
