@@ -34,7 +34,8 @@ const RecipeList = ({ recipes }) => {
 
   var youtube_videos =
     "https://www.youtube.com/results?search_query=" +
-    currentRecipe["TranslatedRecipeName"]+" recipe";
+    currentRecipe["TranslatedRecipeName"] +
+    " recipe";
 
   const handleViewRecipe = (data) => {
     setIsOpen(true);
