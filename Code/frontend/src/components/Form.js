@@ -230,7 +230,7 @@ class Form extends Component {
 
               {/* <Input type="text" id="cuisine" color={"gray.500"} size={"lg"} placeholder='Cuisine' /> */}
             </InputGroup>
-            <InputGroup variant={"filled"}>
+            {/* <InputGroup variant={"filled"}>
               <Input
                 data-testid="email_id"
                 type="text"
@@ -239,7 +239,7 @@ class Form extends Component {
                 size={"lg"}
                 placeholder="Email"
               />
-            </InputGroup>
+            </InputGroup> */}
             <InputGroup variant={"filled"}>
               {/* <InputLeftElement pointerEvents='none'>
                             <FontAwesomeIcon size="lg" icon={faClock} />
