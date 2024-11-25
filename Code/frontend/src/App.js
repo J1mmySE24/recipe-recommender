@@ -11,6 +11,8 @@ import Nav from "./components/Navbar.js";
 import SearchByRecipe from "./components/SearchByRecipe.js";
 import Login from "./components/Login.js";
 import UserProfile from "./components/UserProfile.js";
+import Calendar from "./components/Calendar.js";
+import Share from "./components/Share.js";
 
 // Main component of the project
 class App extends Component {
@@ -193,6 +195,8 @@ class App extends Component {
                   <Tab>Search Recipe</Tab>
                   <Tab>Add Recipe</Tab>
                   <Tab>Search Recipe By Name</Tab>
+                  <Tab>Calendar</Tab>
+                  <Tab>Share it</Tab>
                 </TabList>
                 <TabPanels>
                   <TabPanel>
@@ -215,6 +219,12 @@ class App extends Component {
                     ) : (
                       <RecipeList recipes={this.state.recipeByNameList} />
                     )}
+                  </TabPanel>
+                  <TabPanel>
+                    <Calendar />  
+                  </TabPanel>
+                  <TabPanel>
+                    <Share />
                   </TabPanel>
                 </TabPanels>
               </Tabs>
