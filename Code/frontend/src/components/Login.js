@@ -18,9 +18,9 @@ import {
   Stack,
   InputGroup,
   InputRightElement,
-  IconButton
+  IconButton,
 } from "@chakra-ui/react";
-import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
+import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
 
 const Login = ({ handleLogin, handleSignup }) => {
   const [userName, setUserName] = useState("");
@@ -76,7 +76,14 @@ const Login = ({ handleLogin, handleSignup }) => {
 
   return (
     <Center h="100vh" bg="gray.100">
-      <Box w="100%" maxW="400px" p={6} boxShadow="lg" bg="purple.50" borderRadius="lg">
+      <Box
+        w="100%"
+        maxW="400px"
+        p={6}
+        boxShadow="lg"
+        bg="purple.50"
+        borderRadius="lg"
+      >
         {/* Website Name */}
         <Stack spacing={2} align="center" mb={6}>
           <Heading as="h1" size="lg" color="purple.800">
