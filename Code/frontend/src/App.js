@@ -177,13 +177,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Nav
-          handleLogout={this.handleLogout}
-          handleBookMarks={this.handleBookMarks}
-          user={this.state.userData}
-        />
         {this.state.isLoggedIn ? (
           <>
+            <Nav
+              handleLogout={this.handleLogout}
+              handleBookMarks={this.handleBookMarks}
+              user={this.state.userData}
+            />
             {this.state.isProfileView ? (
               <UserProfile
                 handleProfileView={this.handleProfileView}
