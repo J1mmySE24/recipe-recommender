@@ -40,7 +40,6 @@ app.post("/api/chat", async (req, res) => {
 // Grocery List Generator Endpoint
 app.post("/api/grocerylist", async (req, res) => {
   try {
-    
     const { recipeName, cuisine, dietType, allergens } = req.body;
 
     if (!recipeName || !cuisine || !dietType) {
@@ -66,9 +65,9 @@ app.post("/api/grocerylist", async (req, res) => {
 
     const response = await ollama.chat({
       model: "llama3.2",
-      messages: [{ role: "user", content: prompt}],
+      messages: [{ role: "user", content: prompt }],
     });
-    
+
     const content = response.message.content;
 
     // Use a regular expression to isolate JSON content
@@ -78,7 +77,7 @@ app.post("/api/grocerylist", async (req, res) => {
     }
 
     const botResponse = JSON.parse(jsonMatch[0]);
-    console.log(botResponse)
+    console.log(botResponse);
     if (!botResponse.ingredients || !Array.isArray(botResponse.ingredients)) {
       throw new Error("Invalid response format from model.");
     }

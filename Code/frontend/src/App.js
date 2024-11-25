@@ -14,7 +14,6 @@ import UserProfile from "./components/UserProfile.js";
 import ChatbotComponent from "./components/chatbot.js";
 import GroceryListGenerator from "./components/GroceryList.js";
 
-
 // Main component of the project
 class App extends Component {
   // constructor for the App Component
@@ -223,7 +222,6 @@ class App extends Component {
                   <TabPanel>
                     <GroceryListGenerator />
                   </TabPanel>
-
                 </TabPanels>
               </Tabs>
             )}

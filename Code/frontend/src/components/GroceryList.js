@@ -129,7 +129,13 @@ class GroceryListForm extends Component {
 
   render() {
     return (
-      <Flex width="100vw" justifyContent="center" alignItems="center" bg="gray.50" p={10}>
+      <Flex
+        width="100vw"
+        justifyContent="center"
+        alignItems="center"
+        bg="gray.50"
+        p={10}
+      >
         <Box
           borderRadius="lg"
           border="1px solid"
@@ -140,10 +146,15 @@ class GroceryListForm extends Component {
           p={8}
         >
           <VStack spacing={6} alignItems="stretch">
-            <Text fontSize="xl" fontWeight="bold" textAlign="center" color="purple.600">
+            <Text
+              fontSize="xl"
+              fontWeight="bold"
+              textAlign="center"
+              color="purple.600"
+            >
               Generate Grocery List
             </Text>
-  
+
             {/* Recipe Name */}
             <InputGroup>
               <Input
@@ -158,7 +169,7 @@ class GroceryListForm extends Component {
                 _focus={{ borderColor: "purple.500", bg: "white" }}
               />
             </InputGroup>
-  
+
             {/* Cuisine Typeahead */}
             <Box>
               <Text fontWeight="semibold" mb={2}>
@@ -179,7 +190,7 @@ class GroceryListForm extends Component {
                 }}
               />
             </Box>
-  
+
             {/* Diet Type Typeahead */}
             <Box>
               <Text fontWeight="semibold" mb={2}>
@@ -200,7 +211,7 @@ class GroceryListForm extends Component {
                 }}
               />
             </Box>
-  
+
             {/* Allergens */}
             <Box>
               <Text fontWeight="semibold" mb={2}>
@@ -224,7 +235,10 @@ class GroceryListForm extends Component {
                   colorScheme="purple"
                   onClick={() => {
                     this.setState({
-                      allergens: [...this.state.allergens, this.state.allergenInput],
+                      allergens: [
+                        ...this.state.allergens,
+                        this.state.allergenInput,
+                      ],
                       allergenInput: "",
                     });
                   }}
@@ -240,7 +254,7 @@ class GroceryListForm extends Component {
                 ))}
               </HStack>
             </Box>
-  
+
             {/* Error Handling */}
             {this.state.error && (
               <Alert status="error" borderRadius="md">
@@ -248,7 +262,7 @@ class GroceryListForm extends Component {
                 {this.state.error}
               </Alert>
             )}
-  
+
             {/* Submit Button */}
             <Button
               isLoading={this.state.loading}
@@ -259,7 +273,7 @@ class GroceryListForm extends Component {
             >
               Generate List
             </Button>
-  
+
             {/* Display Generated Grocery List */}
             {this.state.groceryList.length > 0 && (
               <Box bg="gray.100" borderRadius="md" p={4} mt={4}>
@@ -279,32 +293,29 @@ class GroceryListForm extends Component {
                       alignItems="center"
                     >
                       <Text>{grocery.item}</Text>
-                      <Text>
-                         {grocery.unit}
-                      </Text>
+                      <Text>{grocery.unit}</Text>
                     </Box>
                   ))}
                 </VStack>
                 <Button
-                    colorScheme="purple"
-                    mt={4}
-                    width="100%"
-                    onClick={() => {
-                        const fileContent = this.state.groceryList
-                        .map(
-                            (grocery) =>
-                            `${grocery.item} - ${grocery.unit}}`
-                        )
-                        .join("\n");
-                        const blob = new Blob([fileContent], { type: "text/plain" });
-                        const link = document.createElement("a");
-                        link.href = window.URL.createObjectURL(blob);
-                        link.download = "grocery_list.txt";
-                        link.click();
-                    }}
-                    >
-                    Download Grocery List
-                    </Button>
+                  colorScheme="purple"
+                  mt={4}
+                  width="100%"
+                  onClick={() => {
+                    const fileContent = this.state.groceryList
+                      .map((grocery) => `${grocery.item} - ${grocery.unit}}`)
+                      .join("\n");
+                    const blob = new Blob([fileContent], {
+                      type: "text/plain",
+                    });
+                    const link = document.createElement("a");
+                    link.href = window.URL.createObjectURL(blob);
+                    link.download = "grocery_list.txt";
+                    link.click();
+                  }}
+                >
+                  Download Grocery List
+                </Button>
               </Box>
             )}
           </VStack>
@@ -312,5 +323,5 @@ class GroceryListForm extends Component {
       </Flex>
     );
   }
-}  
+}
 export default GroceryListForm;
