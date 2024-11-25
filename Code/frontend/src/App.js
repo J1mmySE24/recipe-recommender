@@ -12,6 +12,7 @@ import SearchByRecipe from "./components/SearchByRecipe.js";
 import Login from "./components/Login.js";
 import UserProfile from "./components/UserProfile.js";
 import ChatbotComponent from "./components/chatbot.js";
+import GroceryListGenerator from "./components/GroceryList.js";
 
 // Main component of the project
 class App extends Component {
@@ -194,6 +195,7 @@ class App extends Component {
                   <Tab>Search Recipe</Tab>
                   <Tab>Add Recipe</Tab>
                   <Tab>Search Recipe By Name</Tab>
+                  <Tab>Generate Grocery List</Tab>
                 </TabList>
                 <TabPanels>
                   <TabPanel>
@@ -216,6 +218,9 @@ class App extends Component {
                     ) : (
                       <RecipeList recipes={this.state.recipeByNameList} />
                     )}
+                  </TabPanel>
+                  <TabPanel>
+                    <GroceryListGenerator />
                   </TabPanel>
                 </TabPanels>
               </Tabs>
