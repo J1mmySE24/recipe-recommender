@@ -5,7 +5,7 @@ import recipeDB from "./apis/recipeDB";
 import RecipeList from "./components/RecipeList";
 import AddRecipe from "./components/AddRecipe.js";
 import React, { Component } from "react";
-import { Tabs, Tab, TabList, TabPanel, TabPanels, Box } from "@chakra-ui/react";
+import { Tabs, Tab, TabList, TabPanel, TabPanels, Box, VStack } from "@chakra-ui/react";
 import RecipeLoading from "./components/RecipeLoading.js";
 import Nav from "./components/Navbar.js";
 import SearchByRecipe from "./components/SearchByRecipe.js";
@@ -217,12 +217,29 @@ class App extends Component {
                     <AddRecipe />
                   </TabPanel>
                   <TabPanel>
-                    <SearchByRecipe sendRecipeData={this.handleRecipesByName} />
-                    {this.state.isLoading ? (
-                      <RecipeLoading />
-                    ) : (
-                      <RecipeList recipes={this.state.recipeByNameList} />
-                    )}
+                    <Box
+                      minH="100vh"
+                      bgImage="url('/assets/back.jpg')" // Update this with your background image path
+                      bgSize="cover"
+                      bgPosition="center"
+                      bgRepeat="no-repeat"
+                      display="flex"
+                      alignItems="center"
+                      justifyContent="center"
+                      p={6}
+                    >
+                        <VStack spacing={6} align="stretch">
+                          {/* Search By Recipe */}
+                          <SearchByRecipe sendRecipeData={this.handleRecipesByName} />
+
+                          {/* Loading or Recipe List */}
+                          {this.state.isLoading ? (
+                            <RecipeLoading />
+                          ) : (
+                            <RecipeList recipes={this.state.recipeByNameList} />
+                          )}
+                        </VStack>
+                    </Box>
                   </TabPanel>
                   <TabPanel>
                     <GroceryListGenerator />

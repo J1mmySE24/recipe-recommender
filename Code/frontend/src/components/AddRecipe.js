@@ -13,6 +13,7 @@ import {
   Badge,
   Alert,
   AlertIcon,
+  Heading
 } from "@chakra-ui/react";
 import recipeDB from "../apis/recipeDB";
 
@@ -215,157 +216,168 @@ const AddRecipe = () => {
   return (
     <>
       <Box
-        borderRadius={"lg"}
-        border="2px"
-        boxShadow={"lg"}
-        borderColor={"gray.100"}
-        fontFamily="regular"
-        m={"auto"}
-        marginTop={10}
-        width={"50%"}
-        p={5}
+        minH="100vh"
+        bgImage="url('/assets/back.jpg')"
+        bgSize="cover"
+        bgPosition="center"
+        bgRepeat="no-repeat"
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
       >
-        <Text fontSize={"3xl"} textAlign={"center"} fontWeight={"bold"}>
-          Add New Recipe
-        </Text>
-        <VStack spacing={"5"} alignItems={"flex-center"}>
-          <HStack spacing={"5"} alignItems={"flex-start"}>
-            <Input
-              type={"text"}
-              id="recipeName"
-              onChange={handleChange}
-              placeholder={"Recipe Name"}
-            />
-            <Input
-              type={"number"}
-              id="cookingTime"
-              onChange={handleChange}
-              placeholder={"Cooking Time in Mins"}
-            />
-          </HStack>
-          <HStack spacing={"5"} alignItems={"flex-start"}>
-            <Select
-              id="dietType"
-              onChange={handleChange}
-              placeholder="Select Diet Type"
-            >
-              <option value="Vegan">Vegan</option>
-              <option value="Vegetarian">Vegetarian</option>
-              <option value="Non-Vegetarian">Non-Vegetarian</option>
-            </Select>
-            <Input
-              type={"number"}
-              id="recipeRating"
-              onChange={handleChange}
-              placeholder={"Recipe Rating"}
-            />
-            <Input
-              type={"text"}
-              id="cuisine"
-              onChange={handleChange}
-              placeholder={"Cuisine"}
-            />
-          </HStack>
-          <HStack spacing={"5"} alignItems={"flex-start"}>
-            <Input
-              type={"URL"}
-              id="recipeURL"
-              onChange={handleChange}
-              placeholder={"Recipe URL"}
-            />
-            <Input
-              type={"URL"}
-              id="imageURL"
-              onChange={handleChange}
-              placeholder={"Image URL"}
-            />
-          </HStack>
-          <HStack direction="row">
-            <InputGroup variant={"filled"}>
+
+        <Box
+          borderRadius={"lg"}
+          border="2px"
+          boxShadow={"lg"}
+          borderColor={"gray.100"}
+          fontFamily="regular"
+          m={"auto"}
+          width={"50%"}
+          p={5}
+        >
+          <Heading as="h1" size="lg" color="purple.800" mb={6} textAlign={"center"}>
+            Add New Recipe
+          </Heading>
+          <VStack spacing={"5"} alignItems={"flex-center"}>
+            <HStack spacing={"5"} alignItems={"flex-start"}>
               <Input
                 type={"text"}
-                marginEnd={"5px"}
-                id="ingredients"
-                placeholder={"Ingredients"}
-                width={"45%"}
+                id="recipeName"
+                onChange={handleChange}
+                placeholder={"Recipe Name"}
               />
-              <Button
-                mr={10}
-                width={"5%"}
-                onClick={addIngredient}
-                id="addIngredientButton"
-                _hover={{ bg: "black", color: "gray.100" }}
-                color={"gray.600"}
-                bg={"purple.300"}
-              >
-                Add
-              </Button>
-            </InputGroup>
-            {ingredientPrintHandler()}
-          </HStack>
-          <HStack spacing={"5"} alignItems={"flex-start"}>
-            <InputGroup variant={"filled"}>
               <Input
-                type="text"
-                marginEnd={"5px"}
-                id="restaurant"
-                placeholder={"Restaurannt"}
-                width="45%"
+                type={"number"}
+                id="cookingTime"
+                onChange={handleChange}
+                placeholder={"Cooking Time in Mins"}
               />
-              <Button
-                id="restaurantButton"
-                width="5%"
-                mr={10}
-                onClick={addRestaurant}
-                _hover={{ bg: "black", color: "gray.100" }}
-                color={"gray.600"}
-                bg={"purple.300"}
+            </HStack>
+            <HStack spacing={"5"} alignItems={"flex-start"}>
+              <Select
+                id="dietType"
+                onChange={handleChange}
+                placeholder="Select Diet Type"
               >
-                Add
-              </Button>
-              {restaurantPrintHandler()}
-            </InputGroup>
-          </HStack>
-          <HStack spacing={"5"} alignItems={"flex-start"}>
-            <InputGroup variant={"filled"}>
+                <option value="Vegan">Vegan</option>
+                <option value="Vegetarian">Vegetarian</option>
+                <option value="Non-Vegetarian">Non-Vegetarian</option>
+              </Select>
               <Input
-                type="text"
-                marginEnd={"5px"}
-                id="location"
-                placeholder={"Restaurant-Location"}
-                width="45%"
+                type={"number"}
+                id="recipeRating"
+                onChange={handleChange}
+                placeholder={"Recipe Rating"}
               />
-              <Button
-                id="locationButton"
-                width="5%"
-                mr={10}
-                onClick={addLocation}
-                _hover={{ bg: "black", color: "gray.100" }}
-                color={"gray.600"}
-                bg={"purple.300"}
-              >
-                Add
-              </Button>
-              {locationPrintHandler()}
-            </InputGroup>
-          </HStack>
-          <Textarea
-            onChange={handleChange}
-            id="instructions"
-            placeholder={"Write Cooking Instructions Here"}
-          />
-          <Button
-            width={"30%"}
-            m={"auto"}
-            id="addRecipeButton"
-            onClick={addRecipe}
-            _hover={{ bg: "black", color: "gray.100" }}
-            color={"gray.600"}
-            bg={"purple.300"}
-          >
-            Add Recipe
-          </Button>
-        </VStack>
+              <Input
+                type={"text"}
+                id="cuisine"
+                onChange={handleChange}
+                placeholder={"Cuisine"}
+              />
+            </HStack>
+            <HStack spacing={"5"} alignItems={"flex-start"}>
+              <Input
+                type={"URL"}
+                id="recipeURL"
+                onChange={handleChange}
+                placeholder={"Recipe URL"}
+              />
+              <Input
+                type={"URL"}
+                id="imageURL"
+                onChange={handleChange}
+                placeholder={"Image URL"}
+              />
+            </HStack>
+            <HStack direction="row">
+              <InputGroup variant={"filled"}>
+                <Input
+                  type={"text"}
+                  marginEnd={"5px"}
+                  id="ingredients"
+                  placeholder={"Ingredients"}
+                  width={"45%"}
+                />
+                <Button
+                  mr={10}
+                  width={"5%"}
+                  onClick={addIngredient}
+                  id="addIngredientButton"
+                  _hover={{ bg: "black", color: "gray.100" }}
+                  color={"gray.600"}
+                  bg={"purple.300"}
+                >
+                  Add
+                </Button>
+              </InputGroup>
+              {ingredientPrintHandler()}
+            </HStack>
+            <HStack spacing={"5"} alignItems={"flex-start"}>
+              <InputGroup variant={"filled"}>
+                <Input
+                  type="text"
+                  marginEnd={"5px"}
+                  id="restaurant"
+                  placeholder={"Restaurannt"}
+                  width="45%"
+                />
+                <Button
+                  id="restaurantButton"
+                  width="5%"
+                  mr={10}
+                  onClick={addRestaurant}
+                  _hover={{ bg: "black", color: "gray.100" }}
+                  color={"gray.600"}
+                  bg={"purple.300"}
+                >
+                  Add
+                </Button>
+                {restaurantPrintHandler()}
+              </InputGroup>
+            </HStack>
+            <HStack spacing={"5"} alignItems={"flex-start"}>
+              <InputGroup variant={"filled"}>
+                <Input
+                  type="text"
+                  marginEnd={"5px"}
+                  id="location"
+                  placeholder={"Restaurant-Location"}
+                  width="45%"
+                />
+                <Button
+                  id="locationButton"
+                  width="5%"
+                  mr={10}
+                  onClick={addLocation}
+                  _hover={{ bg: "black", color: "gray.100" }}
+                  color={"gray.600"}
+                  bg={"purple.300"}
+                >
+                  Add
+                </Button>
+                {locationPrintHandler()}
+              </InputGroup>
+            </HStack>
+            <Textarea
+              onChange={handleChange}
+              id="instructions"
+              placeholder={"Write Cooking Instructions Here"}
+            />
+            <Button
+              width={"30%"}
+              m={"auto"}
+              id="addRecipeButton"
+              onClick={addRecipe}
+              _hover={{ bg: "black", color: "gray.100" }}
+              color={"gray.600"}
+              bg={"purple.300"}
+            >
+              Add Recipe
+            </Button>
+          </VStack>
+        </Box>
       </Box>
     </>
   );

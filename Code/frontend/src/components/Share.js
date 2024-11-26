@@ -1,7 +1,17 @@
 import React, { useState } from "react";
+import {
+  Box,
+  Heading,
+  Textarea,
+  Button,
+  VStack,
+  HStack,
+  useToast,
+} from "@chakra-ui/react";
 
 const Share = () => {
   const [thought, setThought] = useState("");
+  const toast = useToast();
 
   const handleShare = (platform) => {
     const url = encodeURIComponent(thought);
@@ -21,70 +31,78 @@ const Share = () => {
         break;
     }
 
+    if (!thought) {
+      toast({
+        title: "Input required",
+        description: "Please enter your thoughts before sharing.",
+        status: "warning",
+        duration: 3000,
+        isClosable: true,
+      });
+      return;
+    }
+
     window.open(shareUrl, "_blank");
   };
 
   return (
-    <div style={styles.container}>
-      <h1 style={styles.header}>Share Your Meal Thoughts</h1>
-      <textarea
-        placeholder="What's on your mind?"
-        value={thought}
-        onChange={(e) => setThought(e.target.value)}
-        style={styles.textarea}
-      />
-      <div style={styles.buttonContainer}>
-        <button onClick={() => handleShare("twitter")} style={styles.button}>
-          Share on Twitter
-        </button>
-        <button onClick={() => handleShare("facebook")} style={styles.button}>
-          Share on Facebook
-        </button>
-        <button onClick={() => handleShare("linkedin")} style={styles.button}>
-          Share on LinkedIn
-        </button>
-      </div>
-    </div>
+    <Box
+    minH="100vh"
+    bgImage="url('/assets/back.jpg')"
+    bgSize="cover"
+    bgPosition="center"
+    bgRepeat="no-repeat"
+    display="flex"
+    alignItems="center"
+    justifyContent="center" // Ensures horizontal and vertical centering
+  >
+    <Box
+      maxW="600px"
+      mx="auto"
+      p={8}
+      boxShadow="md"
+      bg="white"
+      borderRadius="md"
+      textAlign="center"
+    >
+      <Heading as="h1" size="lg" color="purple.800" mb={6}>
+        Share Your Meal Thoughts
+      </Heading>
+      <VStack spacing={4}>
+        <Textarea
+          placeholder="What's on your mind?"
+          value={thought}
+          onChange={(e) => setThought(e.target.value)}
+          focusBorderColor="purple.500"
+          size="md"
+        />
+        <HStack spacing={4} justify="center">
+          <Button
+            colorScheme="purple"
+            onClick={() => handleShare("twitter")}
+            flex="1"
+          >
+            Share on Twitter
+          </Button>
+          <Button
+            colorScheme="purple"
+            onClick={() => handleShare("facebook")}
+            flex="1"
+          >
+            Share on Facebook
+          </Button>
+          <Button
+            colorScheme="purple"
+            onClick={() => handleShare("linkedin")}
+            flex="1"
+          >
+            Share on LinkedIn
+          </Button>
+        </HStack>
+      </VStack>
+    </Box>
+    </Box>
   );
-};
-
-const styles = {
-  container: {
-    fontFamily: "Arial, sans-serif",
-    margin: "20px",
-    padding: "20px",
-    border: "1px solid #ccc",
-    borderRadius: "8px",
-    maxWidth: "600px",
-    backgroundColor: "#f9f9f9",
-  },
-  header: {
-    textAlign: "center",
-    color: "#333",
-  },
-  textarea: {
-    width: "100%",
-    height: "100px",
-    padding: "10px",
-    fontSize: "16px",
-    borderRadius: "4px",
-    border: "1px solid #ccc",
-    marginBottom: "20px",
-    resize: "vertical",
-  },
-  buttonContainer: {
-    display: "flex",
-    justifyContent: "space-around",
-  },
-  button: {
-    padding: "10px 20px",
-    fontSize: "16px",
-    borderRadius: "4px",
-    border: "none",
-    backgroundColor: "#007bff",
-    color: "#fff",
-    cursor: "pointer",
-  },
 };
 
 export default Share;
