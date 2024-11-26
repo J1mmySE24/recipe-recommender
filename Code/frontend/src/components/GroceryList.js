@@ -11,7 +11,7 @@ import {
   Badge,
   Alert,
   AlertIcon,
-  Spinner,
+  Heading,
   Flex,
 } from "@chakra-ui/react";
 import recipeDB from "../apis/recipeDB";
@@ -151,14 +151,15 @@ class GroceryListForm extends Component {
           p={8}
         >
           <VStack spacing={6} alignItems="stretch">
-            <Text
-              fontSize="xl"
-              fontWeight="bold"
-              textAlign="center"
-              color="purple.600"
+            <Heading
+              as="h1"
+              size="lg"
+              color="purple.800"
+              mb={6}
+              textAlign={"center"}
             >
               Generate Grocery List
-            </Text>
+            </Heading>
 
             {/* Recipe Name */}
             <InputGroup>

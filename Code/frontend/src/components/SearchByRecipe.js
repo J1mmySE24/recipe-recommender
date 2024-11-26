@@ -1,58 +1,85 @@
 /* MIT License
 
-Copyright (c) 2023 Pannaga Rao, Harshitha, Prathima, Karthik  */
+Copyright (c) 2023 Pannaga Rao, Harshitha, Prathima, Karthik 
+*/
 
 import {
   Box,
   Input,
   InputGroup,
-  InputRightElement,
   Button,
+  Heading,
+  VStack,
+  Text,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import recipeDB from "../apis/recipeDB";
 
 const SearchByRecipe = (props) => {
   const [recipeName, setRecipeName] = useState("");
   const [cookingTime, setCookingTime] = useState("");
-  const [recipes, setRecipes] = useState([]);
+
   const handleNameChange = (e) => {
     e.preventDefault();
     setRecipeName(e.target.value);
   };
+
   const handleCookingTimeChange = (e) => {
     e.preventDefault();
     setCookingTime(e.target.value);
   };
+
   const handleSearchByRecipeClick = (e) => {
     e.preventDefault();
-    // console.log(recipeName)
     props.sendRecipeData(recipeName, cookingTime);
   };
+
   return (
-    <>
-      <Box mr={10} ml={10}>
-        <InputGroup size="md">
+    <Box
+      bg="whiteAlpha.900"
+      borderRadius="lg"
+      boxShadow="2xl"
+      p={8}
+      maxW="500px"
+      width="100%"
+      textAlign="center"
+    >
+      <Heading as="h1" size="lg" color="purple.800" mb={4}>
+        Search Recipes
+      </Heading>
+      <Text mb={6} color="gray.600">
+        Find delicious recipes quickly. Enter the recipe name and maximum
+        cooking time to get started!
+      </Text>
+      <VStack spacing={4} align="stretch">
+        {/* Recipe Name Input */}
+        <InputGroup>
           <Input
-            pr="4.5rem"
             placeholder="Enter Recipe Name"
             onChange={handleNameChange}
+            focusBorderColor="purple.500"
           />
-          <InputGroup size="md">
-            <Input
-              type="number"
-              placeholder="Max Cooking Time (mins)"
-              onChange={handleCookingTimeChange}
-            />
-          </InputGroup>
-          <InputRightElement width="4.5rem">
-            <Button h="1.75rem" size="sm" onClick={handleSearchByRecipeClick}>
-              Search
-            </Button>
-          </InputRightElement>
         </InputGroup>
-      </Box>
-    </>
+
+        {/* Cooking Time Input */}
+        <InputGroup>
+          <Input
+            type="number"
+            placeholder="Max Cooking Time (mins)"
+            onChange={handleCookingTimeChange}
+            focusBorderColor="purple.500"
+          />
+        </InputGroup>
+
+        {/* Search Button */}
+        <Button
+          colorScheme="purple"
+          onClick={handleSearchByRecipeClick}
+          width="100%"
+        >
+          Search
+        </Button>
+      </VStack>
+    </Box>
   );
 };
 

@@ -1,4 +1,16 @@
 import React, { useState } from "react";
+import {
+  Box,
+  Heading,
+  VStack,
+  Input,
+  Textarea,
+  Button,
+  Text,
+  UnorderedList,
+  ListItem,
+  Flex,
+} from "@chakra-ui/react";
 
 const Calendar = () => {
   const [sessions, setSessions] = useState([]);
@@ -23,139 +35,103 @@ const Calendar = () => {
   };
 
   return (
-    <div style={styles.container}>
-      <h1 style={styles.header}>Schedule a New Mean Plan</h1>
-      <div style={styles.form}>
-        <input
-          type="text"
-          placeholder="Title"
-          value={newSession.title}
-          onChange={(e) =>
-            setNewSession({ ...newSession, title: e.target.value })
-          }
-          style={styles.input}
-        />
-        <input
-          type="date"
-          value={newSession.date}
-          onChange={(e) =>
-            setNewSession({ ...newSession, date: e.target.value })
-          }
-          style={styles.input}
-        />
-        <input
-          type="time"
-          value={newSession.time}
-          onChange={(e) =>
-            setNewSession({ ...newSession, time: e.target.value })
-          }
-          style={styles.input}
-        />
-        <textarea
-          placeholder="Notes"
-          value={newSession.notes}
-          onChange={(e) =>
-            setNewSession({ ...newSession, notes: e.target.value })
-          }
-          style={styles.textarea}
-        />
-        <button onClick={handleAddSession} style={styles.button}>
-          Add Meal Plan
-        </button>
-      </div>
+    <Flex
+      align="center"
+      justify="center"
+      minH="100vh"
+      bgImage="url('/assets/back.jpg')"
+      bgSize="cover"
+      bgPosition="center"
+      bgRepeat="no-repeat"
+      p={4}
+    >
+      <Box
+        maxW="600px"
+        w="100%"
+        p={8}
+        boxShadow="lg"
+        bg="white"
+        borderRadius="md"
+      >
+        <Heading as="h1" size="lg" textAlign="center" color="purple.800" mb={6}>
+          Schedule a New Meal Plan
+        </Heading>
 
-      <h2 style={styles.subHeader}>Scheduled Meal Plans</h2>
-      <ul style={styles.list}>
-        {sessions.map((session) => (
-          <li key={session.id} style={styles.listItem}>
-            <strong>{session.title}</strong>
-            <br />
-            Date: {session.date}
-            <br />
-            Time: {session.time}
-            <br />
-            Notes: {session.notes}
-            <br />
-            <button
-              onClick={() => handleDeleteSession(session.id)}
-              style={styles.deleteButton}
+        {/* Form */}
+        <VStack spacing={4} align="stretch" mb={8}>
+          <Input
+            placeholder="Title"
+            value={newSession.title}
+            onChange={(e) =>
+              setNewSession({ ...newSession, title: e.target.value })
+            }
+            size="md"
+            focusBorderColor="purple.500"
+          />
+          <Input
+            type="date"
+            value={newSession.date}
+            onChange={(e) =>
+              setNewSession({ ...newSession, date: e.target.value })
+            }
+            size="md"
+            focusBorderColor="purple.500"
+          />
+          <Input
+            type="time"
+            value={newSession.time}
+            onChange={(e) =>
+              setNewSession({ ...newSession, time: e.target.value })
+            }
+            size="md"
+            focusBorderColor="purple.500"
+          />
+          <Textarea
+            placeholder="Notes"
+            value={newSession.notes}
+            onChange={(e) =>
+              setNewSession({ ...newSession, notes: e.target.value })
+            }
+            size="md"
+            focusBorderColor="purple.500"
+          />
+          <Button onClick={handleAddSession} colorScheme="purple" width="100%">
+            Add Meal Plan
+          </Button>
+        </VStack>
+
+        {/* Scheduled Meal Plans */}
+        <Heading as="h2" size="md" textAlign="center" color="purple.800" mb={4}>
+          Scheduled Meal Plans
+        </Heading>
+
+        <UnorderedList spacing={4} styleType="none">
+          {sessions.map((session) => (
+            <ListItem
+              key={session.id}
+              p={4}
+              bg="purple.100"
+              borderRadius="md"
+              boxShadow="sm"
             >
-              Delete
-            </button>
-          </li>
-        ))}
-      </ul>
-    </div>
+              <Text fontWeight="bold">{session.title}</Text>
+              <Text>Date: {session.date}</Text>
+              <Text>Time: {session.time}</Text>
+              <Text>Notes: {session.notes}</Text>
+              <Button
+                onClick={() => handleDeleteSession(session.id)}
+                colorScheme="red"
+                size="sm"
+                mt={2}
+              >
+                Delete
+              </Button>
+            </ListItem>
+          ))}
+        </UnorderedList>
+      </Box>
+    </Flex>
   );
-};
-
-const styles = {
-  container: {
-    fontFamily: "Arial, sans-serif",
-    margin: "20px",
-    padding: "20px",
-    border: "1px solid #ccc",
-    borderRadius: "8px",
-    maxWidth: "600px",
-    backgroundColor: "#f9f9f9",
-  },
-  header: {
-    textAlign: "center",
-    color: "#333",
-  },
-  form: {
-    display: "flex",
-    flexDirection: "column",
-    gap: "10px",
-    marginBottom: "20px",
-  },
-  input: {
-    padding: "10px",
-    fontSize: "16px",
-    borderRadius: "4px",
-    border: "1px solid #ccc",
-  },
-  textarea: {
-    padding: "10px",
-    fontSize: "16px",
-    borderRadius: "4px",
-    border: "1px solid #ccc",
-    resize: "vertical",
-  },
-  button: {
-    padding: "10px",
-    fontSize: "16px",
-    borderRadius: "4px",
-    border: "none",
-    backgroundColor: "#28a745",
-    color: "#fff",
-    cursor: "pointer",
-  },
-  buttonHover: {
-    backgroundColor: "#218838",
-  },
-  subHeader: {
-    textAlign: "center",
-    color: "#333",
-  },
-  list: {
-    listStyleType: "none",
-    padding: "0",
-  },
-  listItem: {
-    padding: "10px",
-    borderBottom: "1px solid #ccc",
-  },
-  deleteButton: {
-    padding: "5px 10px",
-    fontSize: "14px",
-    borderRadius: "4px",
-    border: "none",
-    backgroundColor: "#dc3545",
-    color: "#fff",
-    cursor: "pointer",
-    marginTop: "10px",
-  },
 };
 
 export default Calendar;

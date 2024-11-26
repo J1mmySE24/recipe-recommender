@@ -1,14 +1,10 @@
 import React from "react";
 import {
-  Box,
-  SimpleGrid,
   Card,
   CardHeader,
   Heading,
   Text,
   CardBody,
-  CardFooter,
-  Button,
   Image,
   Tag,
 } from "@chakra-ui/react";

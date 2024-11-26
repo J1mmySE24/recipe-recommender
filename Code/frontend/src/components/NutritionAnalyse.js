@@ -112,17 +112,18 @@ const NutritionAnalyse = () => {
       >
         <VStack spacing={4} align="stretch">
           <Text
-            fontSize="xl"
+            fontSize="2xl"
             fontWeight="bold"
             textAlign="center"
-            color="purple.600"
+            color="purple.800"
           >
             How healthy do you eat?
           </Text>
           <FormControl>
-            <FormLabel htmlFor="image">
-              Upload an image of nutrition facts/ingredient list
-            </FormLabel>
+            <Text mb={6} color="gray.600">
+              Find delicious recipes quickly. Enter the recipe name and maximum
+              cooking time to get started!
+            </Text>
             <Input
               type="file"
               id="image"
