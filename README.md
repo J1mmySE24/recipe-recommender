@@ -51,11 +51,16 @@ Craving tater tots or tiramisu? Now, you can search recipes by name! Simply type
 
 Our latest version is packed with user-friendly enhancements and features designed to enrich your cooking experience: </b> <br>
 
-1. Prep Time Filters: Short on time? Filter recipes by preparation time to find dishes that fit into your schedule, whether you have 15 minutes or an hour to spare. <br>
+1. Your own AI Recipe Companion : Have quick questions on something you're making? Just ask your all powerful chatbot waiting to assist you! Have any alergies? Check what is good and what's not :)
 
-2. Dark Mode: Cooking late at night or in low light? Our new dark mode theme provides a comfortable viewing experience for your eyes and adds a sleek, modern look to the app. <br>
+2. Grocery List : Planning on making something tasty this weekend and need a list of things to buy? Just head over to the grocery list generator and download the list right to your system.
+3. Nutrition Tracking : Upload an image of the ingredient list or the nutrition facts and get all the insights of it right there.
 
-3. Reviews and Ratings: Make informed choices with our new reviews and ratings feature. See what other users think of each recipe to help fellow cooks discover their next favorite meal. <br>
+4. Meal Planning Tool : Schedule your dinner with friends and family, so that you don't forget the speacial meals!
+
+5. Social foodie : Have thoughts on Pineapple on Pizza? Just share them on your socials through the application, all in one place!
+
+6. Prep Time Filters: Short on time? Filter recipes by preparation time to find dishes that fit into your schedule, whether you have 15 minutes or an hour to spare. <br>
 
 <br> <b> Discover more about these enhancements and the countless possibilities they unlock in our next section! </b>
 
@@ -63,30 +68,32 @@ Our latest version is packed with user-friendly enhancements and features design
 
 We’re thrilled to introduce our latest updates, designed to make your cooking experience even more enjoyable and seamless. Here’s a comprehensive list of new features, enhancements, and bug fixes added to Recipe Recommender: <br>
 
-🚀 New Features
+🚀 New Features and Enhancements
 
-1. Recipe Name Search: You asked, we delivered! Now, you can search for recipes by name. Craving specific dishes like enchiladas or brownies? Just type the name, and Recipe Recommender will find matching recipes with ease. <br>
-
-2. Preparation Time Filters: Life is busy, but great meals don’t have to be time-consuming! Use our new filters to find recipes by prep time, allowing you to select recipes that fit your schedule, from quick bites to gourmet meals. <br>
-
-3. Dark Mode: Introducing a sleek dark mode option for a comfortable and visually appealing experience in low-light settings. Easily switch between light and dark themes as per your preference. <br>
-
-🌟 Enhancements
-
-1. User Reviews and Ratings: Our new rating and review system allows users to view ratings and reviews on the recipes they love. Discover crowd-favorites and make informed choices, while contributing your own reviews to help other users. <br>
-
-2. Enhanced Recipe Suggestions: Improved recommendation algorithms for better personalization based on ingredients, dietary preferences, and past interactions, making each suggestion more tailored to your tastes. <br>
-
-3. Ingredient Availability Check: Get suggestions for similar recipes if you’re missing one or two ingredients, so you can make substitutions or pick alternatives easily. <br>
-
-4. The requirements.txt file has been updated to ensure forward compatibility by specifying package versions greater than or equal to the ones explicitly mentioned. This modification allows for the installation of packages with versions that meet or exceed the specified ones, thus accommodating future updates and maintaining compatibility with evolving dependencies. <br>
+1. **AI Recipe Companion : Ask anything**
+2. **Grocery List Generator: An LLM based grocery list keeping in mind the diet and allergens**
+3. **Meal Calendar: Mange your meal plan easily and comprehensively**
+4. **Share it: Just share your thoughts with friends on social media**
+5. **Nutrition Tracker: Upload an image, understand what you're eating**
+6. **Landing Page: What's a website without a landing page**
+7. **UI Improvments: Multiple UI improvements**
+8. **Initial Dataset: Work on having recipes on the go**
+9. **Makefile: Not hard to setup this project again**
 
 🛠️ Upgrades and Bug Fixes
 
-1. Improved Search Accuracy: Fine-tuned our search functionality to provide more accurate results and ensure all relevant recipes appear in your search. <br>
+1. Login and Signup : Added error handling and messages
+2. Dataset : Updated the ingredients handler from the csv
+3. Minor UI Fixes: Addressed various minor UI inconsistencies to improve readability and navigation across devices
+4. Card and form Layouts: Updated layouts for better organization, readability, and a cleaner overall look.
 
-2. Minor UI Fixes: Addressed various minor UI inconsistencies to improve readability and navigation across devices. <br>
-3. Recipe Card Layouts: Updated recipe card layouts for better organization, readability, and a cleaner overall look.
+💻 Application Screenshots
+<img src="./images/fall24_1.png" alt="screenshot" width="50%" /><br>
+<img src="./images/fall24_2.png" alt="screenshot" width="50%" /><br>
+<img src="./images/fall24_3.png" alt="screenshot" width="50%" /><br>
+<img src="./images/fall24_4.png" alt="screenshot" width="50%" /><br>
+<img src="./images/fall24_5.png" alt="screenshot" width="50%" /><br>
+<img src="./images/fall24_6.png" alt="screenshot" width="30%" />
 
 ## Documentation and Project Flow:
 
@@ -110,9 +117,17 @@ We’re thrilled to introduce our latest updates, designed to make your cooking 
 
 9. Read Recipe Reviews and Ratings: Check reviews and ratings left by other users to get insights on a recipe before trying it. Share your experience and rate the recipes you try to help others make informed choices.
 
-10. Toggle Between Light and Dark Mode: Customize your viewing experience by switching between light and dark themes based on your preference or lighting conditions.
+10. Generate Grocery List: Generate a grocery list based on the recipe name, cuisine, diet type and any allergens.
 
-11. Logout: Securely log out of your account to protect your profile and activity data.
+11. Nutrition Analyzer: Uplaod an image of nutrition facts/ingredient list and get an analysis of the food you eat.
+
+12. Meal Calendar: Schedule your dinner with friends and family, so that you don't forget the speacial meals!
+
+13. Share It: Share your foodie thoughts via social media all through our application.
+
+14. Toggle Between Light and Dark Mode: Customize your viewing experience by switching between light and dark themes based on your preference or lighting conditions.
+
+15. Logout: Securely log out of your account to protect your profile and activity data.
     <br><br>
 
 \*Source documentation can be found at: [Recipe Recommender Docs](https://github.com/J1mmySE24/recipe-recommender/blob/master/Recipe%20Recommender%20Source%20Documentation.pdf)
@@ -143,6 +158,10 @@ We’re thrilled to introduce our latest updates, designed to make your cooking 
 
 12. Toggle Dark Mode: Enable or disable dark mode via the Switch to Dark/Light Mode button, providing a user-friendly interaction. <br>
 
+13. Chat Endpoint: Server with ollama running which serves as the endpoint for the chatbot. <br>
+14. Grocery List Generator: Get the list of ingredients required for the provided recipe, cuisine etc. <br>
+15. Image-Analysis : Get image anaylsis for the image containing the nutritional facts. <br>
+
 This documentation provides a comprehensive guide for accessing all current functionalities and endpoints in the Recipe Recommender project.
 <br><br>
 
@@ -168,12 +187,20 @@ Detailed documentation can be found at: [API Docs](https://github.com/J1mmySE24/
 
 ## Project Setup Steps:
 
-### Installation:
+### Installation and Execution:
 
-\*Check out our comprehensive YouTube video demonstrating each step for easy guidance. [Project Setup](https://youtu.be/uKh-afpUdh0)
+- Clone repository using `git clone https://github.com/J1mmySE24/recipe-recommender.git`
+- Create a mongoDB atlas account and a collection called `recipe_recommender`
+- Update the env variables in the `.env` file in `Code/backend` directory.
+- Download [ollama](https://ollama.com/download) for all the LLM related features
 
-- clone repository using `git clone https://github.com/J1mmySE24/recipe-recommender.git`
-- database setup
+##### Easy 3 way step from the root dir to setup and run the repository:
+
+- `make setup` : Sets up both the frontend directory, creates an initial dataset of 10 recipes in the mongodb collection (via `insertRecipes.js`)
+- `make llama` : Pulls the required llama model (through ollama)
+- `make start` : Runs the servers and open `localhost:3000` to view the rendered application
+
+<!-- - database setup
   update all the env variables pertaining to mongo atlas uri in the backend directory.
   in `Code/backend/db` run `node insertRecipes.js` to have an initial dataset of recipes (else user can create their own as well). This reads from the cleaned csv file in the same direcotry.
 - setup for frontend
@@ -198,12 +225,13 @@ Detailed documentation can be found at: [API Docs](https://github.com/J1mmySE24/
     ```
     npm start
     ```
-3.  Automatically a browser window is opened which shows frontend.
-4.  run `npm test` for running the tests [Dependencies: Jest, Chai, Supertest]
+3.  Automatically a browser window is opened which shows frontend. -->
+
+Run `npm test` for running the tests [Dependencies: Jest, Chai, Supertest]
 
 ## Release Made in this cycle <br>
 
-1. Major release 4.0.1 - Major release to add search by recipe cooking time, theme changes, Dark mode and bookmarks.
+1. Major release 1.1.0 - Major release to add search by recipe cooking time, theme changes, Dark mode and bookmarks.
    <br>
    [Read our detailed release notes](https://github.com/J1mmySE24/recipe-recommender/releases) <br>
    <br>
@@ -221,27 +249,13 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 
 Please see our [CONTRIBUTING.md](https://github.com/J1mmySE24/recipe-recommender/blob/master/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
 
-## FUTURE SCOPE
+## Future Scope
 
-Grocery List Generator <br>
-Weekly Meal Planning Tool - saving data for all meals of the day <br>
-Voice to Text Tntegration <br>
-Chatbot Integration- to answer quick queries about the recipe <br>
-Allergic Ingredient Tracker <br>
-Nutrition Tracker <br>
-
-## New Features
-
-Filter Recipes by Preparation Time:
-With busy schedules in mind, we’ve introduced a filter that allows users to search for recipes based on preparation time. Whether you’re looking for a quick 15-minute meal or are ready to try a more elaborate recipe, you can now filter recipes to match your available cooking time. This feature is perfect for users who want efficient meal planning and time management in the kitchen. <br>
-
-Dark Mode Theme Switch:
-The app now includes a dark mode theme to enhance user comfort and accessibility. With a single toggle, users can switch between light and dark themes, choosing the one that suits their preference or ambient lighting conditions. Dark mode reduces eye strain in low-light settings, providing a user-friendly and modern interface experience. <br>
-
-Recipe Reviews and Ratings:
-We’ve added a reviews and ratings feature to allow users to share their feedback on recipes they’ve tried. This feature not only helps other users make informed choices but also encourages community engagement. Users can read reviews, see average ratings, and contribute their own reviews, creating a collaborative environment for food lovers. <br>
-
-These new features collectively make Saveurs Sélection a more comprehensive, user-centric, and interactive app, transforming it into a community-driven platform where users can discover, share, and personalize their cooking experiences. Whether you’re cooking on a time limit, exploring a new cuisine, or looking for innovative recipes, Saveurs Sélection is designed to make every meal a delightful adventure. <br>
+- ⁠Incorporate Speech To Text (STT) model, making it more user-friendly
+- Delete recipes from database
+- Add trackers such as calorie tracker, body health tracker
+- Deploy it on a public server
+- Dockerize it, making distribution more easily
 
 ## Support and Contact
 
