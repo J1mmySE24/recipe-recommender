@@ -1,4 +1,4 @@
-# Saveurs Sélection - 'Your Ingredients, Our Recipes – What’s Cooking?'
+<h2> Saveurs Sélection - 'Your Ingredients, Our Recipes – What’s Cooking?' </h2>
 
 <!-- # Enhanced Recipe Recommender: Introducing additional features and addressing issues for an improved user experience.
 
@@ -34,14 +34,33 @@
 <a href="https://github.com/J1mmySE24/recipe-recommender/graphs/commit-activity" alt="commit activity">
 <img src="https://img.shields.io/github/commit-activity/w/J1mmySE24/recipe-recommender" /></a>
 
-## Team
+<h3> Team </h3>
 
 **Team 96** <br>
-Jinming Xing <br>
-Krisha Patel <br>
-Shreyas Devaraj <br>
+Jinming Xing 
+Krisha Patel 
+Shreyas Devaraj 
 
-<h2> What is Recipe Recommender? </h2>
+## Content
+- [Content](#content)
+- [What is Recipe Recommender?](#what-is-recipe-recommender)
+- [Feature additions: Enhancements, Upgrades and BugFixes:](#feature-additions-enhancements-upgrades-and-bugfixes)
+- [Documentation and Project Flow:](#documentation-and-project-flow)
+- [API Documentation](#api-documentation)
+- [Technology Stack](#technology-stack)
+- [Key Software Requirements](#key-software-requirements)
+- [Project Setup Steps:](#project-setup-steps)
+  - [Installation and Execution:](#installation-and-execution)
+      - [Easy 3 way step from the root dir to setup and run the repository:](#easy-3-way-step-from-the-root-dir-to-setup-and-run-the-repository)
+- [Release Made in this cycle ](#release-made-in-this-cycle-)
+  - [IDE and Code Formatter](#ide-and-code-formatter)
+- [:page\_facing\_up: License ](#page_facing_up-license-)
+- [:pencil2: Contributions ](#pencil2-contributions-)
+- [Future Scope](#future-scope)
+- [Support and Contact](#support-and-contact)
+    - [Email](#email)
+
+## What is Recipe Recommender? 
 
 Meet Recipe Recommender—your ultimate ally in the kitchen! Gone are the days of wondering what you can cook with what you have on hand. This smart, intuitive app transforms the cooking experience by suggesting delightful recipes based on your pantry and fridge ingredients, turning your daily meal prep into a source of inspiration. <br>
 
