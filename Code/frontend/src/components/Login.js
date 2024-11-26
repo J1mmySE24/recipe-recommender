@@ -1,3 +1,9 @@
+/* MIT License
+
+Copyright (c) 2023 Pannaga Rao, Harshitha, Prathima, Karthik  
+Modified by 2024 Krisha Patel, Shreyas Devraj, Jinming Xing */
+
+import { useState, React } from "react";
 import {
   Box,
   Stack,
@@ -14,20 +20,58 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
-import React from "react";
 
-const Login = ({
-  handleUserName,
-  handlePassword,
-  setShowPassword,
-  showPassword,
-  handleLoginClick,
-  handleSignupClick,
-  isLoading,
-  error,
-  userName,
-  password,
-}) => {
+const Login = ({ handleLogin, handleSignup }) => {
+  const [userName, setUserName] = useState("");
+  const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
+  const [error, setError] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+
+  const validateInputs = () => {
+    if (!userName || !password) {
+      setError("Both fields are required.");
+      return false;
+    }
+    setError("");
+    return true;
+  };
+
+  const handleUserName = (e) => {
+    setUserName(e.target.value);
+  };
+
+  const handlePassword = (e) => {
+    setPassword(e.target.value);
+  };
+
+  const handleLoginClick = async (e) => {
+    e.preventDefault();
+    if (!validateInputs()) return;
+
+    setIsLoading(true);
+    try {
+      await handleLogin(userName, password); // Simulated async operation
+    } catch (err) {
+      setError("Login failed. Please try again.");
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleSignupClick = async (e) => {
+    e.preventDefault();
+    if (!validateInputs()) return;
+
+    setIsLoading(true);
+    try {
+      await handleSignup(userName, password); // Simulated async operation
+    } catch (err) {
+      setError("Signup failed. Please try again.");
+    } finally {
+      setIsLoading(false);
+    }
+  };
   return (
     <Box
       minH="100vh"
