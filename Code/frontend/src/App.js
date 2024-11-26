@@ -5,7 +5,15 @@ import recipeDB from "./apis/recipeDB";
 import RecipeList from "./components/RecipeList";
 import AddRecipe from "./components/AddRecipe.js";
 import React, { Component } from "react";
-import { Tabs, Tab, TabList, TabPanel, TabPanels, Box, VStack } from "@chakra-ui/react";
+import {
+  Tabs,
+  Tab,
+  TabList,
+  TabPanel,
+  TabPanels,
+  Box,
+  VStack,
+} from "@chakra-ui/react";
 import RecipeLoading from "./components/RecipeLoading.js";
 import Nav from "./components/Navbar.js";
 import SearchByRecipe from "./components/SearchByRecipe.js";

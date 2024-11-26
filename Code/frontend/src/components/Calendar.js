@@ -95,11 +95,7 @@ const Calendar = () => {
             size="md"
             focusBorderColor="purple.500"
           />
-          <Button
-            onClick={handleAddSession}
-            colorScheme="purple"
-            width="100%"
-          >
+          <Button onClick={handleAddSession} colorScheme="purple" width="100%">
             Add Meal Plan
           </Button>
         </VStack>

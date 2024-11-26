@@ -151,9 +151,15 @@ class GroceryListForm extends Component {
           p={8}
         >
           <VStack spacing={6} alignItems="stretch">
-          <Heading as="h1" size="lg" color="purple.800" mb={6} textAlign={"center"}>
-          Generate Grocery List
-          </Heading>
+            <Heading
+              as="h1"
+              size="lg"
+              color="purple.800"
+              mb={6}
+              textAlign={"center"}
+            >
+              Generate Grocery List
+            </Heading>
 
             {/* Recipe Name */}
             <InputGroup>
