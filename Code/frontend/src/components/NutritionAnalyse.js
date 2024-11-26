@@ -90,68 +90,69 @@ const NutritionAnalyse = () => {
 
   return (
     <Box
-    minH="100vh"
-    bgImage="url('/assets/back.jpg')"
-    // bgImage="linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/back.jpg')"
-    bgSize="cover"
-    bgPosition="center"
-    bgRepeat="no-repeat"
-    display="flex"
-    alignItems="center"
-    justifyContent="center"
-    p={6}
-    >
-      <Box       
-      maxW="500px"
-      mx="auto"
-      mt={8}
+      minH="100vh"
+      bgImage="url('/assets/back.jpg')"
+      // bgImage="linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/back.jpg')"
+      bgSize="cover"
+      bgPosition="center"
+      bgRepeat="no-repeat"
+      display="flex"
+      alignItems="center"
+      justifyContent="center"
       p={6}
-      boxShadow="lg"
-      borderRadius="lg"
-      bg="white">
-      <VStack spacing={4} align="stretch">
-        <Text
-          fontSize="xl"
-          fontWeight="bold"
-          textAlign="center"
-          color="purple.600"
-        >
-          How healthy do you eat?
-        </Text>
-        <FormControl>
-          <FormLabel htmlFor="image">
-            Upload an image of nutrition facts/ingredient list
-          </FormLabel>
-          <Input
-            type="file"
-            id="image"
-            accept="image/*"
-            onChange={handleFileChange}
-          />
-        </FormControl>
+    >
+      <Box
+        maxW="500px"
+        mx="auto"
+        mt={8}
+        p={6}
+        boxShadow="lg"
+        borderRadius="lg"
+        bg="white"
+      >
+        <VStack spacing={4} align="stretch">
+          <Text
+            fontSize="xl"
+            fontWeight="bold"
+            textAlign="center"
+            color="purple.600"
+          >
+            How healthy do you eat?
+          </Text>
+          <FormControl>
+            <FormLabel htmlFor="image">
+              Upload an image of nutrition facts/ingredient list
+            </FormLabel>
+            <Input
+              type="file"
+              id="image"
+              accept="image/*"
+              onChange={handleFileChange}
+            />
+          </FormControl>
 
-        {/* Image Preview */}
-        {preview && (
-          <Image
-            src={preview}
-            alt="Preview"
-            maxH="200px"
-            objectFit="contain"
-            borderRadius="md"
-          />
-        )}
+          {/* Image Preview */}
+          {preview && (
+            <Image
+              src={preview}
+              alt="Preview"
+              maxH="200px"
+              objectFit="contain"
+              borderRadius="md"
+            />
+          )}
 
-        <Button
-          colorScheme="purple"
-          onClick={handleSubmit}
-          isLoading={isLoading}
-        >
-          Upload
-        </Button>
+          <Button
+            colorScheme="purple"
+            onClick={handleSubmit}
+            isLoading={isLoading}
+          >
+            Upload
+          </Button>
 
-        {/* Render Response */}
-        {isLoading ? <Spinner size="lg" /> : response && renderResponse()}
-      </VStack>
+          {/* Render Response */}
+          {isLoading ? <Spinner size="lg" /> : response && renderResponse()}
+        </VStack>
       </Box>
     </Box>
   );

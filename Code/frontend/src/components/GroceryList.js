@@ -130,16 +130,16 @@ class GroceryListForm extends Component {
   render() {
     return (
       <Flex
-      minH="100vh"
-      bgImage="url('/assets/back.jpg')"
-      // bgImage="linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/back.jpg')"
-      bgSize="cover"
-      bgPosition="center"
-      bgRepeat="no-repeat"
-      display="flex"
-      alignItems="center"
-      justifyContent="center"
-      p={6}
+        minH="100vh"
+        bgImage="url('/assets/back.jpg')"
+        // bgImage="linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/back.jpg')"
+        bgSize="cover"
+        bgPosition="center"
+        bgRepeat="no-repeat"
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
+        p={6}
       >
         <Box
           borderRadius="lg"
