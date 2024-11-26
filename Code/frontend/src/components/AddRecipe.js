@@ -13,7 +13,7 @@ import {
   Badge,
   Alert,
   AlertIcon,
-  Heading
+  Heading,
 } from "@chakra-ui/react";
 import recipeDB from "../apis/recipeDB";
 
@@ -225,7 +225,6 @@ const AddRecipe = () => {
         alignItems="center"
         justifyContent="center"
       >
-
         <Box
           borderRadius={"lg"}
           border="2px"
@@ -236,7 +235,13 @@ const AddRecipe = () => {
           width={"50%"}
           p={5}
         >
-          <Heading as="h1" size="lg" color="purple.800" mb={6} textAlign={"center"}>
+          <Heading
+            as="h1"
+            size="lg"
+            color="purple.800"
+            mb={6}
+            textAlign={"center"}
+          >
             Add New Recipe
           </Heading>
           <VStack spacing={"5"} alignItems={"flex-center"}>

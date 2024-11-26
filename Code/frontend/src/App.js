@@ -5,7 +5,15 @@ import recipeDB from "./apis/recipeDB";
 import RecipeList from "./components/RecipeList";
 import AddRecipe from "./components/AddRecipe.js";
 import React, { Component } from "react";
-import { Tabs, Tab, TabList, TabPanel, TabPanels, Box, VStack } from "@chakra-ui/react";
+import {
+  Tabs,
+  Tab,
+  TabList,
+  TabPanel,
+  TabPanels,
+  Box,
+  VStack,
+} from "@chakra-ui/react";
 import RecipeLoading from "./components/RecipeLoading.js";
 import Nav from "./components/Navbar.js";
 import SearchByRecipe from "./components/SearchByRecipe.js";
@@ -228,17 +236,19 @@ class App extends Component {
                       justifyContent="center"
                       p={6}
                     >
-                        <VStack spacing={6} align="stretch">
-                          {/* Search By Recipe */}
-                          <SearchByRecipe sendRecipeData={this.handleRecipesByName} />
+                      <VStack spacing={6} align="stretch">
+                        {/* Search By Recipe */}
+                        <SearchByRecipe
+                          sendRecipeData={this.handleRecipesByName}
+                        />
 
-                          {/* Loading or Recipe List */}
-                          {this.state.isLoading ? (
-                            <RecipeLoading />
-                          ) : (
-                            <RecipeList recipes={this.state.recipeByNameList} />
-                          )}
-                        </VStack>
+                        {/* Loading or Recipe List */}
+                        {this.state.isLoading ? (
+                          <RecipeLoading />
+                        ) : (
+                          <RecipeList recipes={this.state.recipeByNameList} />
+                        )}
+                      </VStack>
                     </Box>
                   </TabPanel>
                   <TabPanel>
