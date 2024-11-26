@@ -1,4 +1,4 @@
-<h2> Saveurs Sélection - 'Your Ingredients, Our Recipes – What’s Cooking?' </h2>
+<h1> Saveurs Sélection - 'Your Ingredients, Our Recipes – What’s Cooking?' </h1>
 
 <!-- # Enhanced Recipe Recommender: Introducing additional features and addressing issues for an improved user experience.
 
@@ -37,9 +37,9 @@
 <h3> Team </h3>
 
 **Team 96** <br>
-Jinming Xing 
-Krisha Patel 
-Shreyas Devaraj 
+Jinming Xing <br>
+Krisha Patel <br>
+Shreyas Devaraj <br>
 
 ## Content
 - [Content](#content)
