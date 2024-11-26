@@ -115,7 +115,7 @@ We’re thrilled to introduce our latest updates, designed to make your cooking 
 11. Logout: Securely log out of your account to protect your profile and activity data.
     <br><br>
 
-\*Source documentation can be found at: [Recipe Recommender Docs](https://github.com/pnprathima/Recipe_Recommender/blob/master/Recipe%20Recommender%20Source%20Documentation.pdf)
+\*Source documentation can be found at: [Recipe Recommender Docs](https://github.com/J1mmySE24/recipe-recommender/blob/master/Recipe%20Recommender%20Source%20Documentation.pdf)
 
 ## API Documentation
 
@@ -146,7 +146,7 @@ We’re thrilled to introduce our latest updates, designed to make your cooking 
 This documentation provides a comprehensive guide for accessing all current functionalities and endpoints in the Recipe Recommender project.
 <br><br>
 
-Detailed documentation can be found at: [API Docs](https://github.com/pnprathima/Recipe_Recommender/blob/master/API_Documentation.pdf)
+Detailed documentation can be found at: [API Docs](https://github.com/J1mmySE24/recipe-recommender/blob/master/API_Documentation.pdf)
 
 ## Technology Stack
 
@@ -159,7 +159,7 @@ Detailed documentation can be found at: [API Docs](https://github.com/pnprathima
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-<br>Detailed documentation can be found at: [TechStack Docs](https://github.com/pnprathima/Recipe_Recommender/blob/master/TechStack-Docs)
+<br>Detailed documentation can be found at: [TechStack Docs](https://github.com/J1mmySE24/recipe-recommender/blob/master/TechStack-Docs)
 
 ## Key Software Requirements
 
@@ -172,7 +172,7 @@ Detailed documentation can be found at: [API Docs](https://github.com/pnprathima
 
 \*Check out our comprehensive YouTube video demonstrating each step for easy guidance. [Project Setup](https://youtu.be/uKh-afpUdh0)
 
-- clone repository using `git clone https://github.com/pnprathima/Recipe_Recommender.git`
+- clone repository using `git clone https://github.com/J1mmySE24/recipe-recommender.git`
 - database setup
   update all the env variables pertaining to mongo atlas uri in the backend directory.
   in `Code/backend/db` run `node insertRecipes.js` to have an initial dataset of recipes (else user can create their own as well). This reads from the cleaned csv file in the same direcotry.
@@ -205,7 +205,7 @@ Detailed documentation can be found at: [API Docs](https://github.com/pnprathima
 
 1. Major release 4.0.1 - Major release to add search by recipe cooking time, theme changes, Dark mode and bookmarks.
    <br>
-   [Read our detailed release notes](https://github.com/pnprathima/Recipe_Recommender/releases) <br>
+   [Read our detailed release notes](https://github.com/J1mmySE24/recipe-recommender/releases) <br>
    <br>
 
 ### IDE and Code Formatter
@@ -219,7 +219,7 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 
 ## :pencil2: Contributions <a name="Contributions"></a>
 
-Please see our [CONTRIBUTING.md](https://github.com/pnprathima/Recipe_Recommender/blob/master/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
+Please see our [CONTRIBUTING.md](https://github.com/J1mmySE24/recipe-recommender/blob/master/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
 
 ## FUTURE SCOPE
 
