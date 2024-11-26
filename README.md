@@ -50,10 +50,10 @@ Unlock endless culinary possibilities as our innovative software guides you in c
 Craving tater tots or tiramisu? Now, you can search recipes by name! Simply type in the dish you’re craving, explore a variety of recipes with detailed descriptions, and start cooking with confidence. <br>
 
 Our latest version is packed with user-friendly enhancements and features designed to enrich your cooking experience: </b> <br>
-1. Your own AI Recipe Companion : Have quick questions on something you're making? Just ask your all powerful chatbot waiting to assist you! Have any alergies? Check what is good and what's not :) 
+
+1. Your own AI Recipe Companion : Have quick questions on something you're making? Just ask your all powerful chatbot waiting to assist you! Have any alergies? Check what is good and what's not :)
 
 2. Grocery List : Planning on making something tasty this weekend and need a list of things to buy? Just head over to the grocery list generator and download the list right to your system.
-   
 3. Nutrition Tracking : Upload an image of the ingredient list or the nutrition facts and get all the insights of it right there.
 
 4. Meal Planning Tool : Schedule your dinner with friends and family, so that you don't forget the speacial meals!
@@ -70,14 +70,14 @@ We’re thrilled to introduce our latest updates, designed to make your cooking 
 
 🚀 New Features and Enhancements
 
-1. **AI Recipe Companion : Ask anything** 
+1. **AI Recipe Companion : Ask anything**
 2. **Grocery List Generator: An LLM based grocery list keeping in mind the diet and allergens**
 3. **Meal Calendar: Mange your meal plan easily and comprehensively**
 4. **Share it: Just share your thoughts with friends on social media**
 5. **Nutrition Tracker: Upload an image, understand what you're eating**
 6. **Landing Page: What's a website without a landing page**
 7. **UI Improvments: Multiple UI improvements**
-8. **Initial Dataset: Work on having recipes on the go** 
+8. **Initial Dataset: Work on having recipes on the go**
 9. **Makefile: Not hard to setup this project again**
 
 🛠️ Upgrades and Bug Fixes
@@ -123,11 +123,11 @@ We’re thrilled to introduce our latest updates, designed to make your cooking 
 
 12. Meal Calendar: Schedule your dinner with friends and family, so that you don't forget the speacial meals!
 
-13. Share It: Share your foodie thoughts via social media all through our application. 
+13. Share It: Share your foodie thoughts via social media all through our application.
 
-13. Toggle Between Light and Dark Mode: Customize your viewing experience by switching between light and dark themes based on your preference or lighting conditions.
+14. Toggle Between Light and Dark Mode: Customize your viewing experience by switching between light and dark themes based on your preference or lighting conditions.
 
-14. Logout: Securely log out of your account to protect your profile and activity data.
+15. Logout: Securely log out of your account to protect your profile and activity data.
     <br><br>
 
 \*Source documentation can be found at: [Recipe Recommender Docs](https://github.com/J1mmySE24/recipe-recommender/blob/master/Recipe%20Recommender%20Source%20Documentation.pdf)
@@ -159,9 +159,7 @@ We’re thrilled to introduce our latest updates, designed to make your cooking 
 12. Toggle Dark Mode: Enable or disable dark mode via the Switch to Dark/Light Mode button, providing a user-friendly interaction. <br>
 
 13. Chat Endpoint: Server with ollama running which serves as the endpoint for the chatbot. <br>
-    
 14. Grocery List Generator: Get the list of ingredients required for the provided recipe, cuisine etc. <br>
-    
 15. Image-Analysis : Get image anaylsis for the image containing the nutritional facts. <br>
 
 This documentation provides a comprehensive guide for accessing all current functionalities and endpoints in the Recipe Recommender project.
@@ -193,12 +191,14 @@ Detailed documentation can be found at: [API Docs](https://github.com/J1mmySE24/
 
 - Clone repository using `git clone https://github.com/J1mmySE24/recipe-recommender.git`
 - Create a mongoDB atlas account and a collection called `recipe_recommender`
-- Update the env variables in the `.env` file in `Code/backend` directory. 
+- Update the env variables in the `.env` file in `Code/backend` directory.
 - Download [ollama](https://ollama.com/download) for all the LLM related features
+
 ##### Easy 3 way step from the root dir to setup and run the repository:
-  - ```make setup``` : Sets up both the frontend directory, creates an initial dataset of 10 recipes in the mongodb collection (via `insertRecipes.js`)
-  - ```make llama``` : Pulls the required llama model (through ollama)
-  - ```make start``` : Runs the servers and open  `localhost:3000` to view the rendered application
+
+- `make setup` : Sets up both the frontend directory, creates an initial dataset of 10 recipes in the mongodb collection (via `insertRecipes.js`)
+- `make llama` : Pulls the required llama model (through ollama)
+- `make start` : Runs the servers and open `localhost:3000` to view the rendered application
 
 <!-- - database setup
   update all the env variables pertaining to mongo atlas uri in the backend directory.
@@ -226,6 +226,7 @@ Detailed documentation can be found at: [API Docs](https://github.com/J1mmySE24/
     npm start
     ```
 3.  Automatically a browser window is opened which shows frontend. -->
+
 Run `npm test` for running the tests [Dependencies: Jest, Chai, Supertest]
 
 ## Release Made in this cycle <br>
@@ -249,11 +250,12 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 Please see our [CONTRIBUTING.md](https://github.com/J1mmySE24/recipe-recommender/blob/master/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
 
 ## Future Scope
+
 - ⁠Incorporate Speech To Text (STT) model, making it more user-friendly
 - Delete recipes from database
 - Add trackers such as calorie tracker, body health tracker
 - Deploy it on a public server
-- Dockerize it, making distribution more easily 
+- Dockerize it, making distribution more easily
 
 ## Support and Contact
 
