@@ -87,7 +87,7 @@ We’re thrilled to introduce our latest updates, designed to make your cooking 
 3. Minor UI Fixes: Addressed various minor UI inconsistencies to improve readability and navigation across devices
 4. Card and form Layouts: Updated layouts for better organization, readability, and a cleaner overall look.
 
-💻 Application Screenshots
+💻 Application Screenshots <br>
 <img src="./images/fall24_1.png" alt="screenshot" width="50%" /><br>
 <img src="./images/fall24_2.png" alt="screenshot" width="50%" /><br>
 <img src="./images/fall24_3.png" alt="screenshot" width="50%" /><br>
