@@ -1,6 +1,4 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
+"If you use this software, please cite it as below."<br>
 
 ## "Saveurs Sélection"
 
