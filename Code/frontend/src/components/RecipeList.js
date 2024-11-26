@@ -26,7 +26,7 @@ const RecipeList = ({ recipes }) => {
 
   //   )
   // });
-  console.log(recipes);
+  // console.log(recipes);
   const [isOpen, setIsOpen] = useState(false);
   const [currentRecipe, setCurrentRecipe] = useState({});
   const [cookingTimeFilter, setCookingTimeFilter] = useState("");
