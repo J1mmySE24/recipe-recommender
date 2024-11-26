@@ -99,7 +99,6 @@ app.post("/api/grocerylist", async (req, res) => {
   }
 });
 
-
 // Image Analysis Endpoint
 app.post("/api/image-analysis", upload.single("image"), async (req, res) => {
   try {

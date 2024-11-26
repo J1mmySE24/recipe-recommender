@@ -110,16 +110,18 @@ const NutritionAnalyse = () => {
       borderRadius="lg"
       bg="white">
       <VStack spacing={4} align="stretch">
-      <Text
-              fontSize="xl"
-              fontWeight="bold"
-              textAlign="center"
-              color="purple.600"
-            >
-              How healthy do you eat?
-            </Text>
+        <Text
+          fontSize="xl"
+          fontWeight="bold"
+          textAlign="center"
+          color="purple.600"
+        >
+          How healthy do you eat?
+        </Text>
         <FormControl>
-          <FormLabel htmlFor="image">Upload an image of nutrition facts/ingredient list</FormLabel>
+          <FormLabel htmlFor="image">
+            Upload an image of nutrition facts/ingredient list
+          </FormLabel>
           <Input
             type="file"
             id="image"
@@ -148,11 +150,7 @@ const NutritionAnalyse = () => {
         </Button>
 
         {/* Render Response */}
-        {isLoading ? (
-          <Spinner size="lg" />
-        ) : (
-          response && renderResponse()
-        )}
+        {isLoading ? <Spinner size="lg" /> : response && renderResponse()}
       </VStack>
       </Box>
     </Box>
