@@ -24,8 +24,8 @@ import GroceryListGenerator from "./components/GroceryList.js";
 import Calendar from "./components/Calendar.js";
 import Share from "./components/Share.js";
 import NutrionAnalyse from "./components/NutritionAnalyse.js";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 // Main component of the project
 class App extends Component {
@@ -246,9 +246,11 @@ class App extends Component {
                       justifyContent="center"
                       p={6}
                     >
-                        <VStack>
+                      <VStack>
                         {/* Search By Recipe */}
-                        <SearchByRecipe sendRecipeData={this.handleRecipesByName} />
+                        <SearchByRecipe
+                          sendRecipeData={this.handleRecipesByName}
+                        />
 
                         {/* Loading or Recipe List */}
                         {this.state.isLoading ? (
@@ -256,7 +258,7 @@ class App extends Component {
                         ) : (
                           <RecipeList recipes={this.state.recipeByNameList} />
                         )}
-                        </VStack>
+                      </VStack>
                     </Box>
                   </TabPanel>
                   <TabPanel>
