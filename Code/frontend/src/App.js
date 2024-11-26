@@ -16,6 +16,9 @@ import GroceryListGenerator from "./components/GroceryList.js";
 import Calendar from "./components/Calendar.js";
 import Share from "./components/Share.js";
 import NutrionAnalyse from "./components/NutritionAnalyse.js";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 // Main component of the project
 class App extends Component {
   // constructor for the App Component
@@ -57,7 +60,7 @@ class App extends Component {
       });
       console.log(response.data);
       if (response.data.success) {
-        alert("Successfully Signed up!");
+        toast.success("Successfully Signed up!");
         this.setState({
           isLoggedIn: true,
           userData: response.data.user,
@@ -65,7 +68,7 @@ class App extends Component {
         localStorage.setItem("userName", response.data.user.userName);
         console.log(response.data.user);
       } else {
-        alert("User already exists");
+        toast.error("User already exists");
       }
     } catch (err) {
       console.log(err);
@@ -88,9 +91,9 @@ class App extends Component {
         });
         localStorage.setItem("userName", response.data.user.userName);
         console.log(response.data.user);
-        alert("Successfully logged in!");
+        toast.success("Successfully logged in, enjoy cooking!");
       } else {
-        console.log("Credentials are incorrect");
+        toast.error("Credentials are incorrect");
       }
     } catch (err) {
       console.log(err);
@@ -170,7 +173,7 @@ class App extends Component {
   };
 
   handleLogout = () => {
-    console.log("logged out");
+    toast.success("Succesfully logged out");
     this.setState({
       isLoggedIn: false,
     });
@@ -179,6 +182,17 @@ class App extends Component {
   render() {
     return (
       <div>
+        <ToastContainer
+          position="bottom-center"
+          autoClose={3000}
+          hideProgressBar
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          theme="dark"
+        />
         {this.state.isLoggedIn ? (
           <>
             <Nav
@@ -219,25 +233,21 @@ class App extends Component {
                   <TabPanel>
                     <Box
                       minH="100vh"
-                      bgImage="url('/assets/back.jpg')" // Update this with your background image path
-                      bgSize="cover"
-                      bgPosition="center"
-                      bgRepeat="no-repeat"
                       display="flex"
                       alignItems="center"
                       justifyContent="center"
                       p={6}
                     >
-                        <VStack spacing={6} align="stretch">
-                          {/* Search By Recipe */}
-                          <SearchByRecipe sendRecipeData={this.handleRecipesByName} />
+                        <VStack>
+                        {/* Search By Recipe */}
+                        <SearchByRecipe sendRecipeData={this.handleRecipesByName} />
 
-                          {/* Loading or Recipe List */}
-                          {this.state.isLoading ? (
-                            <RecipeLoading />
-                          ) : (
-                            <RecipeList recipes={this.state.recipeByNameList} />
-                          )}
+                        {/* Loading or Recipe List */}
+                        {this.state.isLoading ? (
+                          <RecipeLoading />
+                        ) : (
+                          <RecipeList recipes={this.state.recipeByNameList} />
+                        )}
                         </VStack>
                     </Box>
                   </TabPanel>

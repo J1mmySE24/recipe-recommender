@@ -4,18 +4,12 @@ Copyright (c) 2023 Pannaga Rao, Harshitha, Prathima, Karthik  */
 
 import React from "react";
 import {
-  Box,
-  HStack,
-  SimpleGrid,
   Card,
   CardHeader,
   Heading,
   Text,
   CardBody,
-  CardFooter,
-  Button,
   Image,
-  Tag,
 } from "@chakra-ui/react";
 import recipeDB from "../apis/recipeDB";
 

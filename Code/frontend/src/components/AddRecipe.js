@@ -2,11 +2,9 @@ import React from "react";
 import {
   Box,
   HStack,
-  Text,
   Input,
   InputGroup,
   Select,
-  InputRightElement,
   Button,
   VStack,
   Textarea,

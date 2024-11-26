@@ -7,7 +7,6 @@ import {
   Box,
   Input,
   InputGroup,
-  InputRightElement,
   Button,
   Heading,
   VStack,

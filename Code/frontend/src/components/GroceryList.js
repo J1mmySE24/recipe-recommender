@@ -12,7 +12,6 @@ import {
   Alert,
   AlertIcon,
   Heading,
-  Spinner,
   Flex,
 } from "@chakra-ui/react";
 import recipeDB from "../apis/recipeDB";
