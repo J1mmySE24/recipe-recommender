@@ -13,7 +13,8 @@ import Login from "./components/Login.js";
 import UserProfile from "./components/UserProfile.js";
 import ChatbotComponent from "./components/chatbot.js";
 import GroceryListGenerator from "./components/GroceryList.js";
-
+import Calendar from "./components/Calendar.js";
+import Share from "./components/Share.js";
 // Main component of the project
 class App extends Component {
   // constructor for the App Component
@@ -196,6 +197,8 @@ class App extends Component {
                   <Tab>Add Recipe</Tab>
                   <Tab>Search Recipe By Name</Tab>
                   <Tab>Generate Grocery List</Tab>
+                  <Tab>Calendar</Tab>
+                  <Tab>Share it</Tab>
                 </TabList>
                 <TabPanels>
                   <TabPanel>
@@ -221,6 +224,12 @@ class App extends Component {
                   </TabPanel>
                   <TabPanel>
                     <GroceryListGenerator />
+                  </TabPanel>
+                  <TabPanel>
+                    <Calendar />  
+                  </TabPanel>
+                  <TabPanel>
+                    <Share />
                   </TabPanel>
                 </TabPanels>
               </Tabs>
