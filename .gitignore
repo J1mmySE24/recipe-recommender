@@ -4,6 +4,10 @@ node_modules
 coverage
 package-lock.json
 
+### Backend ###
+#Temp files
+/Code/backend/uploads
+
 ### Node ###
 # Logs
 logs

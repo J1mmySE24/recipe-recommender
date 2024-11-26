@@ -67,7 +67,7 @@ export default function Nav(props) {
             <Image src="/newlogo.png" alt="Logo" boxSize="50px" />
           </Link>
           <Box pl={10}>
-            <Heading size={"md"} color={"white"}>
+            <Heading size={"lg"} color={"white"} fontFamily={"fantasy"}>
               Saveurs Sélection
             </Heading>
           </Box>
