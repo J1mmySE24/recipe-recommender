@@ -24,11 +24,11 @@ const Calendar = () => {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.header}>Schedule a New Gym Session</h1>
+      <h1 style={styles.header}>Schedule a New Mean Plan</h1>
       <div style={styles.form}>
         <input
           type="text"
-          placeholder="Session Title"
+          placeholder="Title"
           value={newSession.title}
           onChange={(e) =>
             setNewSession({ ...newSession, title: e.target.value })
@@ -60,11 +60,11 @@ const Calendar = () => {
           style={styles.textarea}
         />
         <button onClick={handleAddSession} style={styles.button}>
-          Add Session
+          Add Meal Plan
         </button>
       </div>
 
-      <h2 style={styles.subHeader}>Scheduled Sessions</h2>
+      <h2 style={styles.subHeader}>Scheduled Meal Plans</h2>
       <ul style={styles.list}>
         {sessions.map((session) => (
           <li key={session.id} style={styles.listItem}>

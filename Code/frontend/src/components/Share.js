@@ -26,7 +26,7 @@ const Share = () => {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.header}>Share Your Thoughts</h1>
+      <h1 style={styles.header}>Share Your Meal Thoughts</h1>
       <textarea
         placeholder="What's on your mind?"
         value={thought}
