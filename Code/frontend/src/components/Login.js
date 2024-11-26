@@ -75,7 +75,7 @@ const Login = ({ handleLogin, handleSignup }) => {
   return (
     <Box
       minH="100vh"
-      bgImage="url('/assets/back.jpg')" 
+      bgImage="url('/assets/back.jpg')"
       // bgImage="linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/back.jpg')"
       bgSize="cover"
       bgPosition="center"
@@ -174,7 +174,7 @@ const Login = ({ handleLogin, handleSignup }) => {
 
             {/* Buttons */}
             <Flex direction="column" align="center" mt={6}>
-            <Button
+              <Button
                 onClick={handleLoginClick}
                 colorScheme="purple"
                 bg="#6E23FF"
@@ -188,7 +188,6 @@ const Login = ({ handleLogin, handleSignup }) => {
                 onClick={handleSignupClick}
                 colorScheme="purple"
                 bg="#8A4EFF"
-                
                 isLoading={isLoading}
                 width="100%"
               >
