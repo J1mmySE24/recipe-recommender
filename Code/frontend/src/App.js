@@ -226,7 +226,7 @@ class App extends Component {
                     <GroceryListGenerator />
                   </TabPanel>
                   <TabPanel>
-                    <Calendar />  
+                    <Calendar />
                   </TabPanel>
                   <TabPanel>
                     <Share />
