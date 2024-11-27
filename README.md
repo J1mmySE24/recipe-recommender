@@ -40,6 +40,7 @@ Krisha Patel <br>
 Shreyas Devaraj <br>
 
 ## Content
+
 - [Watch how our application works:](#watch-how-our-application-works)
   - [Click here to watch - Demo Video ](#click-here-to-watch---demo-video-)
 - [Content](#content)
@@ -51,16 +52,16 @@ Shreyas Devaraj <br>
 - [Key Software Requirements](#key-software-requirements)
 - [Project Setup Steps:](#project-setup-steps)
   - [Installation and Execution:](#installation-and-execution)
-      - [Easy 3 way step from the root dir to setup and run the repository:](#easy-3-way-step-from-the-root-dir-to-setup-and-run-the-repository)
+    - [Easy 3 way step from the root dir to setup and run the repository:](#easy-3-way-step-from-the-root-dir-to-setup-and-run-the-repository)
 - [Release Made in this cycle ](#release-made-in-this-cycle-)
   - [IDE and Code Formatter](#ide-and-code-formatter)
-- [:page\_facing\_up: License ](#page_facing_up-license-)
+- [:page_facing_up: License ](#page_facing_up-license-)
 - [:pencil2: Contributions ](#pencil2-contributions-)
 - [Future Scope](#future-scope)
 - [Support and Contact](#support-and-contact)
-    - [Email](#email)
+  - [Email](#email)
 
-## What is Recipe Recommender? 
+## What is Recipe Recommender?
 
 Meet Recipe Recommender—your ultimate ally in the kitchen! Gone are the days of wondering what you can cook with what you have on hand. This smart, intuitive app transforms the cooking experience by suggesting delightful recipes based on your pantry and fridge ingredients, turning your daily meal prep into a source of inspiration. <br>
 
