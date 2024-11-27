@@ -1,15 +1,13 @@
 <h1> Saveurs Sélection - 'Your Ingredients, Our Recipes – What’s Cooking?' </h1>
 
-<!-- # Enhanced Recipe Recommender: Introducing additional features and addressing issues for an improved user experience.
-
-![](Reciperec.gif)
+![](./Code/frontend/public/assets/landing.jpg)
 <br><br>
 
 ## Watch how our application works:
 
-### \*Click here to watch - [Youtube Video](https://youtu.be/133EWUQWe5Q) <br>
+### Click here to watch - [Demo Video](https://drive.google.com/file/d/1vl7K_S2Wox9weDyARON_95EJygG8dolj/view?usp=share_link) <br>
 
-<br><br> -->
+<br><br>
 
 [![Made With](https://img.shields.io/badge/made%20with-javascript-gree)](https://www.javascript.com/)
 [![DOI](https://zenodo.org/badge/884950979.svg)](https://doi.org/10.5281/zenodo.14210981)
@@ -42,6 +40,8 @@ Krisha Patel <br>
 Shreyas Devaraj <br>
 
 ## Content
+- [Watch how our application works:](#watch-how-our-application-works)
+  - [Click here to watch - Demo Video ](#click-here-to-watch---demo-video-)
 - [Content](#content)
 - [What is Recipe Recommender?](#what-is-recipe-recommender)
 - [Feature additions: Enhancements, Upgrades and BugFixes:](#feature-additions-enhancements-upgrades-and-bugfixes)
