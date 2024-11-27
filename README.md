@@ -1,6 +1,6 @@
 <h1> Saveurs Sélection - 'Your Ingredients, Our Recipes – What’s Cooking?' </h1>
 
-![](./Code/frontend/public/assets/landing.jpg)
+<img src="./Code/frontend/public/assets/landing.jpg" width=400 height=400>
 <br><br>
 
 ## Watch how our application works:
@@ -52,14 +52,14 @@ Shreyas Devaraj <br>
 - [Key Software Requirements](#key-software-requirements)
 - [Project Setup Steps:](#project-setup-steps)
   - [Installation and Execution:](#installation-and-execution)
-    - [Easy 3 way step from the root dir to setup and run the repository:](#easy-3-way-step-from-the-root-dir-to-setup-and-run-the-repository)
+      - [Easy 3 way step from the root dir to setup and run the repository:](#easy-3-way-step-from-the-root-dir-to-setup-and-run-the-repository)
 - [Release Made in this cycle ](#release-made-in-this-cycle-)
   - [IDE and Code Formatter](#ide-and-code-formatter)
-- [:page_facing_up: License ](#page_facing_up-license-)
+- [:page\_facing\_up: License ](#page_facing_up-license-)
 - [:pencil2: Contributions ](#pencil2-contributions-)
 - [Future Scope](#future-scope)
 - [Support and Contact](#support-and-contact)
-  - [Email](#email)
+    - [Email](#email)
 
 ## What is Recipe Recommender?
 
