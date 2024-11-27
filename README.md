@@ -1,15 +1,13 @@
 <h1> Saveurs Sélection - 'Your Ingredients, Our Recipes – What’s Cooking?' </h1>
 
-<!-- # Enhanced Recipe Recommender: Introducing additional features and addressing issues for an improved user experience.
-
-![](Reciperec.gif)
+![](./Code/frontend/public/assets/landing.jpg)
 <br><br>
 
 ## Watch how our application works:
 
-### \*Click here to watch - [Youtube Video](https://youtu.be/133EWUQWe5Q) <br>
+### Click here to watch - [Demo Video](https://drive.google.com/file/d/1vl7K_S2Wox9weDyARON_95EJygG8dolj/view?usp=share_link) <br>
 
-<br><br> -->
+<br><br>
 
 [![Made With](https://img.shields.io/badge/made%20with-javascript-gree)](https://www.javascript.com/)
 [![DOI](https://zenodo.org/badge/884950979.svg)](https://doi.org/10.5281/zenodo.14210981)
@@ -42,6 +40,9 @@ Krisha Patel <br>
 Shreyas Devaraj <br>
 
 ## Content
+
+- [Watch how our application works:](#watch-how-our-application-works)
+  - [Click here to watch - Demo Video ](#click-here-to-watch---demo-video-)
 - [Content](#content)
 - [What is Recipe Recommender?](#what-is-recipe-recommender)
 - [Feature additions: Enhancements, Upgrades and BugFixes:](#feature-additions-enhancements-upgrades-and-bugfixes)
@@ -51,16 +52,16 @@ Shreyas Devaraj <br>
 - [Key Software Requirements](#key-software-requirements)
 - [Project Setup Steps:](#project-setup-steps)
   - [Installation and Execution:](#installation-and-execution)
-      - [Easy 3 way step from the root dir to setup and run the repository:](#easy-3-way-step-from-the-root-dir-to-setup-and-run-the-repository)
+    - [Easy 3 way step from the root dir to setup and run the repository:](#easy-3-way-step-from-the-root-dir-to-setup-and-run-the-repository)
 - [Release Made in this cycle ](#release-made-in-this-cycle-)
   - [IDE and Code Formatter](#ide-and-code-formatter)
-- [:page\_facing\_up: License ](#page_facing_up-license-)
+- [:page_facing_up: License ](#page_facing_up-license-)
 - [:pencil2: Contributions ](#pencil2-contributions-)
 - [Future Scope](#future-scope)
 - [Support and Contact](#support-and-contact)
-    - [Email](#email)
+  - [Email](#email)
 
-## What is Recipe Recommender? 
+## What is Recipe Recommender?
 
 Meet Recipe Recommender—your ultimate ally in the kitchen! Gone are the days of wondering what you can cook with what you have on hand. This smart, intuitive app transforms the cooking experience by suggesting delightful recipes based on your pantry and fridge ingredients, turning your daily meal prep into a source of inspiration. <br>
 
